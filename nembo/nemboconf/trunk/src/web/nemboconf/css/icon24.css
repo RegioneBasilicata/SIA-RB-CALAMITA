@@ -1,0 +1,181 @@
+.ico24
+{
+	text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+}
+/* ICON ico_image */
+.ico24.ico_image
+{
+  background:url('../img/24/image.png');
+}
+
+/* ICON ico_pdf */
+.ico24.ico_pdf
+{
+  background:url('../img/24/pdf.png');
+}
+
+/* ICON ico_excel */
+.ico24.ico_excel
+{
+  background:url('../img/24/excel.png');
+}
+
+/* ICON ico_word */
+.ico24.ico_word
+{
+  background:url('../img/24/word.png');
+}
+
+/* ICON ico_text */
+.ico24.ico_text
+{
+  background:url('../img/24/text.png');
+}
+
+/* ICON ico_file */
+.ico24.ico_file
+{
+  background:url('../img/24/file.png');
+}
+
+/* ICON ico_trash */
+.ico24.ico_trash
+{
+  background:url('../img/24/trash.png');
+}
+
+/* ICON ico_modify */
+.ico24.ico_modify
+{
+  background:url('../img/24/modify.png');
+}
+
+/* ICON ico_add */
+.ico24.ico_add
+{
+  background:url('../img/24/add.png');
+}
+
+/* ICON ico_print */
+.ico24.ico_print
+{
+  background:url('../img/24/print.png');
+}
+
+/* ICON ico_document */
+.ico24.ico_document
+{
+  background:url('../img/24/document.png');
+}
+
+
+/* ICON ico_clean */
+.ico24.ico_clean
+{
+  background:url('../img/24/clean.png');
+}
+
+/* ICON ico_warning */
+.ico24.ico_warning
+{
+  background:url('../img/24/errorW.png');
+}
+
+/* ICON ico_fatal */
+.ico24.ico_fatal
+{
+  background:url('../img/24/errorG.png');
+}
+
+/* ICON ico_error */
+.ico24.ico_error
+{
+  background:url('../img/24/errorB.png');
+}
+
+/* ICON ico_magnify */
+.ico24.ico_magnify
+{
+  background:url('../img/24/magnify.png');
+}
+
+/* ICON ico_ok */
+.ico24.ico_ok
+{
+  background:url('../img/24/ok.png');
+}
+
+/* ICON ico_up */
+.ico24.ico_up
+{
+  background:url('../img/24/blueUp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_down */
+.ico24.ico_down
+{
+  background:url('../img/24/blueDown.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_pleasewait */
+.ico24.ico_pleasewait
+{
+  background:url('../img/24/pleasewait.gif');
+}
+
+/* ICON ico_warning */
+.ico24.ico_warning
+{
+  background:url('../img/24/warning.png');
+}
+
+/* ICON ico_fail */
+.ico24.ico_fail
+{
+  background:url('../img/24/fail.png');
+}
+
+/* ICON ico_success */
+.ico24.ico_success
+{
+  background:url('../img/24/success.png');
+}
+
+/* ICON ico_graphic */
+.ico24.ico_graphic
+{
+  background:url('../img/24/graphic.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_econom */
+.ico24.ico_graphic
+{
+  background:url('../img/24/gesteconom.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_youvegotmail */
+.ico24.ico_youvegotmail
+{
+  background:url('../img/24/youvegotmail.png');
+}
+
+/* ICON ico_ods*/
+.ico24.ico_ods
+{
+  background:url('../img/24/libreoffice.png');
+}

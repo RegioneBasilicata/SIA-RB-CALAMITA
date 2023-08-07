@@ -1,0 +1,26 @@
+<Domanda>
+	<!-- QUADRO Scorte -->
+	<QuadroScorte>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneScorte> Quadro - Scorte </TitoloSezioneScorte>
+		<Scorte>
+		<VisibilityScorte>false</VisibilityScorte>
+		<TabScorte>
+			<RigaScorte>
+				<TipoScorte>Concimi</TipoScorte>
+				<QuantitaScorte>80 (Litri)</QuantitaScorte>
+				<DescrizioneScorte>-</DescrizioneScorte>
+			</RigaScorte>
+			<RigaScorte>
+				<TipoScorte>Altro</TipoScorte>
+				<QuantitaScorte>12 (Kg)</QuantitaScorte>
+				<DescrizioneScorte>scorte di varia natura</DescrizioneScorte>
+			</RigaScorte>			
+		</TabScorte>
+		</Scorte>
+		<SezioneNulla>
+			<VisibilityTestoNullo>true</VisibilityTestoNullo>
+		</SezioneNulla>
+	</QuadroScorte>
+</Domanda>

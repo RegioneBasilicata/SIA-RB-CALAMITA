@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="QuadroDatiIdentificativi"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility" type="xs:boolean"/>
+
+  <!-- QUADRO Dati Identificativi  -->
+  <xs:element name="QuadroDatiIdentificativi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SezioneAnagrafica"/>
+        <xs:element ref="SezioneTitolare"/>
+        <xs:element ref="SezioneFirmatario"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="SezioneAnagrafica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="Titolo1sezAnagrafica"/>
+        <xs:element ref="Titolo2sezAnagrafica"/>
+        <xs:element ref="Cuaa"/>
+        <xs:element ref="PartitaIva"/>
+        <xs:element ref="IntestazionePartitaIva"/>
+        <xs:element ref="Denominazione"/>
+        <xs:element ref="FormaGiuridica"/>
+        <xs:element ref="IndirizzoSedeLeg"/>
+        <xs:element ref="Pec"/>
+        <xs:element ref="email"/>
+        <xs:element ref="Tel"/>
+        <xs:element ref="Fax"/>
+        <xs:element ref="Ateco"/>
+        <xs:element ref="Ote"/>
+        <xs:element ref="Registro"/>
+        <xs:element ref="Anno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Titolo1sezAnagrafica" type="xs:string"/>
+  <xs:element name="Titolo2sezAnagrafica" type="xs:string"/>
+  <xs:element name="Cuaa" type="xs:string"/>
+  <xs:element name="PartitaIva" type="xs:string"/>
+  <xs:element name="IntestazionePartitaIva" type="xs:string"/>
+  <xs:element name="Denominazione" type="xs:string"/>
+  <xs:element name="FormaGiuridica" type="xs:string"/>
+  <xs:element name="IndirizzoSedeLeg" type="xs:string"/>
+  <xs:element name="Pec" type="xs:string"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="Tel" type="xs:string"/>
+  <xs:element name="Fax" type="xs:string"/>
+  <xs:element name="Ateco" type="xs:string"/>
+  <xs:element name="Ote" type="xs:string"/>
+  <xs:element name="Registro" type="xs:string"/>
+  <xs:element name="Anno" type="xs:string"/>
+  <xs:element name="SezioneTitolare">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezTitolare"/>
+        <xs:element ref="CodiceFiscaleTitolare"/>
+        <xs:element ref="CognomeTitolare"/>
+        <xs:element ref="NomeTitolare"/>
+        <xs:element ref="TelefonoTitolare"/>
+        <xs:element ref="MailTitolare"/>
+        <xs:element ref="SessoTitolare"/>
+        <xs:element ref="IndirizzoResidenzaTitolare"/>
+        <xs:element ref="DataNascitaTitolare"/>
+        <xs:element ref="LuogoNascitaTitolare"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezTitolare" type="xs:string"/>
+  <xs:element name="CodiceFiscaleTitolare" type="xs:string"/>
+  <xs:element name="CognomeTitolare" type="xs:string"/>
+  <xs:element name="NomeTitolare" type="xs:string"/>
+  <xs:element name="TelefonoTitolare" type="xs:string"/>
+  <xs:element name="MailTitolare" type="xs:string"/>
+  <xs:element name="SessoTitolare" type="xs:string"/>
+  <xs:element name="IndirizzoResidenzaTitolare" type="xs:string"/>
+  <xs:element name="DataNascitaTitolare" type="xs:string"/>
+  <xs:element name="LuogoNascitaTitolare" type="xs:string"/>
+  <xs:element name="SezioneFirmatario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezFirmatario"/>
+        <xs:element ref="RuoloFirmatario"/>
+        <xs:element ref="CodiceFiscaleFirmatario"/>
+        <xs:element ref="CognomeFirmatario"/>
+        <xs:element ref="NomeFirmatario"/>
+        <xs:element ref="TelefonoFirmatario"/>
+        <xs:element ref="MailFirmatario"/>
+        <xs:element ref="SessoFirmatario"/>
+        <xs:element ref="IndirizzoFirmatario"/>
+        <xs:element ref="DataNascitaFirmatario"/>
+        <xs:element ref="LuogoNascitaFirmatario"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezFirmatario" type="xs:string"/>
+  <xs:element name="RuoloFirmatario" type="xs:string"/>
+  <xs:element name="CodiceFiscaleFirmatario" type="xs:string"/>
+  <xs:element name="CognomeFirmatario" type="xs:string"/>
+  <xs:element name="NomeFirmatario" type="xs:string"/>
+  <xs:element name="TelefonoFirmatario" type="xs:string"/>
+  <xs:element name="MailFirmatario" type="xs:string"/>
+  <xs:element name="SessoFirmatario" type="xs:string"/>
+  <xs:element name="IndirizzoFirmatario" type="xs:string"/>
+  <xs:element name="DataNascitaFirmatario" type="xs:string"/>
+  <xs:element name="LuogoNascitaFirmatario" type="xs:string"/>
+
+</xs:schema>

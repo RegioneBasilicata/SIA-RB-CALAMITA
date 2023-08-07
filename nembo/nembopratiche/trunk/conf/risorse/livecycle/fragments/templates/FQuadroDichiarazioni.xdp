@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.3158.1.475346" APIVersion="2.8.8118.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-10-12T13:36:50Z" uuid="054c21fc-69a3-4afc-89b5-423223f16182">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <?formServer defaultPDFRenderFormat acrobat8.1static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="Domanda" locale="it_IT" layout="tb">
+      <pageSet>
+         <pageArea id="pageArea_ID">
+            <contentArea x="0.25in" y="0.25in" w="203.2mm" h="266.7mm" id="contentArea_ID"/>
+            <medium stock="letter" short="215.9mm" long="279.4mm"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="QuadroDichiarazioni" w="200.441mm">
+         <subform w="200.025mm" name="SezioneDichiarazioni" id="SezioneDichiarazioni_ID">
+            <bind match="none"/>
+            <draw name="RectangleSezioneDichiarazioni" w="200.025mm" h="9.525mm">
+               <value>
+                  <rectangle>
+                     <edge/>
+                     <corner radius="5.08mm" join="round"/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </rectangle>
+               </value>
+            </draw>
+            <field name="TitoloSezioneDichiarazioni" h="5.2331mm" access="readOnly" minW="84.034mm" x="3.175mm" y="3.107mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="11pt" typeface="Myriad Pro" baselineShift="0pt" weight="bold"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+               <bind match="dataRef" ref="$.TitoloSezioneDichiarazioni"/>
+               <traversal>
+                  <traverse ref="GruppiDichiarazioni[0].GruppoDichiarazioni[0].SezioneGruppoDichiarazioni[0].TitoloGruppoDichiarazioni[0]"/>
+               </traversal>
+               <value>
+                  <text>Quadro - Dichiarazioni</text>
+               </value>
+            </field>
+            <field name="Visibility" w="12.7mm" h="9.525mm" access="readOnly" presence="hidden">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle" hAlign="center"/>
+               <caption reserve="0.01in">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </caption>
+               <bind match="dataRef" ref="$.Visibility"/>
+               <value>
+                  <text>0</text>
+               </value>
+               <traversal>
+                  <traverse ref="TitoloSezioneDichiarazioni[0]"/>
+               </traversal>
+            </field>
+            <keep intact="none"/>
+            <?templateDesigner expand 1?></subform>
+         <subform y="9.525mm" w="200.025mm" minH="19.458mm" layout="tb" name="GruppiDichiarazioni">
+            <bind match="dataRef" ref="$.GruppiDichiarazioni"/>
+            <subform w="200.025mm" name="GruppoDichiarazioni" id="GruppoDichiarazioni_ID" layout="tb">
+               <bind match="dataRef" ref="$.GruppoDichiarazioni[*]"/>
+               <subform w="98.425mm" name="SezioneGruppoDichiarazioni" layout="tb">
+                  <bind match="none"/>
+                  <field name="TitoloGruppoDichiarazioni" access="readOnly" w="197.533mm" minH="5.751mm">
+                     <ui>
+                        <textEdit multiLine="1"/>
+                     </ui>
+                     <font size="11pt" typeface="Myriad Pro" baselineShift="0pt" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                     <bind match="dataRef" ref="$.TitoloGruppoDichiarazioni"/>
+                     <traversal>
+                        <traverse ref="Dichiarazioni[0].Dichiarazione[0].FlagObbligatorio[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="200.006mm" name="Dichiarazioni" layout="tb">
+                  <bind match="dataRef" ref="$.Dichiarazioni[*]"/>
+                  <subform name="Dichiarazione" w="199.817mm">
+                     <assist role="TR"/>
+                     <field name="FlagObbligatorio" w="6.35mm" presence="hidden" access="readOnly" x="3.175mm" minH="6mm">
+                        <ui>
+                           <checkButton>
+                              <border>
+                                 <edge stroke="lowered"/>
+                                 <fill>
+                                    <color value="255, 255, 255"/>
+                                 </fill>
+                                 <?templateDesigner StyleID apcb2?></border>
+                           </checkButton>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text>false</text>
+                        </value>
+                        <caption placement="right" reserve="-0.65mm">
+                           <para vAlign="middle"/>
+                           <font typeface="Myriad Pro"/>
+                        </caption>
+                        <items>
+                           <text>true</text>
+                           <text>false</text>
+                        </items>
+                        <bind match="dataRef" ref="$.FlagObbligatorio"/>
+                        <traversal>
+                           <traverse ref="TestoDichiarazione[0]"/>
+                        </traversal>
+                     </field>
+                     <field name="FlagSelezionato" w="6.35mm" access="readOnly" y="1.241mm" x="3.505mm" minH="6mm">
+                        <ui>
+                           <checkButton>
+                              <border>
+                                 <edge stroke="lowered"/>
+                                 <fill>
+                                    <color value="255, 255, 255"/>
+                                 </fill>
+                                 <?templateDesigner StyleID apcb2?></border>
+                           </checkButton>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text>false</text>
+                        </value>
+                        <caption placement="right" reserve="-0.65mm">
+                           <para vAlign="middle"/>
+                           <font typeface="Myriad Pro"/>
+                        </caption>
+                        <items>
+                           <text>true</text>
+                           <text>false</text>
+                        </items>
+                        <bind match="dataRef" ref="$.FlagSelezionato"/>
+                     </field>
+                     <field name="TestoDichiarazione" w="184.306mm" access="readOnly" minH="6.826mm" y="1.149mm" x="13.415mm">
+                        <ui>
+                           <textEdit multiLine="1">
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="0.01in">
+                           <font typeface="Myriad Pro"/>
+                           <para vAlign="middle"/>
+                        </caption>
+                        <bind match="dataRef" ref="$.TestoDichiarazione"/>
+                        <traversal>
+                           <traverse ref="FlagSelezionato[0]"/>
+                        </traversal>
+                     </field>
+                     <bind match="dataRef" ref="$.Dichiarazione[*]"/>
+                     <occur max="-1"/>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script>
+	if (FlagObbligatorio.rawValue == "false") then
+		FlagSelezionato.presence = "visible";
+	else
+		FlagSelezionato.presence = "hidden";
+	endif
+</script>
+                     </event>
+                     <break overflowLeader="overflowLeader"/>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner expand 1?></subform>
+               <occur max="-1"/>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></subform>
+         <bind match="dataRef" ref="$.QuadroDichiarazioni"/>
+         <traversal>
+            <traverse operation="first" ref="SezioneDichiarazioni[0].Visibility[0]"/>
+         </traversal>
+         <event activity="ready" ref="$form" name="event__form_ready">
+            <script>
+	if (Domanda.QuadroDichiarazioni.SezioneDichiarazioni.Visibility.rawValue == "true") then
+		Domanda.QuadroDichiarazioni.presence = "visible";  
+	else
+		Domanda.QuadroDichiarazioni.presence = "hidden";
+	endif
+
+
+</script>
+         </event>
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle QuadroDichiarazioni?>
+         <subform w="199.817mm" h="3.078mm" name="spaziatura" id="overflowLeader_ID">
+            <bind match="none"/>
+         </subform>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 4 1 00110?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 56 14 0001000E002500320042004400450049004A004F005000530056005B -DQacdhinoruz?>
+   </subform>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.6/?>
+   <?templateDesigner Zoom 98?>
+   <?templateDesigner FormTargetVersion 26?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner DefaultPreviewDataFileName ..\data\dichiarazioni.xml?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>1</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+   </psMap>
+   <?originalXFAVersion http://www.xfa.org/schema/xci/2.8/?></config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2018-10-12T13:36:50Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:054c21fc-69a3-4afc-89b5-423223f16182</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">QuadroDichiarazioni</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.Domanda.QuadroDichiarazioni</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
+   <locale name="it_IT" desc="Italiano (Italia)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>gennaio</month>
+            <month>febbraio</month>
+            <month>marzo</month>
+            <month>aprile</month>
+            <month>maggio</month>
+            <month>giugno</month>
+            <month>luglio</month>
+            <month>agosto</month>
+            <month>settembre</month>
+            <month>ottobre</month>
+            <month>novembre</month>
+            <month>dicembre</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>gen</month>
+            <month>feb</month>
+            <month>mar</month>
+            <month>apr</month>
+            <month>mag</month>
+            <month>giu</month>
+            <month>lug</month>
+            <month>ago</month>
+            <month>set</month>
+            <month>ott</month>
+            <month>nov</month>
+            <month>dic</month>
+         </monthNames>
+         <dayNames>
+            <day>domenica</day>
+            <day>lunedì</day>
+            <day>martedì</day>
+            <day>mercoledì</day>
+            <day>giovedì</day>
+            <day>venerdì</day>
+            <day>sabato</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>dom</day>
+            <day>lun</day>
+            <day>mar</day>
+            <day>mer</day>
+            <day>gio</day>
+            <day>ven</day>
+            <day>sab</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>aC</era>
+            <era>dC</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">DD MMMM YYYY</datePattern>
+         <datePattern name="med">DD/MMM/YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">H:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.7/?></localeSet>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.4/">
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.8/?>
+   <xsdConnection name="DataConnection" dataDescription="Domanda">
+      <uri>..\schemas\dichiarazioni.xsd</uri>
+      <rootElement>Domanda</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="Domanda">
+      <Domanda>
+         <QuadroDichiarazioni>
+            <Visibility/>
+            <TitoloSezioneDichiarazioni/>
+            <GruppiDichiarazioni>
+               <GruppoDichiarazioni dd:maxOccur="-1">
+                  <TitoloGruppoDichiarazioni/>
+                  <Dichiarazioni dd:maxOccur="-1">
+                     <Dichiarazione dd:maxOccur="-1">
+                        <FlagObbligatorio/>
+                        <FlagSelezionato/>
+                        <TestoDichiarazione/>
+                     </Dichiarazione>
+                  </Dichiarazioni>
+               </GruppoDichiarazioni>
+            </GruppiDichiarazioni>
+         </QuadroDichiarazioni>
+      </Domanda>
+   </dd:dataDescription>
+</xfa:datasets>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" id="XFASchemaXSD">
+   <xs:element name="Domanda">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="QuadroDichiarazioni"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Visibility" type="xs:boolean"/>
+   <xs:element name="FlagObbligatorio" type="xs:boolean"/>
+   <xs:element name="FlagSelezionato" type="xs:boolean"/>
+   <!-- QUADRO DICHIARAZIONI  -->
+   <xs:element name="QuadroDichiarazioni">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="TitoloSezioneDichiarazioni"/>
+            <xs:element ref="GruppiDichiarazioni"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloSezioneDichiarazioni" type="xs:string"/>
+   <xs:element name="GruppiDichiarazioni">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="GruppoDichiarazioni" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="GruppoDichiarazioni">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="TitoloGruppoDichiarazioni"/>
+            <xs:element ref="Dichiarazioni" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloGruppoDichiarazioni" type="xs:string"/>
+   <xs:element name="Dichiarazioni">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Dichiarazione" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Dichiarazione">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="FlagObbligatorio"/>
+            <xs:element ref="FlagSelezionato"/>
+            <xs:element ref="TestoDichiarazione"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TestoDichiarazione" type="xs:string"/>
+</xs:schema></xdp:xdp>

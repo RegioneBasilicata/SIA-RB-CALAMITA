@@ -1,0 +1,67 @@
+<Domanda>
+	<!-- Quadro Dati Identificativi -->
+	<QuadroDatiIdentificativi>
+		<SezioneAnagrafica>
+			<Visibility>true</Visibility>
+<!--
+			<Titolo1sezAnagrafica> QUADRO A - AZIENDA	</Titolo1sezAnagrafica>
+			<Titolo2sezAnagrafica> SEZ I - dati anagrafici dell'azienda	</Titolo2sezAnagrafica>
+-->
+			<Cuaa> FBBCRL66H42L219Q	</Cuaa>
+			<PartitaIva> 01254545455 </PartitaIva>
+			<Denominazione> Azienda agricola le galline felici.</Denominazione>
+			<IndirizzoSedeLeg> via del pollaio 25 - 10010 Rueglio(TO)	</IndirizzoSedeLeg>
+			<Pec> galline@gov.it </Pec>
+			<email> galline@csi.it	</email>
+			<Tel> 011/ 555 123456	</Tel>
+			<Ateco> COLTIVAZIONI ASSOCIATE ALL'ALLEVAMENTO DI ANIMALI: ATTIVITÀ MISTA (015) </Ateco>
+			<Ote>Aziende specializzate nei cereali (escluso il riso) e in piante da semi oleosi e proteiche (131)</Ote>
+			<Registro> BSDF/ZDFBG/ 55 </Registro>
+			<Anno> 2007	</Anno>
+		</SezioneAnagrafica>
+
+		<SezioneTitolare>
+			<Visibility>true</Visibility>
+<!--
+			<TitoloSezTitolare> SEZ II - Rappresentante legale /Titolare	</TitoloSezTitolare>
+-->
+			<CodiceFiscaleTitolare> BRBBRG66H42L219Q	</CodiceFiscaleTitolare>
+			<CognomeTitolare> ROSSI	</CognomeTitolare>
+			<NomeTitolare> MARCO ANSELMO  </NomeTitolare>
+			<SessoTitolare> </SessoTitolare>
+			<IndirizzoTitolare> </IndirizzoTitolare>
+			<DataNascitaTitolare>  </DataNascitaTitolare>
+			<LuogoNascitaTitolare> </LuogoNascitaTitolare>
+		</SezioneTitolare>
+		<SezioneFirmatario>
+			<Visibility>true</Visibility>
+			<RuoloFirmatario> ALTRO RAPPRESENTANTE LEGALE	</RuoloFirmatario>
+			<CodiceFiscaleFirmatario> BRBBRG66H42L219Q	</CodiceFiscaleFirmatario>
+			<CognomeFirmatario> BIANCHI	</CognomeFirmatario>
+			<NomeFirmatario> GIUSEPPE  </NomeFirmatario>
+			<TelefonoFirmatario> </TelefonoFirmatario>
+			<MailFirmatario> </MailFirmatario>
+			<SessoFirmatario> </SessoFirmatario>
+			<IndirizzoFirmatario> </IndirizzoFirmatario>
+			<DataNascitaFirmatario>  </DataNascitaFirmatario>
+			<LuogoNascitaFirmatario> </LuogoNascitaFirmatario>
+		</SezioneFirmatario>
+
+	</QuadroDatiIdentificativi>
+
+</Domanda>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

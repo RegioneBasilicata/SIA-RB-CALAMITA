@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2019-08-13T14:09:16 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroDatiIscrizioniCCIAA" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cf555a9e-a271-406c-bad0-07fa9cbb0288">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="pratica_xml"/>
+	<queryString language="XPath">
+		<![CDATA[/Domanda/QuadroDatiIscrizioniCCIAA]]>
+	</queryString>
+	<field name="FlagIscrittoCciaa" class="java.lang.String">
+		<fieldDescription><![CDATA[FlagIscrittoCciaa]]></fieldDescription>
+	</field>
+	<field name="DescrizioneCciaa" class="java.lang.String">
+		<fieldDescription><![CDATA[DescrizioneCciaa]]></fieldDescription>
+	</field>
+	<field name="NumeroIscrizioneCciaa" class="java.lang.String">
+		<fieldDescription><![CDATA[NumeroIscrizioneCciaa]]></fieldDescription>
+	</field>
+	<field name="PartitaIva" class="java.lang.String">
+		<fieldDescription><![CDATA[PartitaIva]]></fieldDescription>
+	</field>
+	<field name="Cuaa" class="java.lang.String">
+		<fieldDescription><![CDATA[Cuaa]]></fieldDescription>
+	</field>
+	<field name="Motivazioni" class="java.lang.String">
+		<fieldDescription><![CDATA[Motivazioni]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="141" splitType="Stretch">
+			<printWhenExpression><![CDATA["S".equalsIgnoreCase($F{FlagIscrittoCciaa})]]></printWhenExpression>
+			<staticText>
+				<reportElement x="10" y="10" width="470" height="20" uuid="d92689d0-98cd-434d-9d7b-cc15ca502edf"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[1. che il soggetto è iscritto nel Registro delle imprese della CCIAA con i seguenti dati:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="40" width="525" height="1" isRemoveLineWhenBlank="true" uuid="2e066dd2-da3f-47bd-907d-a53e1d892c8e"/>
+			</line>
+			<staticText>
+				<reportElement x="12" y="42" width="148" height="20" uuid="c1e4f807-f899-4642-833a-d296ed45f1c2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Iscrizione alla CCIAA di]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="63" width="148" height="20" uuid="3d00080d-a93d-4729-98ca-41bd3a82cfe0">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Numero di iscrizione alla CCIAA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="61" width="525" height="1" uuid="3b97b0e6-0aaf-4e13-8a88-884f8a3d26c6"/>
+			</line>
+			<line>
+				<reportElement x="10" y="82" width="525" height="1" uuid="ff386dcc-fdba-4027-bce7-126b84851963"/>
+			</line>
+			<staticText>
+				<reportElement x="11" y="85" width="90" height="20" uuid="d75d1885-141a-49ca-8e44-40cf6d508fa3">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Partita IVA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="105" width="525" height="1" uuid="df2ada9c-85e7-4e05-a61b-17f6c4bfdf82"/>
+			</line>
+			<staticText>
+				<reportElement x="12" y="110" width="76" height="20" uuid="9f30396f-dd63-49b5-ac00-9db08dc4d2b4">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Codice Fiscale]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="129" width="525" height="1" uuid="a9e5c924-a904-4c05-b423-ffc2fe89122c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="171" y="40" width="1" height="89" uuid="585a07be-c9e8-4e36-ac3c-e3cfb412f405"/>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="179" y="42" width="232" height="20" isRemoveLineWhenBlank="true" uuid="01b9571b-c55b-4e59-bf92-895a27600e6f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{DescrizioneCciaa}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="180" y="63" width="232" height="20" isRemoveLineWhenBlank="true" uuid="a8c624b9-c146-450d-8ca2-72e2c715eedf">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{NumeroIscrizioneCciaa}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="180" y="84" width="232" height="20" isRemoveLineWhenBlank="true" uuid="7607fd73-f9d9-422f-bd25-db96713d00f9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{PartitaIva}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="180" y="108" width="232" height="20" isRemoveLineWhenBlank="true" uuid="63ab99d8-a91c-421f-b89b-0b44d08ac57d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Cuaa}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="128">
+			<printWhenExpression><![CDATA["N".equalsIgnoreCase($F{FlagIscrittoCciaa})]]></printWhenExpression>
+			<staticText>
+				<reportElement x="10" y="6" width="540" height="34" uuid="7725d75c-79ec-4321-ae09-9b083c7946bf"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[1. che il soggetto non è iscritto presso la Camera di Commercio, Industria, Artigianato, Agricoltura in quanto non tenuto per le seguenti motivazioni:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="9" y="50" width="541" height="60" isRemoveLineWhenBlank="true" uuid="7c8715f2-b330-4dc8-85bd-3d47c15faa15">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Motivazioni}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

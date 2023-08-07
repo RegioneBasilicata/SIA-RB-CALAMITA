@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2018-08-22T16:47:00 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroAnticipo" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="feaf40f0-42d2-4957-b22d-84e9c6657d54">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroAnticipo]]>
+	</queryString>
+	<field name="ImportoInvestimento" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnticipo/ImportoInvestimento]]></fieldDescription>
+	</field>
+	<field name="ImportoAmmesso" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnticipo/ImportoAmmesso]]></fieldDescription>
+	</field>
+	<field name="ImportoContributo" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnticipo/ImportoContributo]]></fieldDescription>
+	</field>
+	<field name="PercentualeAnticipo" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnticipo/PercentualeAnticipo]]></fieldDescription>
+	</field>
+	<field name="ImportoAnticipo" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnticipo/ImportoAnticipo]]></fieldDescription>
+	</field>
+	<field name="NumeroFideiussione" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFideiussione/NumeroFideiussione]]></fieldDescription>
+	</field>
+	<field name="ImportoFideiussione" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFideiussione/ImportoFideiussione]]></fieldDescription>
+	</field>
+	<field name="DataStipula" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFideiussione/DataStipula]]></fieldDescription>
+	</field>
+	<field name="DataScadenza" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFideiussione/DataScadenza]]></fieldDescription>
+	</field>
+	<field name="DenominazioneBanca" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneBanca/DenominazioneBanca]]></fieldDescription>
+	</field>
+	<field name="SportelloIndCapComuneProv" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneBanca/SportelloIndCapComuneProv]]></fieldDescription>
+	</field>
+	<field name="VisibilitaBanca" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneBanca/VisibilitaBanca]]></fieldDescription>
+	</field>
+	<field name="VisibilitaIstituto" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAltroIstituto/VisibilitaIstituto]]></fieldDescription>
+	</field>
+	<field name="AltroIstituto" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAltroIstituto/AltroIstituto]]></fieldDescription>
+	</field>
+	<field name="IndirizzoAltroIstituto" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAltroIstituto/IndirizzoAltroIstituto]]></fieldDescription>
+	</field>
+	<field name="AltroIstitutoCapComuneProv" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAltroIstituto/AltroIstitutoCapComuneProv]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="133" splitType="Stretch">
+			<rectangle radius="16">
+				<reportElement x="0" y="10" width="555" height="40" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="ee5cd787-482b-4124-abe6-cb7bc07d1a5e"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="20" width="350" height="20" uuid="c8888039-1ea0-4779-b645-8637e9fd76c3"/>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quadro - Anticipo]]></text>
+			</staticText>
+			<rectangle radius="0">
+				<reportElement x="10" y="55" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="2ad2f6f3-548d-4173-9ed6-295fc7d6d43c"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="59" width="350" height="19" uuid="98c24195-9194-4496-b662-4efc333b6856"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dati anticipo]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="78" width="535" height="52" uuid="8b3332b9-5aae-482c-88e1-4816419c419b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="130" y="80" width="60" height="16" isRemoveLineWhenBlank="true" uuid="7a02f7d7-96c8-4b14-ab2c-049425940578"/>
+				<textFieldExpression><![CDATA[$F{ImportoInvestimento}+" €"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="306" y="80" width="59" height="16" isRemoveLineWhenBlank="true" uuid="21126a4c-11f2-4d16-9c1a-e11e4f1d2aaa"/>
+				<textFieldExpression><![CDATA[$F{ImportoAmmesso}+" €"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="478" y="80" width="61" height="20" isRemoveLineWhenBlank="true" uuid="85dc5be6-c618-497a-9bf1-b1e91c74581d"/>
+				<textFieldExpression><![CDATA[$F{ImportoContributo}+" €"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="124" y="101" width="86" height="20" isRemoveLineWhenBlank="true" uuid="9ba6b5e1-38df-4954-b20c-21341a5d4c4e"/>
+				<textFieldExpression><![CDATA[$F{PercentualeAnticipo}+" %"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="316" y="101" width="110" height="16" isRemoveLineWhenBlank="true" uuid="e5246e53-c91a-4bf4-a18c-439f2a7fa16d">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ImportoAnticipo}+" €"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="80" width="116" height="17" uuid="d82556d6-11f7-4da1-8337-727719e23f28">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo Investimento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="204" y="80" width="96" height="17" uuid="13f00cef-c5c8-41a8-8242-93651b49421c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo Ammesso:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="366" y="80" width="110" height="17" uuid="99410adf-34fb-469e-bf9d-0dfe04c8dd38">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Contributo Concesso:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="101" width="110" height="17" uuid="793c50dc-4268-4127-960f-6e69b9d91c1a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Percentuale Anticipo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="217" y="101" width="96" height="17" uuid="4aeec38f-291d-4c9b-81fc-7e7930b7c1fb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo Anticipo:]]></text>
+			</staticText>
+		</band>
+		<band height="81">
+			<rectangle radius="0">
+				<reportElement x="11" y="2" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="9875ed3e-30ec-42f8-931e-9b75e5533f99"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="19" y="6" width="350" height="19" uuid="06cb3aeb-cf9e-4ec1-a383-b240ef0e160e"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dati fidejussione]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="11" y="25" width="535" height="52" uuid="fd02719c-33e1-4be1-b2ad-731a922a3321">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="28" width="74" height="17" uuid="94e3863e-4f7c-4726-b013-3cf14530d9e3">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Numero:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="49" width="74" height="17" uuid="70b05608-6818-4562-ae53-60e556ebafba">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data stipula:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="219" y="28" width="110" height="17" uuid="9c79dd64-339a-4da1-b683-2a20ea3dd71c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo fidejussione:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="249" y="49" width="80" height="17" uuid="74bf3971-43c1-45a0-a4be-f682d68cb07d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data Scadenza:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="90" y="28" width="100" height="16" isRemoveLineWhenBlank="true" uuid="bf8efa8e-24ac-4071-bd41-945fb1a665c4"/>
+				<textFieldExpression><![CDATA[$F{NumeroFideiussione}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="330" y="28" width="208" height="16" isRemoveLineWhenBlank="true" uuid="c4fa46c2-d4ed-48ad-a9e4-06f5a52ef75b"/>
+				<textFieldExpression><![CDATA[$F{ImportoFideiussione}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="90" y="50" width="150" height="16" isRemoveLineWhenBlank="true" uuid="c0e6caff-bfb3-4e29-bc4c-c0b2a15a24b3"/>
+				<textFieldExpression><![CDATA[$F{DataStipula}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="330" y="49" width="208" height="16" isRemoveLineWhenBlank="true" uuid="1c480962-43f6-4bac-8965-0dd7db6be29a"/>
+				<textFieldExpression><![CDATA[$F{DataScadenza}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="83">
+			<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{VisibilitaBanca})]]></printWhenExpression>
+			<rectangle radius="0">
+				<reportElement x="11" y="2" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="f1b3d63b-fd9f-40f4-a567-53633e7ee0a0"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="19" y="6" width="350" height="19" uuid="a884addd-b1ad-4c3b-b122-fe0fb753552c"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Istituto bancario]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="11" y="25" width="535" height="52" uuid="a91c73d2-ef15-4386-b0b1-421704b45ae4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="28" width="74" height="17" uuid="cbcbd754-04dc-40bd-a45d-95d866561d23">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Istituto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="49" width="74" height="17" uuid="7363bff3-1b45-4cab-9da6-4bd84f2a18c6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Agenzia]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="28" width="448" height="16" uuid="87fd765b-a39f-456d-8248-08c4c4d15dac"/>
+				<textFieldExpression><![CDATA[$F{DenominazioneBanca}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="49" width="448" height="16" uuid="dafdae97-b818-4878-a9e9-05b8eb5d4173"/>
+				<textFieldExpression><![CDATA[$F{SportelloIndCapComuneProv}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="93">
+			<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{VisibilitaIstituto})]]></printWhenExpression>
+			<rectangle radius="0">
+				<reportElement x="11" y="2" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="0edc8f1b-74c2-4a58-8bba-143966c23b22"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="11" y="25" width="535" height="65" uuid="f4711801-34d6-4434-9487-c75d2120a4f6">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="19" y="6" width="350" height="19" uuid="b1f7a3f4-0bca-4e23-96a4-4020a2238eca"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Altro istituto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="47" width="74" height="17" uuid="cf100250-b12a-42e3-9435-4835213aa384">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Indirizzo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="28" width="84" height="17" uuid="08437a14-77a9-4ff2-9861-19ee00f6f9fb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominazione:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="67" width="74" height="17" uuid="6347dc40-2067-4ce7-a231-ad4f09a57b62">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comune:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="104" y="28" width="434" height="16" uuid="6a1ebe58-8dcc-4c8d-a94a-3527343d7fb5"/>
+				<textFieldExpression><![CDATA[$F{AltroIstituto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="104" y="47" width="434" height="16" uuid="b8a22a3d-8140-45a2-b1b9-c6ccb2aeb16e"/>
+				<textFieldExpression><![CDATA[$F{IndirizzoAltroIstituto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="104" y="67" width="438" height="22" uuid="3e1d8c92-fa00-4fa5-a9e7-769eeb4024ff">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{AltroIstitutoCapComuneProv}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

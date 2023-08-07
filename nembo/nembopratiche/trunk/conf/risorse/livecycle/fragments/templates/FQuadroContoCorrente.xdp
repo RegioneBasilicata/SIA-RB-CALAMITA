@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.3158.1.475346" APIVersion="2.8.8118.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-10-12T13:24:34Z" uuid="39883daf-0812-4ad5-a97a-32b219c345ce">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <?formServer defaultPDFRenderFormat acrobat8.1static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="Domanda" locale="it_IT" layout="tb">
+      <pageSet>
+         <pageArea>
+            <contentArea x="0.25in" y="0.25in" w="203.2mm" h="266.7mm" id="contentArea_ID"/>
+            <medium stock="letter" short="215.9mm" long="279.4mm"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform w="200.166mm" name="QuadroContoCorrente" layout="tb">
+         <subform w="200.025mm" name="SezioneContoCorrente">
+            <bind match="none"/>
+            <draw name="Rectangle3" w="200.025mm" h="9.525mm">
+               <value>
+                  <rectangle>
+                     <edge/>
+                     <corner radius="5.08mm" join="round"/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </rectangle>
+               </value>
+            </draw>
+            <field name="TitoloSezioneConto" h="5.2331mm" access="readOnly" minW="84.034mm" x="3.175mm" y="2.113mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="11pt" typeface="Myriad Pro" baselineShift="0pt" weight="bold"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+               <bind match="dataRef" ref="$.TitoloSezioneConto"/>
+               <value>
+                  <text>Quadro - Conto Corrente</text>
+               </value>
+               <traversal>
+                  <traverse ref="ContoCorrente[0].#subform[0].#subform[1].IBAN[0]"/>
+               </traversal>
+            </field>
+            <field name="Visibility" w="12.7mm" h="9.525mm" access="readOnly" presence="hidden">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle" hAlign="center"/>
+               <caption reserve="0.01in">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </caption>
+               <bind match="dataRef" ref="$.Visibility"/>
+               <value>
+                  <text>False</text>
+               </value>
+               <traversal>
+                  <traverse ref="TitoloSezioneConto[0]"/>
+               </traversal>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <subform name="ContoCorrente" w="199.988mm" h="23.089mm">
+            <assist role="TR"/>
+            <subform y="1.907mm" w="199.009mm" minH="19.237mm" layout="tb" x="0.979mm">
+               <bind match="none"/>
+               <subform w="199.21mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="IBAN" w="194.31mm" access="readOnly" x="2.113mm" y="0.289mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="16.7647mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>IBAN:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IBAN"/>
+                     <traversal>
+                        <traverse ref="Istituto[0]"/>
+                     </traversal>
+                     <border>
+                        <edge/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="Istituto" x="2.113mm" w="194.31mm" access="readOnly" y="6.374mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="16.7647mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Istituto:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Istituto"/>
+                     <traversal>
+                        <traverse ref="Agenzia[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="Agenzia" w="194.31mm" access="readOnly" x="2.113mm" y="12.527mm" h="6.778mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="16.7647mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Agenzia:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Agenzia"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <edge/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <keep intact="none" previous="contentArea"/>
+            <bind match="dataRef" ref="$.ContoCorrente"/>
+            <?templateDesigner expand 1?></subform>
+         <bind match="dataRef" ref="$.QuadroContoCorrente"/>
+         <event activity="ready" ref="$form" name="event__form_ready">
+            <script>
+	if (Domanda.QuadroContoCorrente.SezioneContoCorrente.Visibility.rawValue == "true") then
+		Domanda.QuadroContoCorrente.presence = "visible";  
+	else
+		Domanda.QuadroContoCorrente.presence = "hidden";
+	endif
+</script>
+         </event>
+         <traversal>
+            <traverse operation="first" ref="SezioneContoCorrente[0].Visibility[0]"/>
+         </traversal>
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle QuadroContoCorrente?>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 20 5 002700420046004D0054Faels?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 84 21 0001000E001B002200230024002A002F00320042004500460048004A004F00500053005400550056005B -:ABCINQadeginorstuz?>
+   </subform>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.6/?>
+   <?templateDesigner Zoom 98?>
+   <?templateDesigner FormTargetVersion 26?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner DefaultPreviewDataFileName ..\data\contoCorrente.xml?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>1</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+   </psMap>
+   <?originalXFAVersion http://www.xfa.org/schema/xci/2.8/?></config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2018-10-12T13:24:34Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:39883daf-0812-4ad5-a97a-32b219c345ce</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">QuadroContoCorrente</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.Domanda.QuadroContoCorrente</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
+   <locale name="it_IT" desc="Italiano (Italia)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>gennaio</month>
+            <month>febbraio</month>
+            <month>marzo</month>
+            <month>aprile</month>
+            <month>maggio</month>
+            <month>giugno</month>
+            <month>luglio</month>
+            <month>agosto</month>
+            <month>settembre</month>
+            <month>ottobre</month>
+            <month>novembre</month>
+            <month>dicembre</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>gen</month>
+            <month>feb</month>
+            <month>mar</month>
+            <month>apr</month>
+            <month>mag</month>
+            <month>giu</month>
+            <month>lug</month>
+            <month>ago</month>
+            <month>set</month>
+            <month>ott</month>
+            <month>nov</month>
+            <month>dic</month>
+         </monthNames>
+         <dayNames>
+            <day>domenica</day>
+            <day>lunedì</day>
+            <day>martedì</day>
+            <day>mercoledì</day>
+            <day>giovedì</day>
+            <day>venerdì</day>
+            <day>sabato</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>dom</day>
+            <day>lun</day>
+            <day>mar</day>
+            <day>mer</day>
+            <day>gio</day>
+            <day>ven</day>
+            <day>sab</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>aC</era>
+            <era>dC</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">DD MMMM YYYY</datePattern>
+         <datePattern name="med">DD/MMM/YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">H:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.7/?></localeSet>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.4/">
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.8/?>
+   <xsdConnection name="DataConnection" dataDescription="Domanda">
+      <uri>..\schemas\contoCorrente.xsd</uri>
+      <rootElement>Domanda</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="Domanda">
+      <Domanda>
+         <QuadroContoCorrente>
+            <Visibility/>
+            <TitoloSezioneConto/>
+            <ContoCorrente>
+               <CifraControllo/>
+               <CIN/>
+               <ABI/>
+               <CAB/>
+               <NumeroContoCorrente/>
+               <IBAN/>
+               <Istituto/>
+               <Agenzia/>
+               <Intestazione/>
+            </ContoCorrente>
+         </QuadroContoCorrente>
+      </Domanda>
+   </dd:dataDescription>
+</xfa:datasets>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" id="XFASchemaXSD">
+   <xs:element name="Domanda">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="QuadroContoCorrente"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Visibility" type="xs:boolean"/>
+   <xs:element name="SezioneVuota" type="xs:boolean"/>
+   <!-- QUADRO CONTO CORRENTE  -->
+   <xs:element name="QuadroContoCorrente">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="TitoloSezioneConto"/>
+            <xs:element ref="ContoCorrente"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloSezioneConto" type="xs:string"/>
+   <xs:element name="ContoCorrente">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="CifraControllo"/>
+            <xs:element ref="CIN"/>
+            <xs:element ref="ABI"/>
+            <xs:element ref="CAB"/>
+            <xs:element ref="NumeroContoCorrente"/>
+            <xs:element ref="IBAN"/>
+            <xs:element ref="Istituto"/>
+            <xs:element ref="Agenzia"/>
+            <xs:element ref="Intestazione"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="CifraControllo" type="xs:string"/>
+   <xs:element name="CIN" type="xs:string"/>
+   <xs:element name="ABI" type="xs:string"/>
+   <xs:element name="CAB" type="xs:string"/>
+   <xs:element name="NumeroContoCorrente" type="xs:string"/>
+   <xs:element name="IBAN" type="xs:string"/>
+   <xs:element name="Istituto" type="xs:string"/>
+   <xs:element name="Agenzia" type="xs:string"/>
+   <xs:element name="Intestazione" type="xs:string"/>
+</xs:schema></xdp:xdp>

@@ -1,0 +1,13 @@
+<Domanda>
+	<!-- QUADRO CONTO CORRENTE -->
+	<QuadroContoCorrente>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneConto> Quadro - Conto Corrente	</TitoloSezioneConto>
+		<ContoCorrente>
+			<IBAN> 01FR4567890123456  </IBAN>
+			<Istituto> Unicredit banca	</Istituto>
+			<Agenzia> Agenzia nizza 5	</Agenzia>
+		</ContoCorrente>
+	</QuadroContoCorrente>
+</Domanda>

@@ -1,0 +1,44 @@
+<Domanda>
+	<!-- QUADRO PLV Zootecnica -->
+	<QuadroPLVZootecnica>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezionePLVZootecnica> Quadro - PLV Zootecnica </TitoloSezionePLVZootecnica>
+		<PLVZootecnica>
+		<VisibilityPLVZootenica>false</VisibilityPLVZootenica>
+		<TabPLVZootecnica>
+			<RigaPLVZootecnica>
+				<CodAzZootecnica>104AL701</CodAzZootecnica>
+				<Specie>Api</Specie>
+				<Categoria>Api</Categoria>
+				<TipoProd>MIELE</TipoProd>
+				<NCapi>5</NCapi>
+				<QProdAnnua>20,0 Kg</QProdAnnua>
+				<ProdLorda>100,00 Kg</ProdLorda>
+				<Reimpieghi>10,00 Kg</Reimpieghi>
+				<ProdNetta>90,00 Kg</ProdNetta>
+				<UDM>Kg</UDM>
+				<PrezzoUnitario>10,00 €/Kg</PrezzoUnitario>
+				<PLVZoo>900,00</PLVZoo>
+			</RigaPLVZootecnica>
+			<RigaPLVZootecnica>
+				<CodAzZootecnica>104AL701</CodAzZootecnica>
+				<Specie>Avicoli</Specie>
+				<Categoria>Galline ovaiole</Categoria>
+				<TipoProd>CAPI</TipoProd>
+				<NCapi>5</NCapi>
+				<QProdAnnua>200,0 Numero</QProdAnnua>
+				<ProdLorda>1.000,00 Numero</ProdLorda>
+				<Reimpieghi>10,00 Numero</Reimpieghi>
+				<ProdNetta>990,00 Numero</ProdNetta>
+				<UDM>Numero</UDM>
+				<PrezzoUnitario>500,00 €/Numero</PrezzoUnitario>
+				<PLVZoo>495.000,00</PLVZoo>
+			</RigaPLVZootecnica>			
+		</TabPLVZootecnica>
+		</PLVZootecnica>
+		<SezioneNulla>
+			<VisibilityTestoNullo>true</VisibilityTestoNullo>
+		</SezioneNulla>
+	</QuadroPLVZootecnica>
+</Domanda>

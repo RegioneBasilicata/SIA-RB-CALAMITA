@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="excelElencoPagamentiView" class="it.csi.nembo.nembopratiche.presentation.ricercaprocedimento.RicercaPagamentiExcelBuilder" />  
+   <bean id="excelElencoProcedimentiView" class="it.csi.nembo.nembopratiche.presentation.ricercaprocedimento.RicercaProcedimentoExcelBuilder" />  
+   <bean id="excelReportView" class="it.csi.nembo.nembopratiche.presentation.ExcelBuilderReport" />
+   <bean id="excelDettaglioEstrazioneView" class="it.csi.nembo.nembopratiche.presentation.estrazionicampione.DettaglioEstrazioneExcelBuilder" />
+   <bean id="excelElencoPraticheListaLiquidazioneView" class="it.csi.nembo.nembopratiche.presentation.listeliquidazione.ElencoPraticheListaLiquidazioneExcelBuilder" />
+   <bean id="excelElencoInterventiPartecipanteView" class="it.csi.nembo.nembopratiche.presentation.quadro.interventi.interventi.ElencoInterventiPartExcelBuilder" />
+   <bean id="excelElencoDocumentiView" class="it.csi.nembo.nembopratiche.presentation.operazioniprocedimento.documentispesa.RicercaDocumentiExcelBuilder" />
+   <bean id="excelElencoInterventiView" class="it.csi.nembo.nembopratiche.presentation.quadro.interventi.interventi.ElencoInterventiExcelBuilder" />
+</beans>

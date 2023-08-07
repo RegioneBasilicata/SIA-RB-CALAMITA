@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xfa="http://www.adobe.com/2003/xfa" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="SezioneDatiIdentificativi"/>
+		<xs:element ref="RaggruppamentoOggetti"/>		
+		<xs:element ref="RiquadroData"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RaggruppamentoOggetti">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="SezioneDomandaSostegno"/>
+		<xs:element ref="SezioneIstruttoriaAmmissione"/>
+		<xs:element ref="SezioneDomandaPagamento"/>
+		<xs:element ref="SezioneIstruttoriaPagamento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="SezioneDatiIdentificativi">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DatiAzienda"/>
+		<xs:element ref="DatiTitolare"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DatiAzienda">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="CUAA"/>
+		<xs:element ref="PartitaIva"/>
+		<xs:element ref="Denominazione"/>
+		<xs:element ref="FormaGiuridica"/>
+		<xs:element ref="SedeLegale"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DatiTitolare">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="CodiceFiscaleTitolare"/>
+	    <xs:element ref="CognomeTitolare"/>
+	    <xs:element ref="NomeTitolare"/>
+	    <xs:element ref="IndirizzoResidenzaTitolare"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="CUAA" type="xs:string"/>
+  <xs:element name="PartitaIva" type="xs:string"/>
+  <xs:element name="Denominazione" type="xs:string"/>
+  <xs:element name="FormaGiuridica" type="xs:string"/>
+  <xs:element name="SedeLegale" type="xs:string"/>
+  <xs:element name="IntestazionePartitaIva" type="xs:string"/>
+
+  <xs:element name="CodiceFiscaleTitolare" type="xs:string"/>
+  <xs:element name="CognomeTitolare" type="xs:string"/>
+  <xs:element name="NomeTitolare" type="xs:string"/>
+  <xs:element name="TelefonoTitolare" type="xs:string"/>
+  <xs:element name="IndirizzoResidenzaTitolare" type="xs:string"/>
+  
+  
+  <xs:element name="SezioneDomandaSostegno">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="NomeOggetto"/>
+		<xs:element ref="NDomanda"/>
+        <xs:element ref="NProtocollo"/>
+        <xs:element ref="DataProtocollo"/>
+		<xs:element ref="OD"/>
+        <xs:element ref="RespProcedimento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="NomeOggetto" type="xs:string"/>
+  <xs:element name="NDomanda" type="xs:string"/>
+  <xs:element name="NProtocollo" type="xs:string"/>
+  <xs:element name="DataProtocollo" type="xs:string"/>
+  <xs:element name="OD" type="xs:string"/>
+  <xs:element name="RespProcedimento" type="xs:string"/>
+  
+  <xs:element name="SezioneIstruttoriaAmmissione">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="NomeOggetto"/>
+		<xs:element ref="SezioneCTAMM"/>
+		<xs:element ref="SezioneVisitaLuogo"/>
+		<xs:element ref="SezioneEsitoTecnico"/>
+		<xs:element ref="SezioneEsitoFinale"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="SezioneCTAMM">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TabellaCTAMM"/>
+		<xs:element ref="VisibilityCTAMM"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityCTAMM" type="xs:boolean"/>
+  
+  <xs:element name="TabellaCTAMM">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="RigaCTAMM"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="RigaCTAMM">
+    <xs:complexType>
+      <xs:sequence>
+	    <xs:element ref="IsPadre"/>
+		<xs:element ref="Codice"/>
+		<xs:element ref="Descrizione"/>
+		<xs:element ref="Esito"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Codice" type="xs:string"/>
+  <xs:element name="IsPadre" type="xs:boolean"/>
+  <xs:element name="Descrizione" type="xs:string"/>
+  <xs:element name="Esito" type="xs:string"/>
+    
+  <xs:element name="SezioneVisitaLuogo">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TabellaVisitaLuogo"/>
+		<xs:element ref="VisibilityVisitaLuogo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityVisitaLuogo" type="xs:boolean"/>
+  
+  <xs:element name="TabellaVisitaLuogo">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="RigaVisita"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="RigaVisita">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DataVisita"/>
+		<xs:element ref="FunzionarioControllore"/>
+		<xs:element ref="Esito"/>
+		<xs:element ref="DataVerbale"/>
+		<xs:element ref="NumeroVerbale"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DataVisita" type="xs:string"/>
+  <xs:element name="FunzionarioControllore" type="xs:string"/>
+  <xs:element name="Esito" type="xs:string"/>
+  <xs:element name="DataVerbale" type="xs:string"/>
+  <xs:element name="NumeroVerbale" type="xs:string"/>
+  
+  <xs:element name="SezioneEsitoTecnico">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="FunzionarioIstruttore"/>
+		<xs:element ref="FunzionarioSup"/>
+		<xs:element ref="EsitoControlli"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="FunzionarioIstruttore" type="xs:string"/>
+  <xs:element name="FunzionarioSup" type="xs:string"/>
+  <xs:element name="EsitoControlli" type="xs:string"/>
+  
+  <xs:element name="SezioneEsitoFinale">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="EsitoFinale"/>
+		<xs:element ref="Motivazioni"/>
+		<xs:element ref="Prescrizioni"/>
+		<xs:element ref="FunzionarioIstruttore"/>
+		<xs:element ref="FunzionarioSup"/>
+		<xs:element ref="TabellaImporti"/>
+		<xs:element ref="VisibilityImporti"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ 
+  <xs:element name="EsitoFinale" type="xs:string"/>	
+  <xs:element name="Motivazioni" type="xs:string"/>	
+  <xs:element name="Prescrizioni" type="xs:string"/>	
+  <xs:element name="VisibilityImporti" type="xs:boolean"/>	
+  
+  <xs:element name="TabellaImporti">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Importi"/>
+		<xs:element ref="Totali"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="Importi">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Misura"/>
+		<xs:element ref="DataAmmissione"/>
+		<xs:element ref="ImportoRichiesto"/>
+		<xs:element ref="SpesaAmmessa"/>
+		<xs:element ref="ContributoConcesso"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  
+  <xs:element name="Totali">
+    <xs:complexType>
+      <xs:sequence>		
+		<xs:element ref="ImportoRichiestoTot"/>
+		<xs:element ref="SpesaAmmessaTot"/>
+		<xs:element ref="ContributoConcessoTot"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  
+  
+  <xs:element name="Misura" type="xs:string"/>	
+  <xs:element name="DataAmmissione" type="xs:string"/>	
+  <xs:element name="ImportoRichiesto" type="xs:string"/>	
+  <xs:element name="SpesaAmmessa" type="xs:string"/>	
+  <xs:element name="ContributoConcesso" type="xs:string"/>	
+  <xs:element name="ImportoRichiestoTot" type="xs:string"/>	
+  <xs:element name="SpesaAmmessaTot" type="xs:string"/>	
+  <xs:element name="ContributoConcessoTot" type="xs:string"/>	
+  
+  <xs:element name="SezioneDomandaPagamento">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="NomeOggetto"/>
+		<xs:element ref="NDomanda"/>
+        <xs:element ref="NProtocollo"/>
+        <xs:element ref="DataProtocollo"/>
+		<xs:element ref="OD"/>
+        <xs:element ref="RespProcedimento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RiquadroData">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Data"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Data" type="xs:string"/>
+  
+  <xs:element name="SezioneIstruttoriaPagamento">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="NomeOggetto"/>
+		<xs:element ref="SezioneCTAMM"/>
+		<xs:element ref="SezioneCTAMMLuogo"/>
+		<xs:element ref="SezioneDatiSpecifici"/>
+		<xs:element ref="SezioneVisitaLuogo"/>
+		<xs:element ref="SezioneEsitoTecnico"/>
+		<xs:element ref="SezioneEsitoFinale"/>
+		<xs:element ref="SezioneLiquidazione"/>
+		<xs:element ref="SezioneVisitaLuogoCTRLC"/>
+		<xs:element ref="SezioneEsitoTecnicoCTRLC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="SezioneCTAMMLuogo">
+     <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TabellaCTAMM"/>
+		<xs:element ref="VisibilityCTAMMLuogo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityCTAMMLuogo" type="xs:boolean"/>
+  
+  <xs:element name="SezioneDatiSpecifici">
+    <xs:complexType>
+      <xs:sequence>
+	    <xs:element ref="FlagEstrazione"/>
+		<xs:element ref="FlagCampione"/>
+		<xs:element ref="DataEstrazione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+   <xs:element name="FlagEstrazione" type="xs:string"/>
+   <xs:element name="FlagCampione" type="xs:string"/>
+   <xs:element name="DataEstrazione" type="xs:string"/>
+		
+		
+  <xs:element name="SezioneLiquidazione">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TabellaImportoLiquidato"/>		
+		<xs:element ref="VisibilityLiquidazione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityLiquidazione" type="xs:boolean"/>
+  
+  <xs:element name="TabellaImportoLiquidato">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="RigaImportoLiquidato"/>
+		<xs:element ref="TotaliLiquidati"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RigaImportoLiquidato">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Livello"/>
+		<xs:element ref="NLista"/>
+		<xs:element ref="StatoLista"/>
+		<xs:element ref="TecnicoLiquidatore"/>
+		<xs:element ref="Importo"/>
+		<xs:element ref="Ripartizione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="Livello" type="xs:string"/>
+  <xs:element name="Importo" type="xs:string"/>
+  <xs:element name="NLista" type="xs:string"/>
+  <xs:element name="StatoLista" type="xs:string"/>
+  <xs:element name="TecnicoLiquidatore" type="xs:string"/>
+  
+  <xs:element name="Ripartizione">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="VoceRipart"/>
+		<xs:element ref="PercentRipart"/>
+		<xs:element ref="ImportoRipart"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ 
+  <xs:element name="Importo" type="xs:string"/>
+  <xs:element name="VoceRipart" type="xs:string"/>
+  <xs:element name="PercentRipart" type="xs:string"/>
+  <xs:element name="ImportoRipart" type="xs:string"/>
+  
+  <xs:element name="TotaliLiquidati">
+    <xs:complexType>
+      <xs:sequence>		
+		<xs:element ref="ImportoLiquidatoTot"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  <xs:element name="ImportoLiquidatoTot" type="xs:string"/>
+  
+  <!-- SEZIONE VISITA SUL LUOGO PER CONTROLLO IN LOCO !-->
+  
+  <xs:element name="SezioneVisitaLuogoCTRLC">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TabellaVisitaLuogoCTRLC"/>
+		<xs:element ref="VisibilityVisitaLuogoCTRLC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityVisitaLuogoCTRLC" type="xs:boolean"/>
+  
+  <xs:element name="TabellaVisitaLuogoCTRLC">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="RigaVisitaCTRLC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="RigaVisitaCTRLC">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DataVisitaCTRLC"/>
+		<xs:element ref="FunzionarioControlloreCTRLC"/>
+		<xs:element ref="EsitoCTRLC"/>
+		<xs:element ref="DataVerbaleCTRLC"/>
+		<xs:element ref="NumeroVerbaleCTRLC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DataVisitaCTRLC" type="xs:string"/>
+  <xs:element name="FunzionarioControlloreCTRLC" type="xs:string"/>
+  <xs:element name="EsitoCTRLC" type="xs:string"/>
+  <xs:element name="DataVerbaleCTRLC" type="xs:string"/>
+  <xs:element name="NumeroVerbaleCTRLC" type="xs:string"/>
+  
+  <xs:element name="SezioneEsitoTecnicoCTRLC">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="FunzionarioIstruttoreCTRLC"/>
+		<xs:element ref="FunzionarioSupCTRLC"/>
+		<xs:element ref="EsitoControlliCTRLC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ 
+ <xs:element  name="FunzionarioIstruttoreCTRLC" type="xs:string"/>
+  <xs:element name="FunzionarioSupCTRLC" type="xs:string"/>
+  <xs:element name="EsitoControlliCTRLC" type="xs:string"/>
+
+ </xs:schema>

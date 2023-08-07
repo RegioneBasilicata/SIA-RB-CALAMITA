@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="QuadroColtureAziendali"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility" type="xs:boolean"/>
+  <xs:element name="SezioneVuota" type="xs:boolean"/>
+  
+  <!-- Quadro Colture Aziendali -->
+  
+  <xs:element name="QuadroColtureAziendali">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneColtureAziendali"/>
+		<xs:element ref="SezDatiColture"/>
+		<xs:element ref="SezNulla"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneColtureAziendali" type="xs:string"/>
+  
+  <xs:element name="SezDatiColture">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="SezRiepilogo"/>
+			<xs:element ref="SezElencoColture"/>
+			<xs:element ref="VisibilityDati"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  
+  <xs:element name="VisibilityDati" type="xs:boolean"/>
+  
+  <xs:element name="SezRiepilogo">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="TotSup"/>
+		<xs:element ref="PLVOrdinaria"/>
+		<xs:element ref="PLVEffettiva"/>
+		<xs:element ref="PercDanno"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	
+	<xs:element name="TotSup" type="string"/>
+	<xs:element name="PLVOrdinaria" type="string"/>
+	<xs:element name="PLVEffettiva" type="string"/>
+	<xs:element name="PercDanno" type="string"/>
+	
+	
+  <xs:element name="SezElencoColture">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="TabColtureAziendali"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="TabColtureAziendali">
+    <xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaColtureAziendali" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RigaColtureAziendali">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="UbicazioneTerreno"/>
+		<xs:element ref="Utilizzo"/>
+		<xs:element ref="Superficie"/>
+		<xs:element ref="QuintaliHa"/>
+		<xs:element ref="TotQliOrd"/>
+		<xs:element ref="PrezzoQleOrd"/>
+		<xs:element ref="TotEuroOrd"/>
+		<xs:element ref="TotQliEff"/>
+		<xs:element ref="PrezzoQleEff"/>
+		<xs:element ref="TotEuroEff"/>
+		<xs:element ref="Danno"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	
+	<xs:element name="UbicazioneTerreno" type="string"/>
+	<xs:element name="Utilizzo" type="string"/>
+	<xs:element name="Superficie" type="string"/>
+	<xs:element name="QuintaliHa" type="string"/>
+	<xs:element name="TotQliOrd" type="string"/>
+	<xs:element name="PrezzoQleOrd" type="string"/>
+	<xs:element name="TotEuroOrd" type="string"/>
+	<xs:element name="TotQliEff" type="string"/>
+	<xs:element name="PrezzoQleEff" type="string"/>
+	<xs:element name="TotEuroEff" type="string"/>
+	<xs:element name="Danno" type="string"/>
+	
+	
+  
+  <xs:element name="SezNulla">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilitySezNulla"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="VisibilitySezNulla" type="boolean"/>
+  
+    </xs:schema>

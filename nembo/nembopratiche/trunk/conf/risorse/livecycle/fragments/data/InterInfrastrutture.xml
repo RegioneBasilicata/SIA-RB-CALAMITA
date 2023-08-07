@@ -1,0 +1,40 @@
+<Domanda>
+	<!-- QUADRO Interventi Infrastrutture -->
+	<QuadroInterInfrastrutture>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneInterInfrastrutture> Quadro - Interventi Infrastrutture </TitoloSezioneInterInfrastrutture>
+		<InterInfrastrutture>
+		<TabInterInfrastrutture>
+			<RigaInterInfrastrutture>
+				<ProgressivoIntervento>1</ProgressivoIntervento>
+				<Intervento>Ripristino Terreni</Intervento>
+				<DescIntervento>Intervento di sostituzione della terra attraverso una reimmissione</DescIntervento>
+				<ImportoIntervento>300000 Euro</ImportoIntervento>
+			</RigaInterInfrastrutture>
+			<RigaInterInfrastrutture>
+				<ProgressivoIntervento>2</ProgressivoIntervento>
+				<Intervento>Acquisto materiali e manutenzione</Intervento>
+				<DescIntervento>acquisto materiale tettoia e recinzione, riparazione a carico di un'impresa locale; rifacimento della copertura e impermeabilizzazione del sottotetto. Reimpianto pali della recinzione e tante altre parole per verificare l'ampliamento della cella "Ulteriori Informazioni" sull'applicativo.	</DescIntervento>
+				<ImportoIntervento>1000,00 Euro</ImportoIntervento>
+			</RigaInterInfrastrutture>
+			<RigaTotale>
+				<TotImporto>301000 Euro</TotImporto>
+			</RigaTotale>
+		</TabInterInfrastrutture>
+		</InterInfrastrutture>
+		<Localizzazione>
+			<VisibilityLoc>true</VisibilityLoc>
+			<TabLoc>
+				<RigaLoc>
+					<Progressivo>1</Progressivo>
+					<Comune>Isildur</Comune>
+				</RigaLoc>
+				<RigaLoc>
+					<Progressivo>2</Progressivo>
+					<Comune>Mordor</Comune>
+				</RigaLoc>
+			</TabLoc>
+		</Localizzazione>
+	</QuadroInterInfrastrutture>
+</Domanda>

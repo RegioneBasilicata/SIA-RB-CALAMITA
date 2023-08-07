@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2018-08-24T11:14:31 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroInterventi" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="bf98c662-92ad-435d-9bcf-5d1d432dbeb3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#99CCFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="DatasetInterventiCorsi" uuid="2496e67c-9775-4e4f-b4f3-8c07b7ebd820">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+		<queryString language="xPath">
+			<![CDATA[/Domanda/QuadroInterventi/Interventi/Intervento]]>
+		</queryString>
+		<field name="Numero" class="java.lang.String">
+			<fieldDescription><![CDATA[Numero]]></fieldDescription>
+		</field>
+		<field name="TipoIntervento" class="java.lang.String">
+			<fieldDescription><![CDATA[TipoIntervento]]></fieldDescription>
+		</field>
+		<field name="DescrizioneIntervento" class="java.lang.String">
+			<fieldDescription><![CDATA[DescrizioneIntervento]]></fieldDescription>
+		</field>
+		<field name="Comuni" class="java.lang.String">
+			<fieldDescription><![CDATA[Comuni]]></fieldDescription>
+		</field>
+		<field name="DatoValoreUM" class="java.lang.String">
+			<fieldDescription><![CDATA[DatoValoreUM]]></fieldDescription>
+		</field>
+		<field name="Importo" class="java.lang.String">
+			<fieldDescription><![CDATA[Importo]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="DatasetLocalizzazione" uuid="4a7b0463-cfd7-4b0a-a1e8-d0973abd35a5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+		<queryString language="xPath">
+			<![CDATA[/Domanda/QuadroInterventi/Localizzazione/ElencoParticelleInt/DatiParticellaInt]]>
+		</queryString>
+		<field name="Numero" class="java.lang.String">
+			<fieldDescription><![CDATA[Numero]]></fieldDescription>
+		</field>
+		<field name="DescrizioneIntervento" class="java.lang.String">
+			<fieldDescription><![CDATA[DescrizioneIntervento]]></fieldDescription>
+		</field>
+		<field name="ComuneInt" class="java.lang.String">
+			<fieldDescription><![CDATA[ComuneInt]]></fieldDescription>
+		</field>
+		<field name="SezioneInt" class="java.lang.String">
+			<fieldDescription><![CDATA[SezioneInt]]></fieldDescription>
+		</field>
+		<field name="FoglioInt" class="java.lang.String">
+			<fieldDescription><![CDATA[FoglioInt]]></fieldDescription>
+		</field>
+		<field name="ParticellaInt" class="java.lang.String">
+			<fieldDescription><![CDATA[ParticellaInt]]></fieldDescription>
+		</field>
+		<field name="SupCatastaleInt" class="java.lang.String">
+			<fieldDescription><![CDATA[SupCatastaleInt]]></fieldDescription>
+		</field>
+		<field name="DescDestinazioneProduttivaInt" class="java.lang.String">
+			<fieldDescription><![CDATA[DescDestinazioneProduttivaInt]]></fieldDescription>
+		</field>
+		<field name="SubalternoInt" class="java.lang.String">
+			<fieldDescription><![CDATA[SubalternoInt]]></fieldDescription>
+		</field>
+		<field name="SupUtilizzataInt" class="java.lang.String">
+			<fieldDescription><![CDATA[SupUtilizzataInt]]></fieldDescription>
+		</field>
+		<field name="SupImpegnoInt" class="java.lang.String">
+			<fieldDescription><![CDATA[SupImpegnoInt]]></fieldDescription>
+		</field>
+		<field name="CodDestinazioneProduttivaInt" class="java.lang.String">
+			<fieldDescription><![CDATA[CodDestinazioneProduttivaInt]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroInterventi]]>
+	</queryString>
+	<field name="Visibility" class="java.lang.String">
+		<fieldDescription><![CDATA[Visibility]]></fieldDescription>
+	</field>
+	<field name="TitoloSezioneIntInterventi" class="java.lang.String">
+		<fieldDescription><![CDATA[TitoloSezioneIntInterventi]]></fieldDescription>
+	</field>
+	<field name="TotaleInvestimento" class="java.lang.String">
+		<fieldDescription><![CDATA[TotaleInvestimento]]></fieldDescription>
+	</field>
+	<field name="PercentualeRiduzione" class="java.lang.String">
+		<fieldDescription><![CDATA[Ribasso/PercentualeRiduzione]]></fieldDescription>
+	</field>
+	<field name="TotaleImportoRichiesto" class="java.lang.String">
+		<fieldDescription><![CDATA[Ribasso/TotaleImportoRichiesto]]></fieldDescription>
+	</field>
+	<field name="Visibility_localizzazione" class="java.lang.String">
+		<fieldDescription><![CDATA[Localizzazione/Visibility]]></fieldDescription>
+	</field>
+	<field name="Visibility_ribasso" class="java.lang.String">
+		<fieldDescription><![CDATA[Ribasso/Visibility]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="291" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="48" width="555" height="20" uuid="7cfcb56f-1da3-4a78-91a5-5744b1bc120b"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Elenco Interventi]]></text>
+			</staticText>
+			<rectangle radius="16">
+				<reportElement x="0" y="4" width="555" height="40" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="2c35b45c-2e3e-4904-9923-15c51a769172"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="14" width="350" height="20" uuid="635d41bc-204b-4cda-9fba-4da932c62f6f"/>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quadro - Interventi]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="1" y="66" width="555" height="67" uuid="bf214f19-87d6-4e07-95e0-451221717288">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<property name="net.sf.jasperreports.export.headertoolbar.table.name" value=""/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DatasetInterventiCorsi" uuid="336b4e8a-5508-4213-bbce-2da87aa6185d">
+						<datasetParameter name="XML_DATA_DOCUMENT">
+							<datasetParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_INPUT_STREAM">
+							<datasetParameterExpression><![CDATA[$P{XML_INPUT_STREAM}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_FILE">
+							<datasetParameterExpression><![CDATA[$P{XML_FILE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="net.sf.jasperreports.xml.source">
+							<datasetParameterExpression><![CDATA[$P{net.sf.jasperreports.xml.source}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_DATE_PATTERN">
+							<datasetParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_NUMBER_PATTERN">
+							<datasetParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_LOCALE">
+							<datasetParameterExpression><![CDATA[$P{XML_LOCALE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_TIME_ZONE">
+							<datasetParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource) $P{REPORT_DATA_SOURCE}).subDataSource("//QuadroInterventi/Interventi/Intervento")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="40" uuid="e28950b0-43c9-4b0e-9e3d-66f68a4b353d">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna1"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="573f7a4e-94b9-437f-b89c-cf6db2c2b4a1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[N.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="36" height="26" uuid="f7165f8c-1add-4c4f-b5ca-37d316ffc0b2"/>
+								<textFieldExpression><![CDATA[$F{Numero}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="193" uuid="f9000c15-a46f-4547-9be4-32c80a1fae94">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna2"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="193" height="30" uuid="40ee6f58-5d10-4850-ad7c-002dbf51a6dd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Intervento]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="189" height="26" uuid="a79c5115-2b74-47ed-bf1b-650e3ac9099e"/>
+								<textFieldExpression><![CDATA[$F{DescrizioneIntervento}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="ed2747e0-d8e8-415b-ad71-148d887dbcb7">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna3"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="120" height="30" uuid="082a3c1f-9571-49e6-a457-ad4afe95adfe"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Comuni]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="116" height="26" uuid="aa8b034f-b4b7-4907-92ae-a61350b626ff"/>
+								<textFieldExpression><![CDATA[$F{Comuni}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="2a157b48-8084-4c6f-8a37-97c31884b1a1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna4"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="3a14e7b5-774d-4a28-abf7-9c8ba92a94d9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Dato / Valore / UM]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="106" height="26" uuid="20ec5da0-5746-4aca-bceb-c673280a87c6"/>
+								<textFieldExpression><![CDATA[$F{DatoValoreUM}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="5b0e7933-01b1-4fd6-a247-10dd8db9aa2f">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna5"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="041ee98d-acfc-42ad-84b0-63a0a3e4ef54"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Importo Investimento]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="86" height="26" uuid="d9515097-e496-441c-baee-4d3ce16956e1"/>
+								<textFieldExpression><![CDATA[$F{Importo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="340" y="140" width="120" height="20" backcolor="#99CCFF" uuid="f6e4dc77-406d-4c44-bf59-78c06e5b10dc"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Totale Investimento:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="462" y="140" width="86" height="20" isRemoveLineWhenBlank="true" uuid="5c97bdaa-96b7-430f-8c2c-402c817a2a06"/>
+				<textFieldExpression><![CDATA[$F{TotaleInvestimento}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="462" y="164" width="86" height="20" isRemoveLineWhenBlank="true" uuid="2d9b597f-0cf1-47bf-b839-df0c6aff5031">
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_ribasso})]]></printWhenExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TotaleImportoRichiesto}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="340" y="164" width="120" height="20" backcolor="#99CCFF" uuid="e0a7dde3-f6fe-4122-a627-61f4a543e661">
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_ribasso})]]></printWhenExpression>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Totale importo richiesto:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="164" width="86" height="20" isRemoveLineWhenBlank="true" uuid="86b26afd-9564-4da9-832b-1d6d2753632e">
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_ribasso})]]></printWhenExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{PercentualeRiduzione}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="121" y="164" width="120" height="20" backcolor="#99CCFF" uuid="27428a37-bced-4b39-8133-7ed04542faa0">
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_ribasso})]]></printWhenExpression>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Percentuale riduzione:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="194" width="555" height="20" uuid="17ae7cbc-c72d-415a-b838-99fc5d9b4057">
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_localizzazione})]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Particelle interessate dagli interventi]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="217" width="555" height="70" uuid="7280e6ba-9a0c-459c-ac4a-2bad7b695200">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+					<printWhenExpression><![CDATA["true".equalsIgnoreCase($F{Visibility_localizzazione})]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DatasetLocalizzazione" uuid="19d2d192-7bef-4e62-a441-e59d07f37c66">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource) $P{REPORT_DATA_SOURCE}).subDataSource("//QuadroInterventi/Localizzazione/ElencoParticelleInt/DatiParticellaInt")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="20" uuid="a7896cec-b2ed-42d2-ba62-0e12561567b3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna1"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="20" height="30" uuid="f3d0bbfc-c367-4252-a2b3-7b7c7f782389"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[N.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="16" height="26" uuid="ad4badb1-5df0-44e3-b1a2-7344e48c3ba7"/>
+								<textFieldExpression><![CDATA[$F{Numero}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="433e321b-f80e-4671-b68d-a5e80fdacff2">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna2"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="ccd0c877-8a31-41da-bf0f-7f6286dcbdad"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Intervento]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="76" height="26" uuid="482864f1-5650-441d-81f0-a999daa342ec"/>
+								<textFieldExpression><![CDATA[$F{DescrizioneIntervento}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="b47b97f6-9d55-4bf8-996f-a670d1539061">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna3"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="a3322ec0-c312-4f73-b536-862b96010b48"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Comune]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="76" height="26" uuid="dc439d1e-93be-42a3-8dc7-cf64c83893f4"/>
+								<textFieldExpression><![CDATA[$F{ComuneInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="8c8923ac-504f-490a-a116-b8adf362ecb6">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna4"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="30" height="30" uuid="b07b76cb-7af0-4157-b592-d4df3a4d1aec"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sez.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="26" height="26" uuid="c74b2102-2946-431d-80af-dda86c9d5471"/>
+								<textFieldExpression><![CDATA[$F{SezioneInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="cb74a2c6-b039-4977-b20a-b858042c9378">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna5"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="30" height="30" uuid="4c404d05-9592-4954-ac9a-bb154ee4ed23"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Fg.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="26" height="26" uuid="3ba6d36f-456a-48c1-8845-7ab771956e16"/>
+								<textFieldExpression><![CDATA[$F{FoglioInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="19507c67-2a5a-46e2-bfe9-73c686080f3a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna6"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="33c82e07-37da-49ba-8db9-e7bacee05511"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Part.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="36" height="26" uuid="3ec725ba-a42f-4ad1-bed6-254738965a0f"/>
+								<textFieldExpression><![CDATA[$F{ParticellaInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="32fd3c9b-21bd-4084-8e37-bb446eb5cf68">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna7"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="4ac165ba-bb2d-4fea-a973-fcda2e27cbcb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sub.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="36" height="26" uuid="7c1d25b4-2727-4a12-a579-26f1dbf4a1cb"/>
+								<textFieldExpression><![CDATA[$F{SubalternoInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="6c2256ef-6ee9-48fd-bfff-c201db4ccc3e">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna8"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="94fda556-32b4-40c0-81a1-e6bc7fe2bc98"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sup.
+cat.
+(ha)	]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="36" height="26" uuid="780d1860-4d1d-4bc5-bdca-8093b31ebd83"/>
+								<textFieldExpression><![CDATA[$F{SupCatastaleInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="114" uuid="9f70c494-bdc2-47de-9791-76b83aa965eb">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna9"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="114" height="30" uuid="9108e6da-e09e-4d48-9481-92664be4a7df"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Occupazione del suolo]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="110" height="26" uuid="b3af67af-deff-4df3-ac40-cddcb2f65abc"/>
+								<textFieldExpression><![CDATA[$F{DescDestinazioneProduttivaInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="c4673c40-37ae-491c-9f51-37eb1d32addf">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna10"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="07ff1001-cd19-484f-a93e-c46e86e8f16f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sup. util.
+(ha)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<box padding="2"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="36" height="26" uuid="9052fa95-954b-472a-96e1-414fcc0f1c38"/>
+								<textFieldExpression><![CDATA[$F{SupUtilizzataInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="90951b4e-23e3-48dc-a905-26d5fb676833">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna11"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement mode="Transparent" x="0" y="0" width="40" height="30" uuid="91e75652-18ba-4f3c-b232-d63457b538ba"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sup. imp.
+(ha)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="40" height="30" uuid="8664c8c8-1638-4985-8135-33f8e1ecb993"/>
+								<textFieldExpression><![CDATA[$F{SupImpegnoInt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

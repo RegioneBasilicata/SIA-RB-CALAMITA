@@ -1,0 +1,62 @@
+<Domanda>
+	<!-- QUADRO Danni -->
+	<QuadroDanni>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneDanni> Quadro - Danni </TitoloSezioneDanni>
+		<Danni>
+		<TabDanni>
+			<RigaDanni>
+				<Progressivo>1</Progressivo>
+				<TipoDanno>Terreni Ripristinabili</TipoDanno>
+				<Denominazione>-</Denominazione>
+				<DescEntitaDanneggiata>-</DescEntitaDanneggiata>
+				<DescDanno>Danno di prova ai terreni</DescDanno>
+				<Quantita>250 (Ha)</Quantita>
+				<Importo>2500000 Euro</Importo>
+			</RigaDanni>
+			<RigaDanni>
+				<Progressivo>2</Progressivo>
+				<TipoDanno>Scorte morte</TipoDanno>
+				<Denominazione>Combustibili</Denominazione>
+				<DescEntitaDanneggiata>-</DescEntitaDanneggiata>
+				<DescDanno>Dispersione dei combustibili</DescDanno>
+				<Quantita>20 (Litri)</Quantita>
+				<Importo>400,00 Euro</Importo>
+			</RigaDanni>
+			<RigaTotale>
+				<TotImporto>2500400 Euro</TotImporto>
+			</RigaTotale>
+		</TabDanni>
+		</Danni>
+		<PartDanni>
+			<VisibilityParticellare>true</VisibilityParticellare>
+			<TabPartDanni>
+				<RigaPartDanni>
+					<Progressivo>1</Progressivo>
+					<Provincia>Cuneo</Provincia>
+					<Comune>Pietraspaccata</Comune>
+					<Sezione>-</Sezione>
+					<Foglio>2</Foglio>
+					<Particella>161</Particella>
+					<Subalterno>-</Subalterno>
+					<SupCatastale>0,0350</SupCatastale>
+					<Superficie>0,0202</Superficie>
+					<Utilizzo>VITE</Utilizzo>
+				</RigaPartDanni>
+				<RigaPartDanni>
+					<Progressivo>1</Progressivo>
+					<Provincia>Cuneo</Provincia>
+					<Comune>Pietraspaccata</Comune>
+					<Sezione>-</Sezione>
+					<Foglio>2</Foglio>
+					<Particella>180</Particella>
+					<Subalterno>-</Subalterno>
+					<SupCatastale>0,52</SupCatastale>
+					<Superficie>0,9</Superficie>
+					<Utilizzo>BAOBAB</Utilizzo>
+				</RigaPartDanni>
+			</TabPartDanni>
+		</PartDanni>
+	</QuadroDanni>
+</Domanda>

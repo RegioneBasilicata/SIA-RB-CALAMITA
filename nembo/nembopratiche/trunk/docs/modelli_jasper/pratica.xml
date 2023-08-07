@@ -1,0 +1,2197 @@
+<Domanda>
+	<!-- Variabili globali -->
+	<Global>
+		<Bozza>false</Bozza>
+	</Global>
+	<Header>
+		<Titolo1> Provincia di Cuneo </Titolo1>
+		<Titolo2> Settore A1705A - PROGRAMMAZIONE E COORDINAMENTO SVILUPPO RURALE E AGRICOLTURA S0STENIBILE </Titolo2>
+		<Titolo3> C.so Nizza, 21 - 12100 - CUNEO </Titolo3>
+		<Castelletto> 
+			<Protocollo>  </Protocollo>
+			<IntestazioneRichiedente>DOMANDA PRESENTATA PER TRAMITE DI</IntestazioneRichiedente>
+			<CodiceFiscaleTramite> 103.004.004 </CodiceFiscaleTramite>
+			<DescrizioneTramite> CAA Coldiretti - CUNEO - P.zza Foro Boario </DescrizioneTramite>
+			<DataPresentazione> </DataPresentazione>
+			<NumeroDomanda> 2020000001 </NumeroDomanda>
+		</Castelletto>
+		<Bando> 2016 - Pre-adesione all'azione 10.1.3/1 (Introduzione delle tecniche di minima lavorazione) </Bando>
+		<Operazioni> 10.1.3.A.4A </Operazioni>
+		<Oggetto> Domanda di pre-adesione all'aiuto </Oggetto>
+		<Specificita> Domanda di modifica ai sensi dell'Art. 15 in sostituzione della domanda N. 99900000  </Specificita>
+	</Header>
+	<QuadroDatiIdentificativi>
+		<SezioneAnagrafica>
+			<Visibility>true</Visibility>
+			<Cuaa> FBBCRL66H42L219Q	</Cuaa>
+			<PartitaIva> 01254545455 </PartitaIva>
+			<Denominazione> Azienda agricola le galline felici.</Denominazione>
+			<IndirizzoSedeLeg> via del pollaio 25 - 10010 Rueglio(TO)	</IndirizzoSedeLeg>
+			<Pec> galline@gov.it </Pec>
+			<email> galline@csi.it	</email>
+			<Tel> 011/ 555 123456	</Tel>
+			<Ateco> COLTIVAZIONI ASSOCIATE ALL'ALLEVAMENTO DI ANIMALI: ATTIVITÀ MISTA (015) </Ateco>
+			<Ote>  </Ote>
+			<Registro> BSDF/ZDFBG/ 55 </Registro>
+			<Anno> 2007	</Anno>
+		</SezioneAnagrafica>
+		<SezioneTitolare>
+			<Visibility>true</Visibility>
+			<CodiceFiscaleTitolare> BRBBRG66H42L219Q	</CodiceFiscaleTitolare>
+			<CognomeTitolare> ROSSI	</CognomeTitolare>
+			<NomeTitolare> MARCO ANSELMO  </NomeTitolare>
+			<SessoTitolare> </SessoTitolare>
+			<IndirizzoTitolare> </IndirizzoTitolare>
+			<DataNascitaTitolare>  </DataNascitaTitolare>
+			<LuogoNascitaTitolare> </LuogoNascitaTitolare>
+		</SezioneTitolare>
+		<SezioneFirmatario>
+			<Visibility>true</Visibility>
+			<RuoloFirmatario> ALTRO RAPPRESENTANTE LEGALE	</RuoloFirmatario>
+			<CodiceFiscaleFirmatario> BRBBRG66H42L219Q	</CodiceFiscaleFirmatario>
+			<CognomeFirmatario> BIANCHI	</CognomeFirmatario>
+			<NomeFirmatario> GIUSEPPE  </NomeFirmatario>
+			<SessoFirmatario> </SessoFirmatario>
+			<IndirizzoFirmatario> </IndirizzoFirmatario>
+			<DataNascitaFirmatario>  </DataNascitaFirmatario>
+			<LuogoNascitaFirmatario> </LuogoNascitaFirmatario>
+		</SezioneFirmatario>
+	</QuadroDatiIdentificativi>
+	<QuadroOrganismoFormazione>
+		<CodiceAccreditamento>126192712sjhaska</CodiceAccreditamento>
+		<NumeroSedi>2</NumeroSedi>
+		<Sedi>
+			<Sede>
+				<Prov>CN</Prov>
+				<Comune>Magliano Alpi</Comune>
+				<Cap>12010</Cap>
+				<Indirizzo>Via Roma 21</Indirizzo>
+			</Sede>
+			<Sede>
+				<Prov>TO</Prov>
+				<Comune>Torino</Comune>
+				<Cap>12200</Cap>
+				<Indirizzo>Via Roma 55</Indirizzo>
+			</Sede>
+        </Sedi>
+		<Certificazioni>
+			<Certificazione>
+				<Descrizione>asasasasa</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione><Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione><Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+        </Certificazioni>
+	</QuadroOrganismoFormazione>
+	<QuadroCertificatiQualita> 
+	    <NumeroCertificazioni>6</NumeroCertificazioni>
+		<Certificazioni>
+			<Certificazione>
+				<Descrizione>asasasasa</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione><Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione><Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+			<Certificazione>
+				<Descrizione>wqwqwqwq</Descrizione>
+			</Certificazione>
+        </Certificazioni>
+	</QuadroCertificatiQualita>
+	
+	<QuadroDatiIscrizioniCCIAA> 
+	    <FlagIscrittoCciaa>N</FlagIscrittoCciaa>
+		<DescrizioneCciaa>Descrizione cciaa</DescrizioneCciaa>
+		<NumeroIscrizioneCciaa>numero 218127193</NumeroIscrizioneCciaa>
+		<PartitaIva>09876545667</PartitaIva>
+		<Cuaa>CUAKDNNDIJLOOA</Cuaa>
+		<Motivazioni>Motivazioni</Motivazioni>
+	</QuadroDatiIscrizioniCCIAA>
+	
+	<QuadroCorsiFormazione>
+		<CorsiFormazione>
+			<CorsoFormazione>
+				<Titolo>Corso 1</Titolo>
+				<NumPersone>2</NumPersone>
+				<Prov>CN</Prov>
+				<Comune>Cuneo</Comune>
+				<Indirizzo>Via cuneo</Indirizzo>
+			</CorsoFormazione>
+			<CorsoFormazione>
+				<Titolo>Corso 1</Titolo>
+				<NumPersone>2</NumPersone>
+				<Prov>CN</Prov>
+				<Comune>Cuneo</Comune>
+				<Indirizzo>Via cuneo</Indirizzo>
+			</CorsoFormazione>
+        </CorsiFormazione>
+	</QuadroCorsiFormazione>
+	<QuadroContoCorrente>
+		<Visibility>true</Visibility>
+		<TitoloSezioneConto> Quadro - Conto Corrente	</TitoloSezioneConto>
+		<ContoCorrente>
+			<IBAN> 01FR4567890123456  </IBAN>
+			<Istituto> Unicredit banca	</Istituto>
+			<Agenzia> Agenzia nizza 5	</Agenzia>
+		</ContoCorrente>
+	</QuadroContoCorrente>
+	<QuadroAnticipo>
+		<SezioneTitoloAnticipo>
+			<Visibility>true</Visibility>
+			<TitoloQuadroAnticipo>QUADRO - ANTICIPO</TitoloQuadroAnticipo>
+		</SezioneTitoloAnticipo>
+		<SezioneAnticipo>
+			<TitolosezAnticipo>DATI ANTICIPO</TitolosezAnticipo>
+			<ImportoInvestimento>13245,56</ImportoInvestimento>
+			<ImportoAmmesso>985,55</ImportoAmmesso>
+			<ImportoContributo>65498,5</ImportoContributo>
+			<PercentualeAnticipo>14</PercentualeAnticipo>
+			<ImportoAnticipo>346654,22</ImportoAnticipo>
+		</SezioneAnticipo>
+		<SezioneFideiussione>
+			<TitoloSezFideiussione>DATI FIDEJUSSIONE</TitoloSezFideiussione>
+			<NumeroFideiussione>98644</NumeroFideiussione>
+			<ImportoFideiussione>646465,22</ImportoFideiussione>
+			<DataStipula>02/06/2015</DataStipula>
+			<DataScadenza>02/06/2020 </DataScadenza>
+		</SezioneFideiussione>
+		<SezioneBanca>
+			<VisibilitaBanca>true</VisibilitaBanca>
+			<TitoloSezBanca>ISTITUTO BANCARIO</TitoloSezBanca>
+			<DenominazioneBanca>BANCA POPOLARE CANAVESANA</DenominazioneBanca>
+			<SportelloIndCapComuneProv> 10010 - piazza del municipio 3 - Ruglio (TO)</SportelloIndCapComuneProv>
+		</SezioneBanca>
+		<SezioneAltroIstituto>
+			<VisibilitaIstituto>true</VisibilitaIstituto>
+			<TitoloSezAltroIstituto>ALTRO ISTITUTO</TitoloSezAltroIstituto>
+			<AltroIstituto>ISTITUTO DI CREDITO JACK SPARROW</AltroIstituto>
+			<IndirizzoAltroIstituto>SECONDA TAVERNA A DESTRA</IndirizzoAltroIstituto>
+			<AltroIstitutoCapComuneProv>TORTUGA</AltroIstitutoCapComuneProv>
+		</SezioneAltroIstituto>
+	</QuadroAnticipo>
+	<QuadroInterventi>
+		<Visibility>true</Visibility>
+		<TitoloSezioneIntInterventi> Quadro - Interventi </TitoloSezioneIntInterventi>
+		<Interventi>
+			<Intervento>
+				<Numero> 1 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>AAAAAAACostruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+			</Intervento>
+			<Intervento>
+				<Numero> 2 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+			</Intervento>
+			<Intervento>
+				<Numero>  3 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+			</Intervento>
+		</Interventi>
+	<TotaleInvestimento> 36600.00</TotaleInvestimento>
+	<Ribasso>
+		<Visibility>true</Visibility>
+		<PercentualeRiduzione>10%</PercentualeRiduzione>
+        <TotaleImportoRichiesto>32940.00</TotaleImportoRichiesto>
+	</Ribasso>
+	<Localizzazione>
+		<Visibility>true</Visibility>
+		<TipoLocalizzazione>NOSUP</TipoLocalizzazione>
+		<ElencoParticelleInt>
+			<DatiParticellaInt>
+				<Numero> 1 </Numero>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<ComuneInt>LAGNASCO (CN)</ComuneInt>
+				<SezioneInt> - </SezioneInt>
+				<FoglioInt>18</FoglioInt>
+				<ParticellaInt>34</ParticellaInt>
+				<SubalternoInt>12 </SubalternoInt> 
+				<SupCatastaleInt>1,67</SupCatastaleInt>
+				<DescDestinazioneProduttivaInt>ACTINIDIA (KIWI)</DescDestinazioneProduttivaInt>
+				<SupUtilizzataInt>1.6073</SupUtilizzataInt>
+				<SupImpegnoInt>5.60</SupImpegnoInt>
+			</DatiParticellaInt>
+			<DatiParticellaInt>
+				<Numero> 2 </Numero>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<ComuneInt>LAGNASCO (CN)</ComuneInt>
+				<SezioneInt> - </SezioneInt>
+				<FoglioInt>18</FoglioInt>
+				<ParticellaInt>34</ParticellaInt>
+				<SubalternoInt>11 </SubalternoInt> 
+				<SupCatastaleInt>1,67</SupCatastaleInt>
+				<DescDestinazioneProduttivaInt>ACTINIDIA (KIWI)</DescDestinazioneProduttivaInt>
+				<SupUtilizzataInt>1.6073</SupUtilizzataInt>
+				<SupImpegnoInt>5.60</SupImpegnoInt>
+			</DatiParticellaInt>
+			<DatiParticellaInt>
+				<Numero> 3 </Numero>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<ComuneInt>LAGNASCO (CN)</ComuneInt>
+				<SezioneInt> - </SezioneInt>
+				<FoglioInt>18</FoglioInt>
+				<ParticellaInt>34</ParticellaInt>
+				<SubalternoInt>22 </SubalternoInt> 
+				<SupCatastaleInt>1,67</SupCatastaleInt>
+				<CodDestinazioneProduttivaInt>831</CodDestinazioneProduttivaInt>
+				<DescDestinazioneProduttivaInt>ACTINIDIA (KIWI)</DescDestinazioneProduttivaInt>
+				<SupUtilizzataInt>1.6073</SupUtilizzataInt>
+				<SupImpegnoInt>2.5</SupImpegnoInt>
+			</DatiParticellaInt>
+		</ElencoParticelleInt>
+	</Localizzazione>
+	</QuadroInterventi>
+	<QuadroEconomico>
+		<Visibility>true</Visibility>
+		<TitoloSezioneQuadroEconomico> Quadro economico </TitoloSezioneQuadroEconomico>
+		<InterventiQE>
+			<InterventoQE>
+				<Numero> 1 </Numero>
+				<TipoIntervento>Materiale agrario</TipoIntervento>
+				<DescrizioneIntervento>Miglioramento o ristrutturazione vasca per acqua, con allacciamenti </DescrizioneIntervento>
+				<SpesaPreventivata>4.000,00</SpesaPreventivata>
+				<SpesaAmmessa>4.000,00</SpesaAmmessa>
+				<PercentualeContributo> 100,00 </PercentualeContributo>
+				<ImportoContributo>3.200,00</ImportoContributo>
+			</InterventoQE>
+			<InterventoQE>
+				<Numero> 2 </Numero>
+				<TipoIntervento>Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Drenaggio terreni</DescrizioneIntervento>
+				<SpesaPreventivata>1.200,00</SpesaPreventivata>
+				<SpesaAmmessa>1.200,00</SpesaAmmessa>
+				<PercentualeContributo> 80 </PercentualeContributo>
+				<ImportoContributo>960,00</ImportoContributo>
+			</InterventoQE>
+			<InterventoQE>
+				<Numero> 3 </Numero>
+				<TipoIntervento>Materiale agrario</TipoIntervento>
+				<DescrizioneIntervento>Spianamento, sistemazione, dissodamento terreno</DescrizioneIntervento>
+				<SpesaPreventivata>8.200,00</SpesaPreventivata>
+				<SpesaAmmessa>8.200,00</SpesaAmmessa>
+				<PercentualeContributo> 80 </PercentualeContributo>
+				<ImportoContributo>6.560,00</ImportoContributo>
+			</InterventoQE>
+			<InterventoQE>
+				<Numero> 4 </Numero>
+				<TipoIntervento>Materiale agrario</TipoIntervento>
+				<DescrizioneIntervento>Diserbatrice meccanica a disco per lavorazioni interfilare - trincia con disco interceppi</DescrizioneIntervento>
+				<SpesaPreventivata>10.500,00</SpesaPreventivata>
+				<SpesaAmmessa>10.500,00</SpesaAmmessa>
+				<PercentualeContributo> 80 </PercentualeContributo>
+				<ImportoContributo>8.400,00</ImportoContributo>
+			</InterventoQE>
+			<InterventoQE>
+				<Numero> 5 </Numero>
+				<TipoIntervento>Materiale agrario</TipoIntervento>
+				<DescrizioneIntervento>Miglioramento o ristrutturazione ricovero macchine</DescrizioneIntervento>
+				<SpesaPreventivata>33.000,00</SpesaPreventivata>
+				<SpesaAmmessa>33.000,00</SpesaAmmessa>
+				<PercentualeContributo> 80 </PercentualeContributo>
+				<ImportoContributo>26.400,00</ImportoContributo>
+			</InterventoQE>
+			<InterventoQE>
+				<Numero> 6 </Numero>
+				<TipoIntervento>Materiale agrario</TipoIntervento>
+				<DescrizioneIntervento>Impianti di coltivazioni legnose agrarie poliennali - Noccioleto</DescrizioneIntervento>
+				<SpesaPreventivata>3.000,00</SpesaPreventivata>
+				<SpesaAmmessa>3.000,00</SpesaAmmessa>
+				<PercentualeContributo> 80 </PercentualeContributo>
+				<ImportoContributo>2.400,00</ImportoContributo>
+			</InterventoQE>
+		</InterventiQE>
+		<TotaliInterventiQE>
+			<TotaleSpesaPreventivata>59.900,00</TotaleSpesaPreventivata>
+			<TotaleSpesaAmmessa>59.900,00</TotaleSpesaAmmessa>
+			<TotaleImportoContributo>47.920,00</TotaleImportoContributo>
+		</TotaliInterventiQE>
+		<LocalizzazioneQE>
+			<Visibility>true</Visibility>
+			<TipoLocalizzazione>NOSUP</TipoLocalizzazione>
+			<ElencoParticelleIntQE>
+				<DatiParticellaIntQE>
+					<Numero> 1 </Numero>
+					<DescrizioneIntervento>Miglioramento o ristrutturazione vasca per acqua, con allacciamenti</DescrizioneIntervento>
+					<ComuneInt>MOMBARUZZO (AT)</ComuneInt>
+					<SezioneInt> - </SezioneInt>
+					<FoglioInt>2</FoglioInt>
+					<ParticellaInt>3</ParticellaInt>
+					<SubalternoInt> </SubalternoInt> 
+					<SupCatastaleInt>0,2490</SupCatastaleInt>
+					<DescDestinazioneProduttivaInt>USO NON AGRICOLO - FABBRICATI</DescDestinazioneProduttivaInt>
+					<SupUtilizzataInt>0,2490</SupUtilizzataInt>
+				</DatiParticellaIntQE>
+				<DatiParticellaIntQE>
+					<Numero> 2 </Numero>
+					<DescrizioneIntervento>Drenaggio terreni</DescrizioneIntervento>
+					<ComuneInt>CASTELNUOVO BELBO (AT)</ComuneInt>
+					<SezioneInt> - </SezioneInt>
+					<FoglioInt>9</FoglioInt>
+					<ParticellaInt>323</ParticellaInt>
+					<SubalternoInt> </SubalternoInt> 
+					<SupCatastaleInt>0,3210</SupCatastaleInt>
+					<DescDestinazioneProduttivaInt>SUPERFICI SEMINABILI - COLTURE DA DEFINIRE</DescDestinazioneProduttivaInt>
+					<SupUtilizzataInt>0,3210</SupUtilizzataInt>
+				</DatiParticellaIntQE>
+				<DatiParticellaIntQE>
+					<Numero> 2 </Numero>
+					<DescrizioneIntervento>Drenaggio terreni</DescrizioneIntervento>
+					<ComuneInt>CASTELNUOVO BELBO (AT)</ComuneInt>
+					<SezioneInt> - </SezioneInt>
+					<FoglioInt>9</FoglioInt>
+					<ParticellaInt>324</ParticellaInt>
+					<SubalternoInt> </SubalternoInt> 
+					<SupCatastaleInt>0,2470</SupCatastaleInt>
+					<DescDestinazioneProduttivaInt>SUPERFICI SEMINABILI - COLTURE DA DEFINIRE</DescDestinazioneProduttivaInt>
+					<SupUtilizzataInt>0,2470</SupUtilizzataInt>
+				</DatiParticellaIntQE>
+			</ElencoParticelleIntQE>
+		</LocalizzazioneQE>
+	</QuadroEconomico>
+	<QuadroOperazioniInCampo>
+		<Visibility>true</Visibility>
+		<TitoloSezioneOperazioniInCampo> Titolo Sezione Operazioni In Campo </TitoloSezioneOperazioniInCampo>
+		<ElencoOperazioniInCampo>
+		<DettaglioOperazioneInCampo>
+				<Azione>Azione 1- Introduzione delle tecniche di minima lavorazione</Azione>
+				<DataInizio>20/11/2015</DataInizio>
+				<DataFine>30/03/2016</DataFine>
+				<MatriceOrganica>FRAZ. SOLIDA DA SEPARAZIONE SOLIDO/LIQUIDO DI EFFLUENTI ZOOTECNICI E ALTRE MATRICI AGRICOLE</MatriceOrganica>
+				<QuantitaTalQUale>12,00</QuantitaTalQUale>
+				<QuantitaSostanzaSecca>44,00</QuantitaSostanzaSecca>
+				<TipologiaColture>COLTURE ARBOREE</TipologiaColture>
+				<Note>Note fittizie potrebbero essre anche molto lunghe e contenere caratteri speciali tipo </Note>
+				<ElencoParticelleCampo>
+					<DatiParticellaCampo>
+						<ComuneC>LAGNASCO (CN)</ComuneC>
+						<SezioneC> - </SezioneC>
+						<FoglioC>18</FoglioC>
+						<ParticellaC>34</ParticellaC>
+						<SupCatastaleC>1,67</SupCatastaleC>
+						<CodDestinazioneProduttivaC>831</CodDestinazioneProduttivaC>
+						<DescDestinazioneProduttivaC>ACTINIDIA (KIWI)</DescDestinazioneProduttivaC>
+						<CodVarietaC>000</CodVarietaC>
+						<DescVarietaC>-</DescVarietaC>
+						<CodUsoC>000</CodUsoC>
+						<DescUsoC>-</DescUsoC>
+						<SupUtilizzataC>1.6073</SupUtilizzataC>
+						<SupOperazioneC>1,50</SupOperazioneC>
+					</DatiParticellaCampo>
+					<DatiParticellaCampo>
+						<ComuneC>LAGNASCO (CN)</ComuneC>
+						<SezioneC> - </SezioneC><FoglioC>18</FoglioC><ParticellaC>34</ParticellaC><SupCatastaleC>1,67</SupCatastaleC><CodDestinazioneProduttivaC>831</CodDestinazioneProduttivaC><DescDestinazioneProduttivaC>ACTINIDIA (KIWI)</DescDestinazioneProduttivaC><CodVarietaC>000</CodVarietaC><DescVarietaC>-</DescVarietaC><CodUsoC>000</CodUsoC><DescUsoC>-</DescUsoC><SupUtilizzataC>1.6073</SupUtilizzataC><SupOperazioneC>1,50</SupOperazioneC>
+					</DatiParticellaCampo>
+				</ElencoParticelleCampo>
+			</DettaglioOperazioneInCampo>
+			<DettaglioOperazioneInCampo>
+				<Azione>Azione 2- Introduzione delle tecniche di minima lavorazione</Azione>
+				<DataInizio>20/11/2015</DataInizio>
+				<DataFine>30/03/2016</DataFine>
+				<MatriceOrganica>FRAZ. SOLIDA DA SEPARAZIONE SOLIDO/LIQUIDO DI EFFLUENTI ZOOTECNICI E ALTRE MATRICI AGRICOLE</MatriceOrganica>
+				<QuantitaTalQUale>12,00</QuantitaTalQUale>
+				<QuantitaSostanzaSecca>44,00</QuantitaSostanzaSecca>
+				<TipologiaColture>COLTURE ARBOREE</TipologiaColture>
+				<Note>Note fittizie potrebbero essre anche molto lunghe e contenere caratteri speciali tipo </Note>
+				<ElencoParticelleCampo>
+					<DatiParticellaCampo>
+						<ComuneC>LAGNASCO (CN)</ComuneC>
+						<SezioneC> - </SezioneC>
+						<FoglioC>18</FoglioC>
+						<ParticellaC>34</ParticellaC>
+						<SupCatastaleC>1,67</SupCatastaleC>
+						<CodDestinazioneProduttivaC>831</CodDestinazioneProduttivaC>
+						<DescDestinazioneProduttivaC>ACTINIDIA (KIWI)</DescDestinazioneProduttivaC>
+						<CodVarietaC>000</CodVarietaC>
+						<DescVarietaC>-</DescVarietaC>
+						<CodUsoC>000</CodUsoC>
+						<DescUsoC>-</DescUsoC>
+						<SupUtilizzataC>1.6073</SupUtilizzataC>
+						<SupOperazioneC>1,50</SupOperazioneC>
+					</DatiParticellaCampo>
+					<DatiParticellaCampo>
+						<ComuneC>LAGNASCO (CN)</ComuneC>
+						<SezioneC> - </SezioneC><FoglioC>18</FoglioC><ParticellaC>34</ParticellaC><SupCatastaleC>1,67</SupCatastaleC><CodDestinazioneProduttivaC>831</CodDestinazioneProduttivaC><DescDestinazioneProduttivaC>ACTINIDIA (KIWI)</DescDestinazioneProduttivaC><CodVarietaC>000</CodVarietaC><DescVarietaC>-</DescVarietaC><CodUsoC>000</CodUsoC><DescUsoC>-</DescUsoC><SupUtilizzataC>1.6073</SupUtilizzataC><SupOperazioneC>1,50</SupOperazioneC>
+					</DatiParticellaCampo>
+				</ElencoParticelleCampo>
+			</DettaglioOperazioneInCampo>
+		</ElencoOperazioniInCampo>
+		<LegendaUsiDelSuolo>
+			<DettaglioLegendaSuolo>
+				<CodDestinazioneProduttivaC>831</CodDestinazioneProduttivaC>
+				<DescDestinazioneProduttivaC>ACTINIDIA (KIWI)</DescDestinazioneProduttivaC>
+				<CodVarietaC>000</CodVarietaC>
+				<DescVarietaC>descrizione fittizia per testare la larghezza della colonna</DescVarietaC>
+				<CodUsoC>000</CodUsoC>
+				<DescUsoC>descrizione uso fittizio per testare al larghezza della colonna</DescUsoC>
+			</DettaglioLegendaSuolo>
+		</LegendaUsiDelSuolo>
+	</QuadroOperazioniInCampo>
+	<QuadroOperazioniImpegni>
+		<Visibility>true</Visibility>
+		<TitoloSezioneOperazioniImpegni> Quadro - Operazioni e Impegni </TitoloSezioneOperazioniImpegni>
+		<ElencoOperazioniImpegni>
+			<DettaglioOperazioniImpegni>
+				<Operazione>10.1.1.A.4B Produzione integrata </Operazione>
+				<Annualita>1 </Annualita>
+				<TipoDomanda>Nuova adesione</TipoDomanda>
+				<DataInizioImpegno>01/01/2016</DataInizioImpegno>
+				<DataFineImpegno>01/01/2020</DataFineImpegno>
+				<NumDomandaPrecedente>1234678901</NumDomandaPrecedente>
+				<ImpegniDibase>
+					<ImpegnoBase>
+						<DescrizioneEstesa>Azione 1- Introduzione delle tecniche di minima lavorazione  </DescrizioneEstesa>
+					</ImpegnoBase>	
+					<ImpegnoBase>
+						<DescrizioneEstesa>Azione 2 - Introduzione delle tecniche di semina su sodo  </DescrizioneEstesa>
+					</ImpegnoBase>	
+					<ImpegnoBase>
+						<DescrizioneEstesa>Azione 3 - non c'è due senza tre  </DescrizioneEstesa>
+					</ImpegnoBase>	
+				</ImpegniDibase>	
+				<ImpegniAggiuntivi>
+					<ImpegnoAggiuntivo>
+						<DescrizioneEstesaAgg>Coltivazione di erbai autunno-vernini da sovescio  </DescrizioneEstesaAgg>
+					</ImpegnoAggiuntivo>	
+					<ImpegnoAggiuntivo>
+						<DescrizioneEstesaAgg>Secondo impegno aggiuntivo </DescrizioneEstesaAgg>
+					</ImpegnoAggiuntivo>
+				</ImpegniAggiuntivi>
+			</DettaglioOperazioniImpegni>
+			<DettaglioOperazioniImpegni>
+				<Operazione>10.1.1.A.4C Produzione integrata </Operazione>
+				<Annualita> 1 </Annualita>
+				<TipoDomanda>Nuova adesione</TipoDomanda>
+				<DataInizioImpegno>01/01/2016</DataInizioImpegno>
+				<DataFineImpegno>01/01/2020</DataFineImpegno>
+				<NumDomandaPrecedente>1234678901</NumDomandaPrecedente>
+				<ImpegniDibase>
+					<ImpegnoBase>
+						<DescrizioneEstesa>Azione 1- Introduzione delle tecniche di minima lavorazione  </DescrizioneEstesa>
+					</ImpegnoBase>	
+					<ImpegnoBase>
+						<DescrizioneEstesa>Azione 2 - Introduzione delle tecniche di semina su sodo  </DescrizioneEstesa>
+					</ImpegnoBase>	
+				</ImpegniDibase>	
+				<ImpegniAggiuntivi>
+					<ImpegnoAggiuntivo>
+						<DescrizioneEstesaAgg>Coltivazione di erbai autunno-vernini da sovescio  </DescrizioneEstesaAgg>
+					</ImpegnoAggiuntivo>	
+					<ImpegnoAggiuntivo>
+						<DescrizioneEstesaAgg>Secondo impegno aggiuntivo </DescrizioneEstesaAgg>
+					</ImpegnoAggiuntivo>
+					<ImpegnoAggiuntivo>
+						<DescrizioneEstesaAgg>Terzo impegno aggiuntivo </DescrizioneEstesaAgg>
+					</ImpegnoAggiuntivo>
+				</ImpegniAggiuntivi>
+			</DettaglioOperazioniImpegni>			
+		</ElencoOperazioniImpegni>
+	</QuadroOperazioniImpegni>
+	<QuadroDatiPascolamento>
+		<Visibility>false</Visibility>
+		<TitoloSezioneDatiPascolamento> QUADRO Dati di Pascolamento  </TitoloSezioneDatiPascolamento>
+		<ElencoPascoli>
+		  <RigaElencoPascoli>	
+			<DettaglioPascoli>
+				<RigaDettaglioPascoli>
+					<ZonaPascolo> Mezza Montagna</ZonaPascolo>
+					<DataInizioPascolo>02/06/2012</DataInizioPascolo>
+					<DataFinePascolo>11/10/2012</DataFinePascolo>
+					<GiorniPascolo>215</GiorniPascolo>
+				</RigaDettaglioPascoli>
+			</DettaglioPascoli>
+			<CapiInDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>02524060049</CFProprietario>
+					<DenominazioneProprietario>AGRI 2000 DI LIBRA ERALDO E C. S.S.</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>6 mesi - 1 anno, femmine</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>02524060049</CFProprietario>
+					<DenominazioneProprietario>AGRI 2000 DI LIBRA ERALDO E C. S.S.</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>6 mesi - 1 anno, femmine</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+			</CapiInDetenzione>
+			<CapiInMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+										<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+			</CapiInMonticazione>
+		</RigaElencoPascoli>	
+		<RigaElencoPascoli>			
+			<DettaglioPascoli>
+				<RigaDettaglioPascoli>
+					<ZonaPascolo> Mezza Montagna</ZonaPascolo>
+					<DataInizioPascolo>02/06/2012</DataInizioPascolo>
+					<DataFinePascolo>11/10/2012</DataFinePascolo>
+					<GiorniPascolo>215</GiorniPascolo>
+				</RigaDettaglioPascoli>
+			</DettaglioPascoli>
+			<CapiInDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>02524060049</CFProprietario>
+					<DenominazioneProprietario>AGRI 2000 DI LIBRA ERALDO E C. S.S.</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>6 mesi - 1 anno, femmine</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+			</CapiInDetenzione>
+			<CapiInMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+				</CapiInMonticazione>
+			</RigaElencoPascoli>	
+  <RigaElencoPascoli>	
+			<DettaglioPascoli>
+				<RigaDettaglioPascoli>
+					<ZonaPascolo> Mezza Montagna</ZonaPascolo>
+					<DataInizioPascolo>02/06/2012</DataInizioPascolo>
+					<DataFinePascolo>11/10/2012</DataFinePascolo>
+					<GiorniPascolo>215</GiorniPascolo>
+				</RigaDettaglioPascoli>
+			</DettaglioPascoli>
+			<CapiInDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>02524060049</CFProprietario>
+					<DenominazioneProprietario>AGRI 2000 DI LIBRA ERALDO E C. S.S.</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>6 mesi - 1 anno, femmine</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>FBBCRL66H42L219Q</CFProprietario>
+					<DenominazioneProprietario>La Bella Valchiusella di Chiesa M. and family </DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+			</CapiInDetenzione>
+			<CapiInMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+			</CapiInMonticazione>
+		</RigaElencoPascoli>	
+		<RigaElencoPascoli>			
+			<DettaglioPascoli>
+				<RigaDettaglioPascoli>
+					<ZonaPascolo> Mezza Montagna</ZonaPascolo>
+					<DataInizioPascolo>02/06/2012</DataInizioPascolo>
+					<DataFinePascolo>11/10/2012</DataFinePascolo>
+					<GiorniPascolo>215</GiorniPascolo>
+				</RigaDettaglioPascoli>
+			</DettaglioPascoli>
+			<CapiInDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203CN271</CodiceAziendaZootecnica>
+					<CFProprietario>02524060049</CFProprietario>
+					<DenominazioneProprietario>AGRI 2000 DI LIBRA ERALDO E C. S.S.</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>6 mesi - 1 anno, femmine</Categoria>
+					<CapiDetenzione>25</CapiDetenzione>
+					<Uba>17.5</Uba>
+					<CapiAlPascolo>15</CapiAlPascolo>
+					<UPAPascolo>0.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+				<DettaglioCapiDetenzione>
+					<CodiceAziendaZootecnica> 203TO271</CodiceAziendaZootecnica>
+					<CFProprietario>01234567891</CFProprietario>
+					<DenominazioneProprietario>Società semplice le giovenche felici</DenominazioneProprietario>
+					<Specie>Bovini allevamento</Specie>
+					<Categoria>2-3 anni, giovenche</Categoria>
+					<CapiDetenzione>205</CapiDetenzione>
+					<Uba>57.5</Uba>
+					<CapiAlPascolo>150</CapiAlPascolo>
+					<UPAPascolo>25.5</UPAPascolo>
+				</DettaglioCapiDetenzione>
+			</CapiInDetenzione>
+			<CapiInMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+					<DettaglioCapiMonticazione>
+						<CodiceAziendaZootMonti>203CN271</CodiceAziendaZootMonti>
+						<CFProprietarioMonti>FBBCRL66H42L219Q</CFProprietarioMonti>
+						<DenominazioneProprMonti>AZ. AGRICOLA LA BELLA CANAVESANA</DenominazioneProprMonti>
+						<SpecieMonti>Bovini allevamento</SpecieMonti>
+						<CategoriaMonti>6 mesi - 1 anno, femmine</CategoriaMonti>
+						<CapiAlPascoloMonti>13</CapiAlPascoloMonti>
+						<UPAPascoloMonti>10.2</UPAPascoloMonti>
+					</DettaglioCapiMonticazione>
+				</CapiInMonticazione>
+			</RigaElencoPascoli>				
+	    </ElencoPascoli>
+	</QuadroDatiPascolamento>
+	<QuadroDatiCaniGuardiania>
+		<Visibility>true</Visibility>
+		<TitoloSezioneCaniDaGuardiania> Quadro - Cani da Guardiania </TitoloSezioneCaniDaGuardiania>
+		<ElencoCani>
+			<DettaglioCani>
+				<Razza> Cane pastore del Caucaso </Razza>
+				<CodiceMicroChip> 84584654 </CodiceMicroChip>
+				<UlterioriInformazioni> E tutti insieme vogliam vedere braccobaldo show </UlterioriInformazioni>
+			</DettaglioCani>
+			<DettaglioCani>
+				<Razza> Maremmano - Abruzzese </Razza>
+				<CodiceMicroChip> 184584654 </CodiceMicroChip>
+				<UlterioriInformazioni> Scoooby doo pensaci tuuuu </UlterioriInformazioni>
+			</DettaglioCani>
+			<DettaglioCani>
+				<Razza> Cane da montagna dei Pirenei </Razza>
+				<CodiceMicroChip> jkfvafbv54 </CodiceMicroChip>
+				<UlterioriInformazioni> Sansone cane fifone </UlterioriInformazioni>
+			</DettaglioCani>
+		</ElencoCani>
+	</QuadroDatiCaniGuardiania>
+	<QuadroRazzeProtette>
+		<Visibility>false</Visibility>
+		<TitoloSezioneRazzeProtette> QUADRO Razze minacciate di abbandono </TitoloSezioneRazzeProtette>
+		<ElencoRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>	
+<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>	
+<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>	
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>	
+<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>	
+<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>Altre Vacche</Categoria>
+				<CapiDetenzione>299</CapiDetenzione>
+				<Uba>289.5</Uba>
+				<RazzaProtetta>Valdostana pezzata nera</RazzaProtetta>
+				<CapiRazzaProtetta>10</CapiRazzaProtetta>
+				<UbaProtetti>9,5</UbaProtetti>
+			</DettaglioRazze>
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Ovini</Specie>
+				<Categoria>Giovani</Categoria>
+				<CapiDetenzione>39</CapiDetenzione>
+				<Uba>5.85</Uba>
+				<RazzaProtetta>Delle Langhe</RazzaProtetta>
+				<CapiRazzaProtetta></CapiRazzaProtetta>
+				<UbaProtetti></UbaProtetti>
+			</DettaglioRazze>				
+			<DettaglioRazze>
+				<CodiceAziendaZootecnica>003AL017</CodiceAziendaZootecnica>
+				<CFProprietario>BRZMRC65S29D969M</CFProprietario>
+				<DenominazioneProprietario>BRUZZONE MARCO</DenominazioneProprietario>
+				<Specie>Bovini allevamento</Specie>
+				<Categoria>6 mesi - 1 anno, femmine</Categoria>
+				<CapiDetenzione>29.999</CapiDetenzione>
+				<Uba>28999.5</Uba>
+				<RazzaProtetta>Pezzata rossa d'Oropa</RazzaProtetta>
+				<CapiRazzaProtetta>11.111</CapiRazzaProtetta>
+				<UbaProtetti>11.000,5</UbaProtetti>
+			</DettaglioRazze>				
+		</ElencoRazze>
+	</QuadroRazzeProtette>
+		<QuadroParticelleImpegno>
+		<Visibility>true</Visibility>
+		<TitoloSezioneParticelleImpegno> QUADRO Particelle e Impegni </TitoloSezioneParticelleImpegno>
+		 <ElencoClassiPremio>
+				<RigaClassiParticelle>	
+						<TabClassePremio>
+							<RigaClassePremio>
+									<Operazione> Operazione </Operazione>
+									<DescrizioneOperazione> Descrizione Operazione </DescrizioneOperazione>
+									<CodicePremio>CodicePremio </CodicePremio>
+									<DescrizionePremio>Descrizione Premio</DescrizionePremio>
+							</RigaClassePremio>		
+						</TabClassePremio>				
+						<TabElencoParticelle> 
+								<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>SALUZZO (CN)</Comune>
+									<Sezione> </Sezione>
+									<Foglio> 22 </Foglio>
+									<Particella>65</Particella>
+									<Subalterno> </Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>25.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>25.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>SALUZZO (CN)</Comune>
+									<Sezione> </Sezione>
+									<Foglio> 22 </Foglio>
+									<Particella>65</Particella>
+									<Subalterno> </Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>25.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>25.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>TARANTASCA (CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>SALUZZO (CN)</Comune>
+									<Sezione> </Sezione>
+									<Foglio> 22 </Foglio>
+									<Particella>65</Particella>
+									<Subalterno> </Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>25.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>25.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>SALUZZO (CN)</Comune>
+									<Sezione> </Sezione>
+									<Foglio> 22 </Foglio>
+									<Particella>65</Particella>
+									<Subalterno> </Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>25.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>25.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>TARANTASCA (CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>SALUZZO (CN)</Comune>
+									<Sezione> </Sezione>
+									<Foglio> 22 </Foglio>
+									<Particella>65</Particella>
+									<Subalterno> </Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>25.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>25.7894</SuperficieImpegno>
+								</RigaDatiParticella>									
+						</TabElencoParticelle>
+				</RigaClassiParticelle>	
+				<RigaClassiParticelle>							
+						<TabClassePremio>
+							<RigaClassePremio>
+									<Operazione> Operazione 22 </Operazione>
+									<DescrizioneOperazione> Descrizione Operazione 22</DescrizioneOperazione>
+									<CodicePremio>CodicePremio 22 </CodicePremio>
+									<DescrizionePremio>Descrizione Premio 22</DescrizionePremio>
+							</RigaClassePremio>		
+						</TabClassePremio>				
+						<TabElencoParticelle> 
+								<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+								<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+																<RigaDatiParticella>
+									<Comune>TARANTASCA(CN)</Comune>
+									<Sezione>A</Sezione>
+									<Foglio> 1234 </Foglio>
+									<Particella>13245</Particella>
+									<Subalterno>ABC</Subalterno>
+									<Conduzione> altre forme</Conduzione>
+									<ZonaAltimetrica>Pianura</ZonaAltimetrica>
+									<CodiceSuolo>562</CodiceSuolo>
+									<CodiceDestinazione>DST</CodiceDestinazione>				
+									<CodiceUso>013</CodiceUso>
+									<CodiceQualita>001</CodiceQualita>
+									<CodiceVarieta>004</CodiceVarieta>
+									<SuperficieAmmissibile>0.0789</SuperficieAmmissibile>
+									<SuperficieImpegno>0.7894</SuperficieImpegno>
+								</RigaDatiParticella>	
+						</TabElencoParticelle>
+				</RigaClassiParticelle>			
+		</ElencoClassiPremio>
+		<LegendaUsiDelSuoloImp>
+			<DettaglioLegendaImp>
+				<CodiceSuoloLeg>562</CodiceSuoloLeg>
+				<DescrizioneSuolo>ERBA MEDICA</DescrizioneSuolo>
+				<CodiceDestinazioneLeg>DST</CodiceDestinazioneLeg>
+				<DescrizioneDestinazione> Descrizione Destinazione </DescrizioneDestinazione>
+				<CodiceUsoLeg>013</CodiceUsoLeg>
+				<DescrizioneUso>CALLA </DescrizioneUso>
+				<CodiceQualitaLeg>001</CodiceQualitaLeg>
+				<DescrizioneQualita>SEMINATIVO</DescrizioneQualita>
+				<CodiceVarietaLeg>004</CodiceVarietaLeg>
+				<DescrizioneVarieta>FIORE RECISO</DescrizioneVarieta>
+			</DettaglioLegendaImp>
+			<DettaglioLegendaImp>
+				<CodiceSuoloLeg>562</CodiceSuoloLeg>
+				<DescrizioneSuolo>ERBA MEDICA</DescrizioneSuolo>
+				<CodiceDestinazioneLeg>DST</CodiceDestinazioneLeg>
+				<DescrizioneDestinazione> Descrizione Destinazione </DescrizioneDestinazione>
+				<CodiceUsoLeg>013</CodiceUsoLeg>
+				<DescrizioneUso>CALLA </DescrizioneUso>
+				<CodiceQualitaLeg>001</CodiceQualitaLeg>
+				<DescrizioneQualita>SEMINATIVO</DescrizioneQualita>
+				<CodiceVarietaLeg>004</CodiceVarietaLeg>
+				<DescrizioneVarieta>FIORE RECISO</DescrizioneVarieta>
+			</DettaglioLegendaImp>
+		</LegendaUsiDelSuoloImp>
+	</QuadroParticelleImpegno>
+	<QuadroSpese>
+		<Visibility>true</Visibility>
+		<TitoloSezioneSpese> Quadro - Rendicontazione Spese </TitoloSezioneSpese>
+		<TabellaSpese>
+			<RigaSpese>
+				<Progressivo>1</Progressivo>
+				<DescrizioneIntervento>primo intervento</DescrizioneIntervento>
+				<ImportoAmmesso>541645,22</ImportoAmmesso>
+				<ImportoContributo>541645,22</ImportoContributo>
+				<ImportoSpesa>541645,22</ImportoSpesa>
+				<ContributoRichiesto>541645,22</ContributoRichiesto>
+			</RigaSpese>
+			<RigaSpese>
+				<Progressivo>2</Progressivo>
+				<DescrizioneIntervento>secondo intervento</DescrizioneIntervento>
+				<ImportoAmmesso>541645,22</ImportoAmmesso>
+				<ImportoContributo>541645,22</ImportoContributo>
+				<ImportoSpesa>541645,22</ImportoSpesa>
+				<ContributoRichiesto>541645,22</ContributoRichiesto>
+			</RigaSpese>
+			<RigaSpese>
+				<Progressivo>3</Progressivo>
+				<DescrizioneIntervento>terzo intervento</DescrizioneIntervento>
+				<ImportoAmmesso>541645,22</ImportoAmmesso>
+				<ImportoContributo>541645,22</ImportoContributo>
+				<ImportoSpesa>541645,22</ImportoSpesa>
+				<ContributoRichiesto>541645,22</ContributoRichiesto>
+			</RigaSpese>
+			<RigaSpese>
+				<Progressivo>4</Progressivo>
+				<DescrizioneIntervento>ventesimo intervento</DescrizioneIntervento>
+				<ImportoAmmesso>541645,22</ImportoAmmesso>
+				<ImportoContributo>541645,22</ImportoContributo>
+				<ImportoSpesa>541645,22</ImportoSpesa>
+				<ContributoRichiesto>541645,22</ContributoRichiesto>
+			</RigaSpese>
+		</TabellaSpese>
+		<TotaliSpese>
+			<TotImportoAmmesso>65584658,55</TotImportoAmmesso>
+			<TotImportoContributo>46584658,55</TotImportoContributo>
+			<TotImportoSpesa>4584658,55</TotImportoSpesa>
+			<TotContributoRichiesto>65464658,55</TotContributoRichiesto>
+		</TotaliSpese>
+	</QuadroSpese>
+	<QuadroDichiarazioni>
+		<Visibility>true</Visibility>
+		<TitoloSezioneDichiarazioni> Quadro - Dichiarazioni	</TitoloSezioneDichiarazioni>
+		<GruppiDichiarazioni>
+			
+			<GruppoDichiarazioni>
+				<TitoloGruppoDichiarazioni>IL SOTTOSCRITTO  MASSIMO DICHIARA: </TitoloGruppoDichiarazioni>
+				<Dichiarazioni>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 1) di essere agricoltore ai sensi dell'art. 2, lettera a) del reg.(CE) 73/2009 e s.m.i.;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 2) di essere a conoscenza della normativa nazionale (D.P.R. n. 503/1999) che ha istituito il fascicolo aziendale e l'anagrafe delle imprese agroalimentari e quella regionale che ha istituito l'anagrafe agricola unica del TOBECONFIG (art. 28 della l.r. 14/2006, sostituito dall'art. 11 della l.r. 9/2007);  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 3) di essere a conoscenza degli atti e delle norme relativi al regime di condizionalità in riferimento al regolamento (CE) n. 73/2009 e s.m.i. come richiamato per lo sviluppo rurale dagli artt. 50 bis e 51 del reg. (CE) n.1698/2005 e s.m.i. e come definiti dalle vigenti norme nazionali (Decreto Ministeriale 22 dicembre 2009 n. 30125 modificato dal D.M. n. 27417 del 22 dicembre 2011) e dai provvedimenti applicativi regionali;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 4) di essere a conoscenza dei requisiti minimi di impiego dei fertilizzanti e dei prodotti fitosanitari e dei requisiti obbligatori supplementari, come previsti nel PSR 2007-2013;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 5) di essere a conoscenza delle prescrizioni previste per l'azione prescelta nell'ambito dei pagamenti agroambientali (di cui agli artt. 36 e 39 del reg. (CE) 1698/2005 e s.m.i.), dal reg. (CE) 1974/2006 e s.m.i, dal reg. (UE) 65/2011 e s.m.i., dal PSR 2007-2013 e dalle disposizioni applicative regionali, disponibili presso il sito internet della Regione o tramite richiesta agli Enti delegati (Province e Comunità Montane) o i soggetti che assistono gli agricoltori; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 6) di essere a conoscenza dell'obbligo di presentare le eventuali successive domande di pagamento a conferma degli impegni, in conformità alle successive disposizioni che saranno emanate dalle competenti autorità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 7) di essere a conoscenza che è un suo onere comunicare tempestivamente al proprio CAA e all'Ente delegato competente eventuali variazioni degli estremi di conto corrente bancario o postale sul quale effettuare l'erogazione dei contributi. Qualora non fornisse alcuna comunicazione ovvero le coordinate bancarie risultassero sbagliate o non più presenti in fascicolo, autorizza fin d'ora Arpea ad effettuare l'erogazione dei contributi sull'ultimo conto corrente bancario o postale valido dichiarato in fascicolo con liberazione di Arpea da ogni responsabilità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 8) di essere a conoscenza del fatto che in caso di indebiti percepimenti dovuti ad affermazioni non rispondenti al vero, verranno applicate le sanzioni amministrative e penali previste dalle norme nazionali, in particolare dalla legge 898/86 e s.m.i. e dalla legge 689/81 e s.m.i; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 9) di essere a conoscenza, inoltre, che ai sensi del bando regionale che ha regolamentato per la programmazione 2007-2013 gli aumenti delle superfici, non potrà essere garantito il pagamento delle superfici aggiunte; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 10) di essere a conoscenza, inoltre, che al superamento delle riduzioni di superficie consentite dalla misura 214 del PSR (10% complessivo nel quinquennio in caso di cessione di terreni che non sia seguita da subentro degli impegni) verrà operato il recupero degli importi percepiti in riferimento alle superfici sottratte agli impegni; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 11) di essere a conoscenza che il reg. (UE) n. 1310/2013 stabilisce alcune disposizioni transitorie sul sostegno allo sviluppo rurale da parte del FEASR e sancisce all'articolo 3 par. 1 l'ammissibilità al beneficio di un contributo del FEASR nel periodo di programmazione 2014-2020 delle spese relative agli impegni giuridici nei confronti dei beneficiari sostenute nell'ambito, tra l'altro, delle misure di cui all'art. 36 del reg.(CE) 1698/2005, di cui ai pagamenti agro ambientali; </TestoDichiarazione>
+					</Dichiarazione>
+				</Dichiarazioni>
+			</GruppoDichiarazioni>
+			
+		</GruppiDichiarazioni>
+	</QuadroDichiarazioni>
+	<QuadroImpegni>
+		<Visibility>true</Visibility>
+		<GruppiImpegni>
+			<GruppoImpegni>
+				<TitoloGruppoImpegni> IL SOTTOSCRITTO </TitoloGruppoImpegni>
+				<Impegni>
+					<Impegno>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoImpegno> ai sensi e per gli effetti della presente domanda di pagamento:  </TestoImpegno>
+					</Impegno>
+				</Impegni>
+			</GruppoImpegni>
+			<GruppoImpegni>
+				<TitoloGruppoImpegni> A) DICHIARA: </TitoloGruppoImpegni>
+				<Impegni>
+					<Impegno>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoImpegno> 1) di essere agricoltore ai sensi dell'art. 2, lettera a) del reg.(CE) 73/2009 e s.m.i.;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 2) di essere a conoscenza della normativa nazionale (D.P.R. n. 503/1999) che ha istituito il fascicolo aziendale e l'anagrafe delle imprese agroalimentari e quella regionale che ha istituito l'anagrafe agricola unica del TOBECONFIG (art. 28 della l.r. 14/2006, sostituito dall'art. 11 della l.r. 9/2007);  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoImpegno> 3) di essere a conoscenza degli atti e delle norme relativi al regime di condizionalità in riferimento al regolamento (CE) n. 73/2009 e s.m.i. come richiamato per lo sviluppo rurale dagli artt. 50 bis e 51 del reg. (CE) n.1698/2005 e s.m.i. e come definiti dalle vigenti norme nazionali (Decreto Ministeriale 22 dicembre 2009 n. 30125 modificato dal D.M. n. 27417 del 22 dicembre 2011) e dai provvedimenti applicativi regionali;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoImpegno> 4) di essere a conoscenza dei requisiti minimi di impiego dei fertilizzanti e dei prodotti fitosanitari e dei requisiti obbligatori supplementari, come previsti nel PSR 2007-2013;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 5) di essere a conoscenza delle prescrizioni previste per l'azione prescelta nell'ambito dei pagamenti agroambientali (di cui agli artt. 36 e 39 del reg. (CE) 1698/2005 e s.m.i.), dal reg. (CE) 1974/2006 e s.m.i, dal reg. (UE) 65/2011 e s.m.i., dal PSR 2007-2013 e dalle disposizioni applicative regionali, disponibili presso il sito internet della Regione o tramite richiesta agli Enti delegati (Province e Comunità Montane) o i soggetti che assistono gli agricoltori; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 6) di essere a conoscenza dell'obbligo di presentare le eventuali successive domande di pagamento a conferma degli impegni, in conformità alle successive disposizioni che saranno emanate dalle competenti autorità; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 7) di essere a conoscenza che è un suo onere comunicare tempestivamente al proprio CAA e all'Ente delegato competente eventuali variazioni degli estremi di conto corrente bancario o postale sul quale effettuare l'erogazione dei contributi. Qualora non fornisse alcuna comunicazione ovvero le coordinate bancarie risultassero sbagliate o non più presenti in fascicolo, autorizza fin d'ora Arpea ad effettuare l'erogazione dei contributi sull'ultimo conto corrente bancario o postale valido dichiarato in fascicolo con liberazione di Arpea da ogni responsabilità; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 8) di essere a conoscenza del fatto che in caso di indebiti percepimenti dovuti ad affermazioni non rispondenti al vero, verranno applicate le sanzioni amministrative e penali previste dalle norme nazionali, in particolare dalla legge 898/86 e s.m.i. e dalla legge 689/81 e s.m.i; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 9) di essere a conoscenza, inoltre, che ai sensi del bando regionale che ha regolamentato per la programmazione 2007-2013 gli aumenti delle superfici, non potrà essere garantito il pagamento delle superfici aggiunte; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 10) di essere a conoscenza, inoltre, che al superamento delle riduzioni di superficie consentite dalla misura 214 del PSR (10% complessivo nel quinquennio in caso di cessione di terreni che non sia seguita da subentro degli impegni) verrà operato il recupero degli importi percepiti in riferimento alle superfici sottratte agli impegni; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 11) di essere a conoscenza che il reg. (UE) n. 1310/2013 stabilisce alcune disposizioni transitorie sul sostegno allo sviluppo rurale da parte del FEASR e sancisce all'articolo 3 par. 1 l'ammissibilità al beneficio di un contributo del FEASR nel periodo di programmazione 2014-2020 delle spese relative agli impegni giuridici nei confronti dei beneficiari sostenute nell'ambito, tra l'altro, delle misure di cui all'art. 36 del reg.(CE) 1698/2005, di cui ai pagamenti agro ambientali; </TestoImpegno>
+					</Impegno>
+				</Impegni>
+			</GruppoImpegni>
+			<GruppoImpegni>
+				<TitoloGruppoImpegni> B) DICHIARA: </TitoloGruppoImpegni>
+				<Impegni>
+					<Impegno>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoImpegno> 1) di essere agricoltore ai sensi dell'art. 2, lettera a) del reg.(CE) 73/2009 e s.m.i.;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 2) di essere a conoscenza della normativa nazionale (D.P.R. n. 503/1999) che ha istituito il fascicolo aziendale e l'anagrafe delle imprese agroalimentari e quella regionale che ha istituito l'anagrafe agricola unica del TOBECONFIG (art. 28 della l.r. 14/2006, sostituito dall'art. 11 della l.r. 9/2007);  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 3) di essere a conoscenza degli atti e delle norme relativi al regime di condizionalità in riferimento al regolamento (CE) n. 73/2009 e s.m.i. come richiamato per lo sviluppo rurale dagli artt. 50 bis e 51 del reg. (CE) n.1698/2005 e s.m.i. e come definiti dalle vigenti norme nazionali (Decreto Ministeriale 22 dicembre 2009 n. 30125 modificato dal D.M. n. 27417 del 22 dicembre 2011) e dai provvedimenti applicativi regionali;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 4) di essere a conoscenza dei requisiti minimi di impiego dei fertilizzanti e dei prodotti fitosanitari e dei requisiti obbligatori supplementari, come previsti nel PSR 2007-2013;  </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 5) di essere a conoscenza delle prescrizioni previste per l'azione prescelta nell'ambito dei pagamenti agroambientali (di cui agli artt. 36 e 39 del reg. (CE) 1698/2005 e s.m.i.), dal reg. (CE) 1974/2006 e s.m.i, dal reg. (UE) 65/2011 e s.m.i., dal PSR 2007-2013 e dalle disposizioni applicative regionali, disponibili presso il sito internet della Regione o tramite richiesta agli Enti delegati (Province e Comunità Montane) o i soggetti che assistono gli agricoltori; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 6) di essere a conoscenza dell'obbligo di presentare le eventuali successive domande di pagamento a conferma degli impegni, in conformità alle successive disposizioni che saranno emanate dalle competenti autorità; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 7) di essere a conoscenza che è un suo onere comunicare tempestivamente al proprio CAA e all'Ente delegato competente eventuali variazioni degli estremi di conto corrente bancario o postale sul quale effettuare l'erogazione dei contributi. Qualora non fornisse alcuna comunicazione ovvero le coordinate bancarie risultassero sbagliate o non più presenti in fascicolo, autorizza fin d'ora Arpea ad effettuare l'erogazione dei contributi sull'ultimo conto corrente bancario o postale valido dichiarato in fascicolo con liberazione di Arpea da ogni responsabilità; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 8) di essere a conoscenza del fatto che in caso di indebiti percepimenti dovuti ad affermazioni non rispondenti al vero, verranno applicate le sanzioni amministrative e penali previste dalle norme nazionali, in particolare dalla legge 898/86 e s.m.i. e dalla legge 689/81 e s.m.i; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 9) di essere a conoscenza, inoltre, che ai sensi del bando regionale che ha regolamentato per la programmazione 2007-2013 gli aumenti delle superfici, non potrà essere garantito il pagamento delle superfici aggiunte; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 10) di essere a conoscenza, inoltre, che al superamento delle riduzioni di superficie consentite dalla misura 214 del PSR (10% complessivo nel quinquennio in caso di cessione di terreni che non sia seguita da subentro degli impegni) verrà operato il recupero degli importi percepiti in riferimento alle superfici sottratte agli impegni; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoImpegno> 11) di essere a conoscenza che il reg. (UE) n. 1310/2013 stabilisce alcune disposizioni transitorie sul sostegno allo sviluppo rurale da parte del FEASR e sancisce all'articolo 3 par. 1 l'ammissibilità al beneficio di un contributo del FEASR nel periodo di programmazione 2014-2020 delle spese relative agli impegni giuridici nei confronti dei beneficiari sostenute nell'ambito, tra l'altro, delle misure di cui all'art. 36 del reg.(CE) 1698/2005, di cui ai pagamenti agro ambientali; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<TestoImpegno> 12) di essere a conoscenza che è prevista una clausola di revisione per gli impegni della misura pagamenti agroambientali (corrispondenti all'articolo 39 del regolamento (CE) n.1698/2005), al fine di garantirne l'adeguamento in caso di modifica dei pertinenti criteri o requisiti obbligatori di cui all'articolo 39, paragrafo 3, del medesimo regolamento, stabiliti a norma degli articoli 5 e 6 e degli allegati II e III del regolamento (CE) n. 73/2009, nonché dei requisiti minimi relativi all'uso di fertilizzanti e prodotti fitosanitari e di altri pertinenti requisiti obbligatori prescritti dalla legislazione nazionale, che sono oltrepassati dagli impegni della misura Pagamenti agro ambientali; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 13) di essere consapevole che la presentazione delle domande di pagamento comporta preventivamente la presenza o l'attivazione di posizione nell'anagrafe agricola unica del TOBECONFIG e la costituzione del proprio fascicolo aziendale; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 14) di essere consapevole che l'accoglimento della presente domanda, con i diritti e gli obblighi connessi, è subordinato all'approvazione del PSR 2014-2020 da parte della commissione UE, alla codecisione di finanziamento comunitario e nazionale ed alla disponibilità di tali fondi e dei fondi regionali che necessitano di apposite procedure che possono prolungarsi nel tempo; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 15) di essere consapevole che l'impegno pluriennale assunto ai sensi della presente misura oltrepassa il 2013, termine del PSR 2007-2013, e che esso è considerato ammissibile al beneficio di un contributo del FEASR della programmazione 2014-2020 (art. 3 del reg. (UE) 1310/2013) se sottoposto alla clausola di revisione (ai sensi dell'art. 46 del reg. (CE) n.1974/2006 come modificato dal reg. (UE) 679/2011) degli impegni assunti; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<TestoImpegno> 16) di essere consapevole che non possono essere concessi aiuti del PSR a beneficiari che non soddisfino le condizioni previste al par. 16 del capitolo 11.4 del PSR 2007-2013 del TOBECONFIG; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 17) di essere consapevole che le autorità competenti potranno avere accesso, in ogni momento e senza restrizioni, agli appezzamenti e agli impianti dell'azienda e alle sedi del richiedente per le attività di ispezione previste, nonché a tutta la documentazione che riterranno necessaria ai fini dell'istruttoria e dei controlli, pena la decadenza della domanda secondo quanto previsto dall'art. 26 del regolamento (CE) 1122/2009 e s.m.i. e art. 4 paragrafo 6 del Reg. UE 65 del 2011 e s.m.i.; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 18) di essere consapevole che la mancanza dei requisiti di ammissibilità, l'inosservanza degli adempimenti tecnici, delle norme della condizionalità e dei requisiti obbligatori, nonché la mancata corrispondenza tra i dati dichiarati in domanda e quelli effettivamente riscontrati (anche mediante il sistema integrato di gestione e di controllo) riguardo alle superfici e agli animali rilevanti nel calcolo del premio comportano esclusioni, riduzioni, penalità e/o revoca della domanda [Titolo I del reg. (UE) 65/2011 e s.m.i., D.M. 22 dicembre 2009 n. 30125 e s.m.i., D.G.R. n. 80-9406 del 1/08/2008 e s.m.i (abrogata dalla D.G.R. N. 28-4503 del 27 giugno 2012) e successivi atti di recepimento regionale]; </TestoImpegno>
+					</Impegno>
+					<Impegno>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoImpegno> 19) di essere consapevole che l'aumento volontario delle superfici è determinato in rapporto alla superficie agricola utilizzata accertata nel primo anno e pertanto l'entità della nuova superficie a premio potrebbe essere diversa rispetto a quella ipotizzabile al momento della presentazione della domanda; </TestoImpegno>
+					</Impegno>
+				</Impegni>
+			</GruppoImpegni>
+		</GruppiImpegni>
+	</QuadroImpegni>
+	<QuadroAllegati>
+		<Visibility>true</Visibility>
+		<GruppiAllegati>
+			<GruppoAllegati>
+				<TitoloGruppoAllegati> Allegati Gruppo 1: </TitoloGruppoAllegati>
+				<Allegati>
+					<Allegato>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoAllegato> Fotocopia leggibile (fronte e retro) non autenticata di un documento di riconoscimento in corso di validità del richiedente.  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 2  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoAllegato> Allegato 3  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 4  </TestoAllegato>
+					</Allegato>
+				</Allegati>
+			</GruppoAllegati>
+			<GruppoAllegati>
+				<TitoloGruppoAllegati> Allegati Gruppo 2: </TitoloGruppoAllegati>
+				<Allegati>
+					<Allegato>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoAllegato> Fotocopia leggibile (fronte e retro) non autenticata di un documento di riconoscimento in corso di validità del richiedente.  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 2  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoAllegato> Allegato 3  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 4  </TestoAllegato>
+					</Allegato>
+				</Allegati>
+			</GruppoAllegati>
+		</GruppiAllegati>
+	</QuadroAllegati>
+	<QuadroParticelleImpegnoRinunciate>
+		<VisibilityRin>true</VisibilityRin>
+		<TabellaClassiPremioImpegnoGlobale>
+				<RigaClassiPremioImpegnoGlobale>	
+						<TabClassePremioImpegno>
+							<RigaClassePremioImpegno>
+									<Operaz>Codice 1</Operaz>
+									<DescOperazione> Descrizione Operazione </DescOperazione>
+									<DescImpegno>Descrizione dell'impegno</DescImpegno>
+									<MotivoEsclusione>Escluso per motivi di forza maggiore</MotivoEsclusione>
+							</RigaClassePremioImpegno>		
+						</TabClassePremioImpegno>				
+						<TabElencoParticelleRin> 
+								<RigaDatiParticellaRin>
+									<ComuneRin>TARANTASCA(CN)</ComuneRin>
+									<SezioneRin>A</SezioneRin>
+									<FoglioRin> 1234 </FoglioRin>
+									<ParticellaRin>13245</ParticellaRin>
+									<SubalternoRin>ABC</SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>0.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>0.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+								<RigaDatiParticellaRin>
+									<ComuneRin>SALUZZO (CN)</ComuneRin>
+									<SezioneRin> </SezioneRin>
+									<FoglioRin> 22 </FoglioRin>
+									<ParticellaRin>65</ParticellaRin>
+									<SubalternoRin> </SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>25.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>25.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+								<RigaDatiParticellaRin>
+									<ComuneRin>TARANTASCA(CN)</ComuneRin>
+									<SezioneRin>A</SezioneRin>
+									<FoglioRin> 1234 </FoglioRin>
+									<ParticellaRin>13245</ParticellaRin>
+									<SubalternoRin>ABC</SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>0.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>0.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+							</TabElencoParticelleRin>
+						<TotaleSupAmmissibileRin>132456,69</TotaleSupAmmissibileRin>
+						<TotaleSupImpegnoRin>65412,69</TotaleSupImpegnoRin>
+				</RigaClassiPremioImpegnoGlobale>	
+				<RigaClassiPremioImpegnoGlobale>							
+						<TabClassePremioImpegno>
+							<RigaClassePremioImpegno>
+									<Operaz>Codice 2</Operaz>
+									<DescOperazione> Descrizione Operazione </DescOperazione>
+									<DescImpegno>Descrizione dell'impegno</DescImpegno>
+									<MotivoEsclusione>Escluso per motivi di forza maggiore</MotivoEsclusione>
+							</RigaClassePremioImpegno>		
+						</TabClassePremioImpegno>				
+						<TabElencoParticelleRin> 
+								<RigaDatiParticellaRin>
+									<ComuneRin>TARANTASCA(CN)</ComuneRin>
+									<SezioneRin>A</SezioneRin>
+									<FoglioRin> 1234 </FoglioRin>
+									<ParticellaRin>13245</ParticellaRin>
+									<SubalternoRin>ABC</SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>0.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>0.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+								<RigaDatiParticellaRin>
+									<ComuneRin>TARANTASCA(CN)</ComuneRin>
+									<SezioneRin>A</SezioneRin>
+									<FoglioRin> 1234 </FoglioRin>
+									<ParticellaRin>13245</ParticellaRin>
+									<SubalternoRin>ABC</SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>0.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>0.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+								<RigaDatiParticellaRin>
+									<ComuneRin>TARANTASCA(CN)</ComuneRin>
+									<SezioneRin>A</SezioneRin>
+									<FoglioRin> 1234 </FoglioRin>
+									<ParticellaRin>13245</ParticellaRin>
+									<SubalternoRin>ABC</SubalternoRin>
+									<ConduzioneRin> altre forme</ConduzioneRin>
+									<ZonaAltimetricaRin>Pianura</ZonaAltimetricaRin>
+									<CodiceSuoloRin>562</CodiceSuoloRin>
+									<CodiceDestinazioneRin>DST</CodiceDestinazioneRin>				
+									<CodiceUsoRin>013</CodiceUsoRin>
+									<CodiceQualitaRin>001</CodiceQualitaRin>
+									<CodiceVarietaRin>004</CodiceVarietaRin>
+									<SuperficieAmmissibileRin>0.0789</SuperficieAmmissibileRin>
+									<SuperficieImpegnoRin>0.7894</SuperficieImpegnoRin>
+								</RigaDatiParticellaRin>	
+						</TabElencoParticelleRin>
+						<TotaleSupAmmissibileRin>132456,69</TotaleSupAmmissibileRin>
+						<TotaleSupImpegnoRin>65412,69</TotaleSupImpegnoRin>
+			</RigaClassiPremioImpegnoGlobale>		
+		</TabellaClassiPremioImpegnoGlobale>
+		<TabLegendaUsiSuoloImpRin>
+			<RigaLegendaUsiSuoloImpRin>
+				<CodiceSuoloLegRin>562</CodiceSuoloLegRin>
+				<DescrizioneSuoloRin>ERBA MEDICA</DescrizioneSuoloRin>
+				<CodiceDestinazioneLegRin>DST</CodiceDestinazioneLegRin>
+				<DescrizioneDestinazioneRin> Descrizione Destinazione </DescrizioneDestinazioneRin>
+				<CodiceUsoLegRin>013</CodiceUsoLegRin>
+				<DescrizioneUsoRin>CALLA </DescrizioneUsoRin>
+				<CodiceQualitaLegRin>001</CodiceQualitaLegRin>
+				<DescrizioneQualitaRin>SEMINATIVO</DescrizioneQualitaRin>
+				<CodiceVarietaLegRin>004</CodiceVarietaLegRin>
+				<DescrizioneVarietaRin>FIORE RECISO</DescrizioneVarietaRin>
+			</RigaLegendaUsiSuoloImpRin>
+			<RigaLegendaUsiSuoloImpRin>
+				<CodiceSuoloLegRin>562</CodiceSuoloLegRin>
+				<DescrizioneSuoloRin>ERBA MEDICA</DescrizioneSuoloRin>
+				<CodiceDestinazioneLegRin>DST</CodiceDestinazioneLegRin>
+				<DescrizioneDestinazioneRin> Descrizione Destinazione </DescrizioneDestinazioneRin>
+				<CodiceUsoLegRin>013</CodiceUsoLegRin>
+				<DescrizioneUsoRin>CALLA </DescrizioneUsoRin>
+				<CodiceQualitaLegRin>001</CodiceQualitaLegRin>
+				<DescrizioneQualitaRin>SEMINATIVO</DescrizioneQualitaRin>
+				<CodiceVarietaLegRin>004</CodiceVarietaLegRin>
+				<DescrizioneVarietaRin>FIORE RECISO</DescrizioneVarietaRin>
+			</RigaLegendaUsiSuoloImpRin>
+		</TabLegendaUsiSuoloImpRin>
+	</QuadroParticelleImpegnoRinunciate>
+	<QuadroDateFineLavori>
+		<Visibility>true</Visibility>
+		<TitoloFineLavori> Quadro - Date Fine Lavori	</TitoloFineLavori>
+		<SezDateFineLavori>
+			<DataProroga> 02/06/2016  </DataProroga>
+			<NoteDateFineLavori>Ci fanno compagnia certe lettera d'amoreParole che restano con noiE non andiamo via Ma nascondiamo del dolore Che scivola, lo sentiremo poiAbbiamo troppa fantasia, e se diciamo una bugia È una mancata verità che prima o poi succederà Cambia il vento ma noi no E se ci trasformiamo un po' È per la voglia di piacere a chi c'è già o potrà arrivare a stare con noi</NoteDateFineLavori>
+		</SezDateFineLavori>
+	</QuadroDateFineLavori>
+	<QuadroAvvioCorsi>
+		<Visibility>true</Visibility>
+		<TitoloSezioneAvvioCorsi> Quadro - Avvio Corsi </TitoloSezioneAvvioCorsi>
+		<Interventi>
+			<Intervento>
+				<Numero> 1 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+				<DataAvvioCorso>12/02/2017</DataAvvioCorso>
+			</Intervento>
+			<Intervento>
+				<Numero> 2 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+				<DataAvvioCorso>14/01/2017</DataAvvioCorso>
+			</Intervento>
+			<Intervento>
+				<Numero>  3 </Numero>
+				<TipoIntervento> Materiale agrario </TipoIntervento>
+				<DescrizioneIntervento>Costruzione/ristrutturazione impianti fissi - Essiccatoio mais in sostituzione di
+quello gia presente ormai obsoleto e fuori normativa. Descrizione aggiuntiva </DescrizioneIntervento>
+				<Comuni> MAGLIANO ALPI (CN) </Comuni>
+				<DatoValoreUM> Numero 1</DatoValoreUM>
+				<Importo> 12200.00 </Importo>
+			</Intervento>
+		</Interventi>
+	<TotaleInvestimento> 36600.00</TotaleInvestimento>
+	</QuadroAvvioCorsi>
+	<QuadroVoltura>
+    <DenAzienda>str1234</DenAzienda>
+    <SedeLegale>str1234</SedeLegale>
+    <LegaleRappr>str1234</LegaleRappr>
+    <Motivazione>str1234str12</Motivazione>
+    <Visibility>true</Visibility>
+  </QuadroVoltura>
+  <QuadroAttestazioniCAA>
+    <Visibility>true</Visibility>
+	<DataLuogo>Cuneo - 02/12/2017</DataLuogo>
+	<FlagConflitto>true</FlagConflitto>
+    <NomeUtenteConnesso>Utente Connesso</NomeUtenteConnesso>
+    <SezioneResponsabile>
+      <ResponsabileCAA>TIRONE MAURIZIO</ResponsabileCAA>
+    </SezioneResponsabile>
+    <DenominazioneCAA>123.456.789 - CAA COLDIRETTI - CUNEO</DenominazioneCAA>
+  </QuadroAttestazioniCAA>
+</Domanda>

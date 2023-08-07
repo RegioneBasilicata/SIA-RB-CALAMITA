@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2018-08-24T15:26:31 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroOperazioniInCampo" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="becd37bd-d389-46bd-b7af-880c97bd7f9d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroOperazioniInCampo/ElencoOperazioniInCampo]]>
+	</queryString>
+	<field name="Azione" class="java.lang.String">
+		<fieldDescription><![CDATA[DettaglioOperazioneInCampo/Azione]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="50">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<textField>
+				<reportElement positionType="Float" x="100" y="10" width="80" height="25" uuid="b4ef90e8-9df4-4d5b-aec4-0398e408903e"/>
+				<textFieldExpression><![CDATA[$F{Azione}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+</jasperReport>

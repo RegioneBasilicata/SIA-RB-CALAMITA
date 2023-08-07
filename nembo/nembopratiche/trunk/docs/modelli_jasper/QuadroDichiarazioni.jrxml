@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.1.final using JasperReports Library version 6.2.1  -->
+<!-- 2021-09-07T11:52:23 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroDichiarazioni" pageWidth="483" pageHeight="802" columnWidth="483" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="efd924df-d6dc-43a5-a16b-f00c2b39ce7e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="pratica_xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<subDataset name="ds_testo" uuid="36985a62-8ef1-483f-bffb-4252bc736aa8">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="pratica_xml"/>
+		<parameter name="XML_DATA_DOCUMENT" class="org.w3c.dom.Document" isForPrompting="false"/>
+		<parameter name="XML_INPUT_STREAM" class="java.io.InputStream" isForPrompting="false"/>
+		<parameter name="XML_FILE" class="java.io.File" isForPrompting="false"/>
+		<parameter name="net.sf.jasperreports.xml.source" class="java.lang.String" isForPrompting="false"/>
+		<parameter name="XML_DATE_PATTERN" class="java.lang.String" isForPrompting="false"/>
+		<parameter name="XML_NUMBER_PATTERN" class="java.lang.String" isForPrompting="false"/>
+		<parameter name="XML_LOCALE" class="java.util.Locale" isForPrompting="false"/>
+		<parameter name="XML_TIME_ZONE" class="java.util.TimeZone" isForPrompting="false"/>
+		<queryString language="XPath">
+			<![CDATA[/Domanda/QuadroDichiarazioni/GruppiDichiarazioni/GruppoDichiarazioni/Dichiarazioni/Dichiarazione]]>
+		</queryString>
+		<field name="TestoDichiarazione" class="java.lang.String">
+			<fieldDescription><![CDATA[TestoDichiarazione]]></fieldDescription>
+		</field>
+		<group name="TestoDichiarazione">
+			<groupExpression><![CDATA[$F{TestoDichiarazione}]]></groupExpression>
+		</group>
+	</subDataset>
+	<parameter name="XML_DATA_DOCUMENT" class="org.w3c.dom.Document" isForPrompting="false"/>
+	<parameter name="XML_INPUT_STREAM" class="java.io.InputStream" isForPrompting="false"/>
+	<parameter name="XML_FILE" class="java.io.File" isForPrompting="false"/>
+	<parameter name="net.sf.jasperreports.xml.source" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="XML_DATE_PATTERN" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="XML_NUMBER_PATTERN" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="XML_LOCALE" class="java.util.Locale" isForPrompting="false"/>
+	<parameter name="XML_TIME_ZONE" class="java.util.TimeZone" isForPrompting="false"/>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroDichiarazioni/GruppiDichiarazioni/GruppoDichiarazioni]]>
+	</queryString>
+	<field name="TitoloGruppoDichiarazioni" class="java.lang.String">
+		<fieldDescription><![CDATA[TitoloGruppoDichiarazioni]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="74">
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="43" width="483" height="20" uuid="d4c2c93a-d253-47b4-a83d-a025ddb6cc4a"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="ds_testo" uuid="00709a02-d9d8-440e-9edb-b49a3ad15762">
+						<datasetParameter name="XML_DATA_DOCUMENT">
+							<datasetParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_INPUT_STREAM">
+							<datasetParameterExpression><![CDATA[$P{XML_INPUT_STREAM}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_FILE">
+							<datasetParameterExpression><![CDATA[$P{XML_FILE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="net.sf.jasperreports.xml.source">
+							<datasetParameterExpression><![CDATA[$P{net.sf.jasperreports.xml.source}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_DATE_PATTERN">
+							<datasetParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_NUMBER_PATTERN">
+							<datasetParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_LOCALE">
+							<datasetParameterExpression><![CDATA[$P{XML_LOCALE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="XML_TIME_ZONE">
+							<datasetParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></datasetParameterExpression>
+						</datasetParameter>
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource) $P{REPORT_DATA_SOURCE}).subDataSource("//Dichiarazioni/Dichiarazione")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="20" width="483">
+						<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+							<reportElement x="0" y="0" width="483" height="15" uuid="a06db612-9697-42d3-9b11-8097fca1f837"/>
+							<textElement textAlignment="Justified" markup="html">
+								<font fontName="DejaVu Sans"/>
+							</textElement>
+							<textFieldExpression><![CDATA[$F{TestoDichiarazione}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="483" height="25" uuid="12ce0f9b-9bbc-4336-a6f4-cba992b1c2df"/>
+				<box padding="3">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TitoloGruppoDichiarazioni}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

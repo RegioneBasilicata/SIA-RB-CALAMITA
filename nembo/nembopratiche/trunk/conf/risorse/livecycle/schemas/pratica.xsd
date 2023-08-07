@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xfa="http://www.adobe.com/2003/xfa" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Global"/>
+        <xs:element ref="Header"/>
+        <xs:element ref="QuadroDatiIdentificativi"/>
+		<xs:element ref="QuadroContoCorrente"/>
+		<xs:element ref="QuadroAnticipo"/>
+		<xs:element ref="QuadroInterventi"/>
+		<xs:element ref="QuadroAvvioCorsi"/>
+        <xs:element ref="QuadroEconomico"/>
+		<xs:element ref="QuadroColtureAziendali"/>
+        <xs:elemetn ref="QuadroPLVVegetale"/>
+		<xs:element ref="QuadroPLVZootecnica"/>
+		<xs:element ref="QuadroScorte"/>
+		<xs:element ref="QuadroDanni"/>
+		<xs:element ref="QuadroDichiarazioni"/>
+        <xs:element ref="QuadroImpegni"/>
+        <xs:element ref="QuadroAllegati"/>
+		<xs:element ref="QuadroAttestazioniCAA"/>
+		<xs:element ref="QuadroPremio"/>
+		<xs:element ref="QuadroPartecipanti"/>
+		<xs:element ref="QuadroParticelleImpegnoGr"/>
+		<xs:element ref="QuadroPartGrafImpegnoRinunciate"/>
+		<xs:element ref="QuadroDatiCaniGuardianiaInv"/>
+		<xs:element ref="QuadroSostRazze"/>
+		<xs:element ref="QuadroBorgate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Global">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Bozza"/>
+		<xs:element ref="IsValidazioneGrafica"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bozza" type="xs:boolean"/>
+  <xs:element name="IsValidazioneGrafica" type="xs:boolean"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+  <xs:element name="FlagObbligatorio" type="xs:boolean"/>
+  <xs:element name="FlagSelezionato" type="xs:boolean"/>
+  <xs:element name="Header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LogoCentrale"/>
+        <xs:element ref="Titolo1"/>
+        <xs:element ref="Titolo2"/>
+        <xs:element ref="Titolo3"/>
+        <xs:element ref="Bando"/>
+        <xs:element ref="Operazioni"/>
+        <xs:element ref="Oggetto"/>
+        <xs:element ref="Specificita"/>
+        <xs:element ref="Castelletto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogoCentrale" type="xs:base64Binary"/>
+  <xs:element name="Titolo1" type="xs:string"/>
+  <xs:element name="Titolo2" type="xs:string"/>
+  <xs:element name="Titolo3" type="xs:string"/>
+  <xs:element name="Bando" type="xs:string"/>
+  <xs:element name="Oggetto" type="xs:string"/>
+  <xs:element name="Operazioni" type="xs:string"/>
+  <xs:element name="Specificita" type="xs:string"/>
+  <xs:element name="Castelletto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="Protocollo"/>
+        <xs:element ref="IntestazioneBoxRichiedente"/>
+        <xs:element ref="CodiceFiscaleTramite"/>
+        <xs:element ref="DescrizioneTramite"/>
+        <xs:element ref="NumeroDomanda"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Protocollo" type="xs:string"/>
+  <xs:element name="IntestazioneBoxRichiedente" type="xs:string"/>
+  <xs:element name="CodiceFiscaleTramite" type="xs:string"/>
+  <xs:element name="DescrizioneTramite" type="xs:string"/>    
+  <xs:element name="NumeroDomanda" type="xs:string"/>
+  
+  <!-- QUADRO Dati Identificativi  -->
+  <xs:element name="QuadroDatiIdentificativi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SezioneAnagrafica"/>
+        <xs:element ref="SezioneTitolare"/>
+        <xs:element ref="SezioneFirmatario"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="SezioneAnagrafica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="Titolo1sezAnagrafica"/>
+        <xs:element ref="Titolo2sezAnagrafica"/>
+        <xs:element ref="Cuaa"/>
+        <xs:element ref="PartitaIva"/>
+        <xs:element ref="IntestazionePartitaIva"/>
+        <xs:element ref="Denominazione"/>
+        <xs:element ref="FormaGiuridica"/>
+        <xs:element ref="IndirizzoSedeLeg"/>
+        <xs:element ref="Pec"/>
+        <xs:element ref="email"/>
+        <xs:element ref="Tel"/>
+        <xs:element ref="Fax"/>
+        <xs:element ref="Ateco"/>
+        <xs:element ref="Ote"/>
+        <xs:element ref="Registro"/>
+        <xs:element ref="Anno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Titolo1sezAnagrafica" type="xs:string"/>
+  <xs:element name="Titolo2sezAnagrafica" type="xs:string"/>
+  <xs:element name="Cuaa" type="xs:string"/>
+  <xs:element name="PartitaIva" type="xs:string"/>
+  <xs:element name="IntestazionePartitaIva" type="xs:string"/>
+  <xs:element name="Denominazione" type="xs:string"/>
+  <xs:element name="FormaGiuridica" type="xs:string"/>
+  <xs:element name="IndirizzoSedeLeg" type="xs:string"/>
+  <xs:element name="Pec" type="xs:string"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="Tel" type="xs:string"/>
+  <xs:element name="Fax" type="xs:string"/>
+  <xs:element name="Ateco" type="xs:string"/>
+  <xs:element name="Ote" type="xs:string"/>
+  <xs:element name="Registro" type="xs:string"/>
+  <xs:element name="Anno" type="xs:string"/>
+  <xs:element name="SezioneTitolare">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezTitolare"/>
+        <xs:element ref="CodiceFiscaleTitolare"/>
+        <xs:element ref="CognomeTitolare"/>
+        <xs:element ref="NomeTitolare"/>
+        <xs:element ref="TelefonoTitolare"/>
+        <xs:element ref="MailTitolare"/>
+        <xs:element ref="SessoTitolare"/>
+        <xs:element ref="IndirizzoResidenzaTitolare"/>
+        <xs:element ref="DataNascitaTitolare"/>
+        <xs:element ref="LuogoNascitaTitolare"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezTitolare" type="xs:string"/>
+  <xs:element name="CodiceFiscaleTitolare" type="xs:string"/>
+  <xs:element name="CognomeTitolare" type="xs:string"/>
+  <xs:element name="NomeTitolare" type="xs:string"/>
+  <xs:element name="TelefonoTitolare" type="xs:string"/>
+  <xs:element name="MailTitolare" type="xs:string"/>
+  <xs:element name="SessoTitolare" type="xs:string"/>
+  <xs:element name="IndirizzoResidenzaTitolare" type="xs:string"/>
+  <xs:element name="DataNascitaTitolare" type="xs:string"/>
+  <xs:element name="LuogoNascitaTitolare" type="xs:string"/>
+  <xs:element name="SezioneFirmatario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezFirmatario"/>
+        <xs:element ref="RuoloFirmatario"/>
+        <xs:element ref="CodiceFiscaleFirmatario"/>
+        <xs:element ref="CognomeFirmatario"/>
+        <xs:element ref="NomeFirmatario"/>
+        <xs:element ref="TelefonoFirmatario"/>
+        <xs:element ref="MailFirmatario"/>
+        <xs:element ref="SessoFirmatario"/>
+        <xs:element ref="IndirizzoFirmatario"/>
+        <xs:element ref="DataNascitaFirmatario"/>
+        <xs:element ref="LuogoNascitaFirmatario"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezFirmatario" type="xs:string"/>
+  <xs:element name="RuoloFirmatario" type="xs:string"/>
+  <xs:element name="CodiceFiscaleFirmatario" type="xs:string"/>
+  <xs:element name="CognomeFirmatario" type="xs:string"/>
+  <xs:element name="NomeFirmatario" type="xs:string"/>
+  <xs:element name="TelefonoFirmatario" type="xs:string"/>
+  <xs:element name="MailFirmatario" type="xs:string"/>
+  <xs:element name="SessoFirmatario" type="xs:string"/>
+  <xs:element name="IndirizzoFirmatario" type="xs:string"/>
+  <xs:element name="DataNascitaFirmatario" type="xs:string"/>
+  <xs:element name="LuogoNascitaFirmatario" type="xs:string"/>
+
+  <!-- QUADRO CONTO CORRENTE  -->
+  <xs:element name="QuadroContoCorrente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneConto"/>
+        <xs:element ref="ContoCorrente"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneConto" type="xs:string"/>
+  <xs:element name="ContoCorrente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CifraControllo"/>
+        <xs:element ref="CIN"/>
+        <xs:element ref="ABI"/>
+        <xs:element ref="CAB"/>
+        <xs:element ref="NumeroContoCorrente"/>
+        <xs:element ref="IBAN"/>
+        <xs:element ref="Istituto"/>
+        <xs:element ref="Agenzia"/>
+        <xs:element ref="Intestazione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CifraControllo" type="xs:string"/>
+  <xs:element name="CIN" type="xs:string"/>
+  <xs:element name="ABI" type="xs:string"/>
+  <xs:element name="CAB" type="xs:string"/>
+  <xs:element name="NumeroContoCorrente" type="xs:string"/>
+  <xs:element name="IBAN" type="xs:string"/>
+  <xs:element name="Istituto" type="xs:string"/>
+  <xs:element name="Agenzia" type="xs:string"/>
+  <xs:element name="Intestazione" type="xs:string"/>
+ 
+  <!-- QUADRO ANTICIPO -->
+  <xs:element name="QuadroAnticipo">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="SezioneTitoloAnticipo"/>
+        <xs:element ref="SezioneAnticipo"/>
+        <xs:element ref="SezioneFideiussione"/>
+        <xs:element ref="SezioneBanca"/>
+		<xs:element ref="SezioneAltroIstituto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SezioneTitoloAnticipo">
+    <xs:complexType>
+      <xs:sequence> 
+		<xs:element ref="TitoloQuadroAnticipo"/> 
+		<xs:element ref="Visibility"/> 
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element> 
+  <xs:element name="TitoloQuadroAnticipo" type="xs:string"/>  
+  <xs:element name="Visibility" type="xs:boolean"/>
+  <xs:element name="SezioneAnticipo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TitolosezAnticipo"/>
+        <xs:element ref="ImportoInvestimento"/>
+        <xs:element ref="ImportoAmmesso"/>
+        <xs:element ref="ImportoContributo"/>
+        <xs:element ref="PercentualeAnticipo"/>
+		<xs:element ref="ImportoAnticipo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitolosezAnticipo" type="xs:string"/>
+  <xs:element name="ImportoInvestimento" type="xs:decimal"/>
+  <xs:element name="ImportoAmmesso" type="xs:decimal"/>
+  <xs:element name="ImportoContributo" type="xs:decimal"/>
+  <xs:element name="PercentualeAnticipo" type="xs:decimal"/>
+  <xs:element name="ImportoAnticipo" type="xs:decimal"/>
+  <xs:element name="SezioneFideiussione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TitoloSezFideiussione"/>
+        <xs:element ref="NumeroFideiussione"/>
+        <xs:element ref="ImportoFideiussione"/>
+        <xs:element ref="DataStipula"/>
+        <xs:element ref="DataScadenza"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezFideiussione" type="xs:string"/>
+  <xs:element name="NumeroFideiussione" type="xs:string"/>
+  <xs:element name="ImportoFideiussione" type="xs:decimal"/>
+  <xs:element name="DataStipula" type="xs:date"/>
+  <xs:element name="DataScadenza" type="xs:date"/>
+  <xs:element name="SezioneBanca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="VisibilitaBanca"/>
+		<xs:element ref="TitoloSezBanca"/>
+        <xs:element ref="DenominazioneBanca"/>
+        <xs:element ref="SportelloIndCapComuneProv"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilitaBanca" type="xs:boolean"/>
+  <xs:element name="TitoloSezBanca" type="xs:string"/>
+  <xs:element name="DenominazioneBanca" type="xs:string"/>
+  <xs:element name="SportelloIndCapComuneProv" type="xs:string"/>
+<xs:element name="SezioneAltroIstituto">
+    <xs:complexType>
+      <xs:sequence>
+		  <xs:element ref="VisibilitaIstituto"/>
+        <xs:element ref="TitoloSezAltroIstituto"/>
+        <xs:element ref="AltroIstituto"/>
+        <xs:element ref="IndirizzoAltroIstituto"/>
+		<xs:element ref="AltroIstitutoCapComuneProv"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilitaIstituto" type="xs:boolean"/>
+  <xs:element name="TitoloSezAltroIstituto" type="xs:string"/>
+  <xs:element name="AltroIstituto" type="xs:string"/>
+  <xs:element name="IndirizzoAltroIstituto" type="xs:string"/>  
+  <xs:element name="AltroIstitutoCapComuneProv" type="xs:string"/>
+ 
+ <!-- Quadro Colture Aziendali -->
+  
+  <xs:element name="QuadroColtureAziendali">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneColtureAziendali"/>
+		<xs:element ref="SezDatiColture"/>
+		<xs:element ref="SezNulla"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneColtureAziendali" type="xs:string"/>
+  
+  <xs:element name="SezDatiColture">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="SezRiepilogo"/>
+			<xs:element ref="SezElencoColture"/>
+			<xs:element ref="VisibilityDati"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  
+  <xs:element name="VisibilityDati" type="xs:boolean"/>
+  
+  <xs:element name="SezRiepilogo">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="TotSup"/>
+		<xs:element ref="PLVOrdinaria"/>
+		<xs:element ref="PLVEffettiva"/>
+		<xs:element ref="PercDanno"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	
+	<xs:element name="TotSup" type="string"/>
+	<xs:element name="PLVOrdinaria" type="string"/>
+	<xs:element name="PLVEffettiva" type="string"/>
+	<xs:element name="PercDanno" type="string"/>
+	
+	
+  <xs:element name="SezElencoColture">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="TabColtureAziendali"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="TabColtureAziendali">
+    <xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaColtureAziendali" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RigaColtureAziendali">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="UbicazioneTerreno"/>
+		<xs:element ref="Utilizzo"/>
+		<xs:element ref="Superficie"/>
+		<xs:element ref="QuintaliHa"/>
+		<xs:element ref="TotQliOrd"/>
+		<xs:element ref="PrezzoQleOrd"/>
+		<xs:element ref="TotEuroOrd"/>
+		<xs:element ref="TotQliEff"/>
+		<xs:element ref="PrezzoQleEff"/>
+		<xs:element ref="TotEuroEff"/>
+		<xs:element ref="Danno"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	
+	<xs:element name="UbicazioneTerreno" type="string"/>
+	<xs:element name="Utilizzo" type="string"/>
+	<xs:element name="Superficie" type="string"/>
+	<xs:element name="QuintaliHa" type="string"/>
+	<xs:element name="TotQliOrd" type="string"/>
+	<xs:element name="PrezzoQleOrd" type="string"/>
+	<xs:element name="TotEuroOrd" type="string"/>
+	<xs:element name="TotQliEff" type="string"/>
+	<xs:element name="PrezzoQleEff" type="string"/>
+	<xs:element name="TotEuroEff" type="string"/>
+	<xs:element name="Danno" type="string"/>
+	
+	
+  
+  <xs:element name="SezNulla">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilitySezNulla"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="VisibilitySezNulla" type="boolean"/>
+ 
+ 
+ <!-- Quadro Interventi Infrastrutture -->
+  
+  <xs:element name="QuadroInterInfrastrutture">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneInterInfrastrutture"/>
+		<xs:element ref="InterInfrastrutture"/>	
+		<xs:element ref="Localizzazione"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneInterInfrastrutture" type="xs:string"/>
+  
+  <xs:element name="InterInfrastrutture">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabInterInfrastrutture"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+ 
+  <xs:element name="TabInterInfrastrutture">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaInterInfrastrutture" maxOccurs="unbounded"/>
+		<xs:element ref="RigaTotale"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaInterInfrastrutture">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="ProgressivoIntervento"/>
+		<xs:element ref="Intervento"/>
+		<xs:element ref="DescIntervento"/>
+		<xs:element ref="ImportoIntervento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProgressivoIntervento" type="xs:string"/>
+  <xs:element name="Intervento" type="xs:string"/>
+  <xs:element name="DescIntervento" type="xs:string"/>
+  <xs:element name="ImportoIntervento" type="xs:string"/>
+  
+  <xs:element name="RigaTotale">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TotImporto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotImporto" type="string"/>
+  
+  <xs:element name="Localizzazione">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityLoc"/>
+			<xs:element ref="TabLoc"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="TabLoc">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaLoc" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaLoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Comune"/>
+		<xs:element ref="Progressivo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Progressivo" type="string"/>
+  
+  <xs:element name="VisibilityLoc" type="boolean"/>
+ 
+ 
+ <!-- Quadro PLV Vegetale -->
+  
+  <xs:element name="QuadroPLVVegetale">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezionePLVVegetale"/>
+		<xs:element ref="PLVVegetale"/>	
+		<xs:element ref="SezioneNulla"/>
+       </xs:sequence>
+    </xs:complexType>		
+  </xs:element>
+  <xs:element name="TitoloSezionePLVVegetale" type="xs:string"/>
+  
+  <xs:element name="PLVVegetale">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabPLV"/>
+			<xs:element ref="VisibilityPLVVegetale"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+  
+  <xs:element name="VisibilityPLVVegetale" type="xs:boolean"/>
+  
+  <xs:element name="TabPLV">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaPLV" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaPLV">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Utilizzo"/>
+        <xs:element ref="Superficie"/>
+		<xs:element ref="Produzione"/>
+		<xs:element ref="GGLavorative"/>
+		<xs:element ref="UF"/>
+		<xs:element ref="ReimpieghiQ"/>
+		<xs:element ref="ReimpieghiUF"/>
+		<xs:element ref="PLV"/>		
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Utilizzo" type="xs:string"/>
+  <xs:element name="Superficie" type="xs:string"/>
+  <xs:element name="Produzione" type="xs:string"/>
+  <xs:element name="GGLavorative" type="xs:string"/>
+  <xs:element name="UF" type="xs:string"/>
+  <xs:element name="ReimpieghiQ" type="xs:string"/>
+  <xs:element name="ReimpieghiUF" type="xs:string"/>
+  <xs:element name="PLV" type="xs:string"/>
+  
+  <xs:element name="SezioneNulla">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityTestoNullo"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="VisibilityTestoNullo" type="boolean"/>
+  
+ 
+ <!-- Quadro PLV Zootecnica -->
+  
+  <xs:element name="QuadroPLVZootecnica">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezionePLVZootecnica"/>
+		<xs:element ref="PLVZootecnica"/>	
+		<xs:element ref="SezioneNulla"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezionePLVZootecnica" type="xs:string"/>
+  
+  <xs:element name="PLVZootecnica">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabPLVZootecnica"/>
+			<xs:element ref="VisibilityPLVZootenica"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+ 
+  <xs:element name="VisibilityPLVZootenica" type="xs:boolean"/>
+  <xs:element name="TabPLVZootecnica">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaPLVZootecnica" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaPLVZootecnica">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="CodAzZootecnica"/>
+        <xs:element ref="Specie"/>
+		<xs:element ref="Categoria"/>
+		<xs:element ref="TipoProd"/>
+		<xs:element ref="NCapi"/>
+		<xs:element ref="QProdAnnua"/>
+		<xs:element ref="ProdLorda"/>
+		<xs:element ref="Reimpieghi"/>
+		<xs:element ref="ProdNetta"/>
+		<xs:element ref="UDM"/>
+		<xs:element ref="PrezzoUnitario"/>
+		<xs:element ref="PLVZoo"/>
+		
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodAzZootecnica" type="xs:string"/>
+  <xs:element name="Specie" type="xs:string"/>
+  <xs:element name="Categoria" type="xs:string"/>
+  <xs:element name="TipoProd" type="xs:string"/>
+  <xs:element name="NCapi" type="xs:string"/>
+  <xs:element name="QProdAnnua" type="xs:string"/>
+  <xs:element name="ProdLorda" type="xs:string"/>
+  <xs:element name="Reimpieghi" type="xs:string"/>
+  <xs:element name="ProdNetta" type="xs:string"/>
+  <xs:element name="UDM" type="xs:string"/>
+  <xs:element name="PrezzoUnitario" type="xs:string"/>
+  <xs:element name="PLVZoo" type="xs:string"/>
+  
+  <xs:element name="SezioneNulla">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityTestoNullo"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+    
+	<xs:element name="VisibilityTestoNullo" type="boolean"/>
+ 
+ <!-- Quadro Scorte -->
+  
+  <xs:element name="QuadroScorte">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneScorte"/>
+		<xs:element ref="Scorte"/>	
+		<xs:element ref="SezioneNulla"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneScorte" type="xs:string"/>
+  
+  <xs:element name="Scorte">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabScorte"/>
+			<xs:element ref="VisibilityScorte"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+ 
+  <xs:element name="VisibilityScorte" type="boolean"/>
+  <xs:element name="TabScorte">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaScorte" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaScorte">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TipoScorte"/>
+        <xs:element ref="QuantitaScorte"/>
+		<xs:element ref="DescrizioneScorte"/>		
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoScorte" type="xs:string"/>
+  <xs:element name="QuantitaScorte" type="xs:string"/>
+  <xs:element name="DescrizioneScorte" type="xs:string"/>
+  
+  <xs:element name="SezioneNulla">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityTestoNullo"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="VisibilityTestoNullo" type="boolean"/>
+ 
+ <!-- Quadro Danni -->
+  
+  <xs:element name="QuadroDanni">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneDanni"/>
+		<xs:element ref="Danni"/>	
+		<xs:element ref="PartDanni"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneDanni" type="xs:string"/>
+  
+  <xs:element name="Danni">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabDanni"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+ 
+  <xs:element name="TabDanni">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaDanni" maxOccurs="unbounded"/>
+		<xs:element ref="RigaTotale"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaDanni">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Progressivo"/>
+        <xs:element ref="TipoDanno"/>
+		<xs:element ref="Denominazione"/>
+		<xs:element ref="DescEntitaDanneggiata"/>
+		<xs:element ref="DescDanno"/>
+		<xs:element ref="Quantita"/>
+		<xs:element ref="Importo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Progressivo" type="xs:string"/>
+  <xs:element name="TipoDanno" type="xs:string"/>
+  <xs:element name="Denominazione" type="xs:string"/>
+  <xs:element name="DescEntitaDanneggiata" type="xs:string"/>
+  <xs:element name="DescDanno" type="xs:string"/>
+  <xs:element name="Quantita" type="xs:string"/>
+  <xs:element name="Importo" type="xs:string"/>
+  
+  <xs:element name="RigaTotale">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TotImporto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotImporto" type="string"/>
+  
+  <xs:element name="PartDanni">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityParticellare"/>
+			<xs:element ref="TabPartDanni"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="TabPartDanni">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaPartDanni" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaPartDanni">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Progressivo"/>
+        <xs:element ref="Provincia"/>
+		<xs:element ref="Comune"/>
+		<xs:element ref="Sezione"/>
+		<xs:element ref="Foglio"/>
+		<xs:element ref="Particella"/>
+		<xs:element ref="Subalterno"/>
+		<xs:element ref="SupCatastale"/>
+		<xs:element ref="Superficie"/>
+		<xs:element ref="Utilizzo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Progressivo" type="xs:string"/>
+  <xs:element name="Provincia" type="xs:string"/>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Sezione" type="xs:string"/>
+  <xs:element name="Foglio" type="xs:string"/>
+  <xs:element name="Particella" type="xs:string"/>
+  <xs:element name="Subalterno" type="xs:string"/>
+  <xs:element name="SupCatastale" type="xs:string"/>
+  <xs:element name="Superficie" type="xs:string"/>
+  <xs:element name="Utilizzo" type="xs:string"/>
+  
+  <xs:element name="VisibilityParticellare" type="boolean"/>
+ 
+ <!-- Quadro Interventi -->
+  
+  <xs:element name="QuadroInterventi">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+	    <xs:element ref="TitoloSezioneInterventi"/>
+		<xs:element ref="Interventi"/>	
+		<xs:element ref="Localizzazione"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneInterventi" type="xs:string"/>
+  
+  <xs:element name="Interventi">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="TabInterventi"/>
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>	
+ 
+  <xs:element name="TabInterventi">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaInterventi" maxOccurs="unbounded"/>
+		<xs:element ref="RigaTotale"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaInterventi">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="ProgressivoDanno"/>
+        <xs:element ref="TipoDanno"/>
+		<xs:element ref="Danno"/>
+		<xs:element ref="ProgressivoIntervento"/>
+		<xs:element ref="Intervento"/>
+		<xs:element ref="DescIntervento"/>
+		<xs:element ref="ImportoIntervento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProgressivoDanno" type="xs:string"/>
+  <xs:element name="TipoDanno" type="xs:string"/>
+  <xs:element name="Danno" type="xs:string"/>
+  <xs:element name="ProgressivoIntervento" type="xs:string"/>
+  <xs:element name="Intervento" type="xs:string"/>
+  <xs:element name="DescIntervento" type="xs:string"/>
+  <xs:element name="ImportoIntervento" type="xs:string"/>
+  
+  <xs:element name="RigaTotale">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="TotImporto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotImporto" type="string"/>
+  
+  <xs:element name="Localizzazione">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="VisibilityLoc"/>
+			<xs:element ref="TabLoc"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="TabLoc">
+	<xs:complexType>
+	 <xs:sequence>
+		<xs:element ref="RigaLoc" maxOccurs="unbounded"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+	<xs:element name="RigaLoc">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Progressivo"/>
+        <xs:element ref="Comune"/>
+		<xs:element ref="Sezione"/>
+		<xs:element ref="Foglio"/>
+		<xs:element ref="Particella"/>
+		<xs:element ref="Subalterno"/>
+		<xs:element ref="SupCatastale"/>
+		<xs:element ref="Occupazione"/>
+		<xs:element ref="Destinazione"/>
+		<xs:element ref="SupUtilizzata"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Progressivo" type="xs:string"/>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Sezione" type="xs:string"/>
+  <xs:element name="Foglio" type="xs:string"/>
+  <xs:element name="Particella" type="xs:string"/>
+  <xs:element name="Subalterno" type="xs:string"/>
+  <xs:element name="SupCatastale" type="xs:string"/>
+  <xs:element name="Occupazione" type="xs:string"/>
+  <xs:element name="Destinazione" type="xs:string"/>
+  <xs:element name="SupUtilizzata" type="xs:string"/>
+  
+  <xs:element name="VisibilityLoc" type="boolean"/>
+ 
+  <!-- QUADRO ECONOMICO  -->
+  <xs:element name="QuadroEconomico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneQuadroEconomico"/>
+        <xs:element ref="InterventiQE"/>
+        <xs:element ref="TotaliInterventiQE"/>
+		<xs:element ref="LocalizzazioneQE"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneQuadroEconomico" type="xs:string"/>
+  <xs:element name="InterventiQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="InterventoQE" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InterventoQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="TipoIntervento"/>
+		<xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="SpesaPreventivata"/>
+		<xs:element ref="SpesaAmmessa"/>
+		<xs:element ref="PercentualeContributo"/>
+        <xs:element ref="ImportoContributo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="SpesaPreventivata" type="xs:string"/>
+  <xs:element name="SpesaAmmessa" type="xs:string"/>
+  <xs:element name="PercentualeContributo" type="xs:string"/>
+  <xs:element name="ImportoContributo" type="xs:string"/>
+
+  <xs:element name="TotaliInterventiQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TotaleSpesaPreventivata"/>
+        <xs:element ref="TotaleSpesaAmmessa"/>
+        <xs:element ref="TotaleImportoContributo"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSpesaPreventivata" type="xs:string"/>
+  <xs:element name="TotaleSpesaAmmessa" type="xs:string"/>
+  <xs:element name="TotaleImportoContributo" type="xs:string"/>
+
+  <xs:element name="LocalizzazioneQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ElencoParticelleIntQE" maxOccurs="unbounded"/>
+		<xs:element ref="Visibility"/>
+		<xs:element ref="TipoLocalizzazione"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ElencoParticelleIntQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatiParticellaIntQE" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatiParticellaIntQE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="ComuneInt"/>
+        <xs:element ref="SezioneInt"/>
+		<xs:element ref="FoglioInt"/>
+        <xs:element ref="ParticellaInt"/>
+		<xs:element ref="SubalternoInt"/>
+        <xs:element ref="SupCatastaleInt"/>
+		<xs:element ref="DescDestinazioneProduttivaInt"/>
+        <xs:element ref="SupUtilizzataInt"/>
+        <xs:element ref="SupImpegnoInt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- QUADRO OPERAZIONI IN CAMPO  -->
+  <xs:element name="QuadroOperazioniInCampo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneOperazioniInCampo"/>
+        <xs:element ref="ElencoOperazioniInCampo"/>
+        <xs:element ref="LegendaUsiDelSuolo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneOperazioniInCampo" type="xs:string"/>
+  <xs:element name="ElencoOperazioniInCampo">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="DettaglioOperazioneInCampo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioOperazioneInCampo">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="Azione"/>
+         <xs:element ref="DataInizio"/>
+         <xs:element ref="DataFine"/>
+         <xs:element ref="MatriceOrganica"/>
+         <xs:element ref="QuantitaTalQUale"/>
+         <xs:element ref="QuantitaSostanzaSecca"/>
+         <xs:element ref="TipologiaColture"/>
+         <xs:element ref="Note"/>
+		 <xs:element ref="ElencoParticelleCampo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Azione" type="xs:string"/>
+  <xs:element name="DataInizio" type="xs:string"/>
+  <xs:element name="DataFine" type="xs:string"/>
+  <xs:element name="MatriceOrganica" type="xs:string"/>
+  <xs:element name="QuantitaTalQUale" type="xs:string"/>
+  <xs:element name="QuantitaSostanzaSecca" type="xs:string"/>
+  <xs:element name="TipologiaColture" type="xs:string"/>
+  <xs:element name="Note" type="xs:string"/>
+  <xs:element name="ElencoParticelleCampo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatiParticellaCampo" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatiParticellaCampo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ComuneC"/>
+        <xs:element ref="SezioneC"/>
+		<xs:element ref="FoglioC"/>
+        <xs:element ref="ParticellaC"/>
+		<xs:element ref="SubalternoC"/>
+        <xs:element ref="SupCatastaleC"/>
+		<xs:element ref="CodDestinazioneProduttivaC"/>
+		<xs:element ref="DescDestinazioneProduttivaC"/>
+        <xs:element ref="CodVarietaC"/>
+        <xs:element ref="DescVarietaC"/>
+        <xs:element ref="CodUsoC"/>
+        <xs:element ref="DescUsoC"/>
+        <xs:element ref="SupUtilizzataC"/>
+        <xs:element ref="SupOperazioneC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ComuneC" type="xs:string"/>
+  <xs:element name="SezioneC" type="xs:string"/>
+  <xs:element name="FoglioC" type="xs:string"/>
+  <xs:element name="ParticellaC" type="xs:string"/>
+  <xs:element name="SubalternoC" type="xs:string"/>
+  <xs:element name="SupCatastaleC" type="xs:string"/>
+  <xs:element name="CodDestinazioneProduttivaC" type="xs:string"/>
+  <xs:element name="DescDestinazioneProduttivaC" type="xs:string"/>
+  <xs:element name="CodVarietaC" type="xs:string"/>
+  <xs:element name="DescVarietaC" type="xs:string"/>
+  <xs:element name="CodUsoC" type="xs:string"/>
+  <xs:element name="DescUsoC" type="xs:string"/>
+  <xs:element name="SupUtilizzataC" type="xs:string"/>
+  <xs:element name="SupOperazioneC" type="xs:string"/>
+  <xs:element name="LegendaUsiDelSuolo">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="DettaglioLegendaSuolo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioLegendaSuolo">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="CodDestinazioneProduttivaC"/>
+		<xs:element ref="DescDestinazioneProduttivaC"/>
+        <xs:element ref="CodVarietaC"/>
+        <xs:element ref="DescVarietaC"/>
+        <xs:element ref="CodUsoC"/>
+        <xs:element ref="DescUsoC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+     <!-- QUADRO OPERAZIONI E IMPEGNI  -->
+  <xs:element name="QuadroOperazioniImpegni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneOperazioniImpegni"/>
+        <xs:element ref="ElencoOperazioniImpegni"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneOperazioniImpegni" type="xs:string"/>
+    <!--  tabella principale con operazioni e impegni  -->
+ <xs:element name="ElencoOperazioniImpegni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioOperazioniImpegni" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioOperazioniImpegni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Operazione"/>
+        <xs:element ref="Annualita"/>
+		<xs:element ref="TipoDomanda"/>
+        <xs:element ref="DataInizioImpegno"/>
+		<xs:element ref="DataFineImpegno"/>
+        <xs:element ref="NumDomandaPrecedente"/>
+		<xs:element ref="ImpegniDibase"/>
+		<xs:element ref="ImpegniAggiuntivi"/>
+	 </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="Operazione" type="xs:string"/>
+  <xs:element name="Annualita" type="xs:decimal"/>
+  <xs:element name="TipoDomanda" type="xs:string"/>
+  <xs:element name="DataInizioImpegno" type="xs:date"/>
+  <xs:element name="DataFineImpegno" type="xs:date"/>
+  <xs:element name="NumDomandaPrecedente" type="xs:decimal"/>
+                          <!--  tabella degli impegni di base  -->
+  <xs:element name="ImpegniDibase">
+	<xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ImpegnoBase" maxOccurs="unbounded"/>
+		</xs:sequence>
+    </xs:complexType>
+ </xs:element>
+	<xs:element name="ImpegnoBase">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element ref="DescrizioneEstesa"/>
+		  </xs:sequence>
+		</xs:complexType>
+  </xs:element>
+  <xs:element name="DescrizioneEstesa" type="xs:string"/>
+                            <!--  tabella degli impegni aggiuntivi  -->
+  <xs:element name="ImpegniAggiuntivi">
+	<xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ImpegnoAggiuntivo" maxOccurs="unbounded"/>
+		</xs:sequence>
+    </xs:complexType>
+ </xs:element>
+	<xs:element name="ImpegnoAggiuntivo">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element ref="DescrizioneEstesaAgg"/>
+		  </xs:sequence>
+		</xs:complexType>
+  </xs:element>
+  <xs:element name="DescrizioneEstesaAgg" type="xs:string"/>
+  
+  <!-- QUADRO PARTICELLE IMPEGNO  -->
+  <xs:element name="QuadroParticelleImpegno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneParticelleImpegno"/>
+        <xs:element ref="ElencoClassiPremio"/>
+		<xs:element ref="LegendaUsiDelSuoloImp"/>
+		<xs:element ref="IfCORRE"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IfCORRE"/>
+  <xs:element name="TitoloSezioneParticelleImpegno" type="xs:string"/>
+<!--     Elenco  ClassiPremio    -->
+  <xs:element name="ElencoClassiPremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassiParticelle" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassiParticelle">
+    <xs:complexType>
+      <xs:sequence>
+            <xs:element ref="TabClassePremio" maxOccurs="unbounded" />
+			<xs:element ref="TabElencoParticelle" maxOccurs="unbounded" />
+			<xs:element ref="TotaleSupAmmissibile" />
+			<xs:element ref="TotaleSupImpegno" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSupAmmissibile" type="xs:decimal"/>
+  <xs:element name="TotaleSupImpegno" type="xs:decimal"/>
+  <!--     tabella Classi Premio  -->
+ <xs:element name="TabClassePremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassePremio" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassePremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Operazione"/>
+        <xs:element ref="DescrizioneOperazione"/>
+		<xs:element ref="CodicePremio"/>
+        <xs:element ref="DescrizionePremio"/>
+		<xs:element ref="CodiceSuolo"/>
+		<xs:element ref="DescrizioneSuolo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Operazione" type="xs:string"/>
+  <xs:element name="DescrizioneOperazione" type="xs:string"/>
+  <xs:element name="CodicePremio" type="xs:string"/>
+  <xs:element name="DescrizionePremio" type="xs:string"/> 
+  <xs:element name="CodiceSuolo" type="xs:string"/>
+  <xs:element name="DescrizioneSuolo" type="xs:string"/>
+ <!--     tabella  Elenco  Particelle   -->
+ <xs:element name="TabElencoParticelle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaDatiParticella" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaDatiParticella">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Comune"/>
+        <xs:element ref="Sezione"/>
+		<xs:element ref="Foglio"/>
+        <xs:element ref="Particella"/>
+		<xs:element ref="Subalterno"/>
+        <xs:element ref="Conduzione"/>
+		<xs:element ref="ZonaAltimetrica"/>
+		<xs:element ref="CodiceSuolo"/>
+        <xs:element ref="CodiceDestinazione"/>
+		<xs:element ref="CodiceUso"/>
+        <xs:element ref="CodiceQualita"/>
+		<xs:element ref="CodiceVarieta"/>
+		<xs:element ref="SuperficieCatastale"/>
+        <xs:element ref="SuperficieAmmissibile"/>
+		<xs:element ref="SuperficieImpegno"/>
+		<xs:element ref="SuperficieImpRinuncia"/>
+        <xs:element ref="SuperficieGIS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Sezione" type="xs:string"/>
+  <xs:element name="Foglio" type="xs:decimal"/>
+  <xs:element name="Particella" type="xs:decimal"/>
+  <xs:element name="Subalterno" type="xs:decimal"/>
+  <xs:element name="Conduzione" type="xs:decimal"/>
+  <xs:element name="SuperficieImpRinuncia" type="xs:decimal"/>
+  <xs:element name="SuperficieGIS" type="xs:decimal"/>
+  <xs:element name="ZonaAltimetrica" type="xs:string"/>  
+  <xs:element name="CodiceUso" type="xs:string"/>
+  <xs:element name="CodiceDestinazione" type="xs:string"/>
+  <xs:element name="CodiceQualita" type="xs:string"/>
+  <xs:element name="CodiceVarieta" type="xs:string"/>
+  <xs:element name="SuperficieCatastale" type="xs:decimal"/>
+  <xs:element name="SuperficieAmmissibile" type="xs:decimal"/>
+  <xs:element name="SuperficieImpegno" type="xs:decimal"/>    
+ <!--     ElencoParticelle    --> 
+   <xs:element name="LegendaUsiDelSuoloImp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioLegendaImp" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioLegendaImp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceSuoloLeg"/>
+        <xs:element ref="DescrizioneSuolo"/>
+		<xs:element ref="CodiceDestinazioneLeg"/>
+        <xs:element ref="DescrizioneDestinazione"/>
+		<xs:element ref="CodiceUsoLeg"/>
+        <xs:element ref="DescrizioneUso"/>
+		<xs:element ref="CodiceQualitaLeg"/>
+	    <xs:element ref="DescrizioneQualita"/>
+        <xs:element ref="CodiceVarietaLeg"/>
+		<xs:element ref="DescrizioneVarieta"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSuoloLeg" type="xs:string"/>
+  <xs:element name="DescrizioneSuolo" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneLeg" type="xs:string"/>
+  <xs:element name="DescrizioneDestinazione" type="xs:string"/>
+  <xs:element name="CodiceUsoLeg" type="xs:string"/>
+  <xs:element name="DescrizioneUso" type="xs:string"/>
+  <xs:element name="CodiceQualitaLeg" type="xs:string"/>
+  <xs:element name="DescrizioneQualita" type="xs:string"/>
+  <xs:element name="CodiceVarietaLeg" type="xs:string"/>
+  <xs:element name="DescrizioneVarieta" type="xs:string"/>
+  
+    <!-- QUADRO DATI PASCOLAMENTO   -->
+  <xs:element name="QuadroDatiPascolamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneDatiPascolamento"/>
+         <xs:element ref="ElencoPascoli"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneDatiPascolamento" type="xs:string"/>
+    <!--   Elenco  pascoli  -->  
+  <xs:element name="ElencoPascoli">
+   <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaElencoPascoli" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaElencoPascoli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioPascoli"/>
+		<xs:element ref="CapiInDetenzione" />
+		<xs:element ref="CapiInMonticazione" /> 
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+      <!--   dettaglio pascoli  -->
+  <xs:element name="DettaglioPascoli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaDettaglioPascoli" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaDettaglioPascoli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ZonaPascolo"/>
+        <xs:element ref="DataInizioPascolo"/>
+		<xs:element ref="DataFinePascolo"/>
+		<xs:element ref="GiorniPascolo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZonaPascolo" type="xs:string"/>
+  <xs:element name="DataInizioPascolo" type="xs:date"/>
+  <xs:element name="DataFinePascolo" type="xs:date"/>
+  <xs:element name="GiorniPascolo" type="xs:decimal"/>
+        <!--   capi in detenzione  -->
+  <xs:element name="CapiInDetenzione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioCapiDetenzione" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioCapiDetenzione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceAziendaZootecnica"/>
+        <xs:element ref="CFProprietario"/>
+		<xs:element ref="DenominazioneProprietario"/>
+		<xs:element ref="Specie"/>
+		<xs:element ref="Categoria"/>
+		<xs:element ref="CapiDetenzione"/>
+		<xs:element ref="Uba"/>
+		<xs:element ref="CapiAlPascolo"/>
+		<xs:element ref="UPAPascolo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceAziendaZootecnica" type="xs:string"/>
+  <xs:element name="CFProprietario" type="xs:string"/>
+  <xs:element name="DenominazioneProprietario" type="xs:string"/>
+  <xs:element name="Specie" type="xs:string"/>	  
+  <xs:element name="Categoria" type="xs:string"/>	
+  <xs:element name="CapiDetenzione" type="xs:decimal"/>	
+  <xs:element name="Uba" type="xs:decimal"/>	
+  <xs:element name="CapiAlPascolo" type="xs:decimal"/>	
+  <xs:element name="UPAPascolo" type="xs:decimal"/>	
+        <!--   capi in monticazione  -->
+  <xs:element name="CapiInMonticazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioCapiMonticazione" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioCapiMonticazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceAziendaZootMonti"/>
+        <xs:element ref="CFProprietarioMonti"/>
+		<xs:element ref="DenominazioneProprMonti"/>
+		<xs:element ref="SpecieMonti"/>
+		<xs:element ref="CategoriaMonti"/>		
+		<xs:element ref="CapiAlPascoloMonti"/>
+		<xs:element ref="UPAPascoloMonti"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceAziendaZootMonti" type="xs:string"/>
+  <xs:element name="CFProprietarioMonti" type="xs:string"/>
+  <xs:element name="DenominazioneProprMonti" type="xs:string"/>
+  <xs:element name="SpecieMonti" type="xs:string"/>	  
+  <xs:element name="CategoriaMonti" type="xs:string"/>
+  <xs:element name="CapiAlPascoloMonti" type="xs:decimal"/> 
+  <xs:element name="UPAPascoloMonti" type="xs:decimal"/>   
+ 
+ <!-- QUADRO Dati cani guardiania  -->
+  <xs:element name="QuadroDatiCaniGuardiania">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneCaniDaGuardiania"/>
+         <xs:element ref="ElencoCani"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneCaniDaGuardiania" type="xs:string"/>
+  <xs:element name="ElencoCani">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioCani" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioCani">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Razza"/>
+        <xs:element ref="CodiceMicroChip"/>
+		<xs:element ref="UlterioriInformazioni"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Razza" type="xs:string"/>
+  <xs:element name="CodiceMicroChip" type="xs:string"/>
+  <xs:element name="UlterioriInformazioni" type="xs:string"/>
+
+    <!-- QUADRO RAZZE PROTETTE -->
+  <xs:element name="QuadroRazzeProtette">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneRazzeProtette"/>
+         <xs:element ref="ElencoRazze"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneRazzeProtette" type="xs:string"/>
+  <xs:element name="ElencoRazze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioRazze" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioRazze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceAziendaZootecnica"/>
+        <xs:element ref="CFProprietario"/>
+		<xs:element ref="DenominazioneProprietario"/>
+        <xs:element ref="Specie"/>
+		<xs:element ref="Categoria"/>
+        <xs:element ref="CapiDetenzione"/>
+		<xs:element ref="Uba"/>
+		<xs:element ref="RazzaProtetta"/>
+        <xs:element ref="CapiRazzaProtetta"/>
+		<xs:element ref="UbaProtetti"/>
+	</xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceAziendaZootecnica" type="xs:decimal"/>
+  <xs:element name="CFProprietario" type="xs:decimal"/>
+  <xs:element name="DenominazioneProprietario" type="xs:decimal"/>
+  <xs:element name="Specie" type="xs:decimal"/>
+  <xs:element name="Categoria" type="xs:decimal"/>
+  <xs:element name="CapiDetenzione" type="xs:decimal"/>
+  <xs:element name="Uba" type="xs:decimal"/>
+  <xs:element name="RazzaProtetta" type="xs:decimal"/>
+  <xs:element name="CapiRazzaProtetta" type="xs:decimal"/>
+  <xs:element name="UbaProtetti" type="xs:decimal"/>
+ 
+  
+ <!-- QUADRO -  RENDICONTAZIONE SPESE   -->
+  <xs:element name="QuadroSpese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneSpese"/>
+        <xs:element ref="TabellaSpese"/>
+		<xs:element ref="TotaliSpese"/>
+		<xs:element ref="LocalizzazioneSP"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneSpese" type="xs:string"/>
+  
+  <xs:element name="TabellaSpese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaSpese" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaSpese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Progressivo"/>
+        <xs:element ref="DescrizioneIntervento"/>
+		<xs:element ref="ImportoAmmesso"/>
+		<xs:element ref="ImportoContributo"/>
+		<xs:element ref="ImportoSpesa"/>
+		<xs:element ref="ContributoRichiesto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Progressivo" type="xs:decimal"/>
+  <xs:element name="DescrizioneIntervento" type="xs:string"/>
+  <xs:element name="ImportoAmmesso" type="xs:decimal"/>
+  <xs:element name="ImportoContributo" type="xs:decimal"/>
+  <xs:element name="ImportoSpesa" type="xs:decimal"/>
+  <xs:element name="ContributoRichiesto" type="xs:decimal"/>
+  
+ <xs:element name="TotaliSpese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TotImportoAmmesso"/>
+        <xs:element ref="TotImportoContributo"/>
+        <xs:element ref="TotImportoSpesa"/>
+		<xs:element ref="TotContributoRichiesto"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotImportoAmmesso" type="xs:decimal"/>
+  <xs:element name="TotImportoContributo" type="xs:decimal"/>
+  <xs:element name="TotImportoSpesa" type="xs:decimal"/>
+  <xs:element name="TotContributoRichiesto" type="xs:decimal"/> 
+  <!--8_5_17: aggiunte le particelle nel quadro spese solo per la 8.1.1. e tolte dal quadro interventi-->
+  <xs:element name="LocalizzazioneSP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ElencoParticelleIntSP" maxOccurs="unbounded"/>
+		<xs:element ref="Visibility"/>
+		<xs:element ref="RigaTotaliSP"/>
+		<xs:element ref="TipoLocalizzazione"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTotaliSP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TotaleSupUtilizzata"/>
+        <xs:element ref="TotaleSupImpegno"/>
+		<xs:element ref="TotaleSupEffettiva"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSupUtilizzata" type="xs:string"/>
+  <xs:element name="TotaleSupImpegno" type="xs:string"/>
+  <xs:element name="TotaleSupEffettiva" type="xs:string"/>
+  
+  <xs:element name="ElencoParticelleIntSP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatiParticellaIntSP" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatiParticellaIntSP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="ComuneInt"/>
+        <xs:element ref="SezioneInt"/>
+		<xs:element ref="FoglioInt"/>
+        <xs:element ref="ParticellaInt"/>
+		<xs:element ref="SubalternoInt"/>
+        <xs:element ref="SupCatastaleInt"/>
+		<xs:element ref="DescDestinazioneProduttivaInt"/>
+        <xs:element ref="SupUtilizzataInt"/>
+        <xs:element ref="SupImpegnoInt"/>
+		<xs:element ref="SupEffettivaInt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Numero" type="xs:string"/>
+  <xs:element name="TipoLocalizzazione" type="xs:string"/>
+  <xs:element name="ComuneInt" type="xs:string"/>
+  <xs:element name="SezioneInt" type="xs:string"/>
+  <xs:element name="FoglioInt" type="xs:string"/>
+  <xs:element name="ParticellaInt" type="xs:string"/>
+  <xs:element name="SubalternoInt" type="xs:string"/>
+  <xs:element name="SupCatastaleInt" type="xs:string"/>
+  <xs:element name="DescDestinazioneProduttivaInt" type="xs:string"/>
+  <xs:element name="SupUtilizzataInt" type="xs:string"/>
+  <xs:element name="SupImpegnoInt" type="xs:string"/>
+  <xs:element name="SupEffettivaInt" type="xs:string"/>
+  
+  
+
+  <!-- QUADRO DICHIARAZIONI  -->
+  <xs:element name="QuadroDichiarazioni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneDichiarazioni"/>
+        <xs:element ref="GruppiDichiarazioni"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneDichiarazioni" type="xs:string"/>
+  <xs:element name="GruppiDichiarazioni">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="GruppoDichiarazioni" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GruppoDichiarazioni">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="TitoloGruppoDichiarazioni"/>
+         <xs:element ref="Dichiarazioni" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloGruppoDichiarazioni" type="xs:string"/>
+  <xs:element name="Dichiarazioni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Dichiarazione" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dichiarazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FlagObbligatorio"/>
+        <xs:element ref="FlagSelezionato"/>
+        <xs:element ref="TestoDichiarazione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoDichiarazione" type="xs:string"/>
+
+  <!-- QUADRO IMPEGNI  -->
+  <xs:element name="QuadroImpegni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneImpegni"/>
+        <xs:element ref="GruppiImpegni"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneImpegni" type="xs:string"/>
+  <xs:element name="GruppiImpegni">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="GruppoImpegni" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GruppoImpegni">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="TitoloGruppoImpegni"/>
+         <xs:element ref="Impegni" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloGruppoImpegni" type="xs:string"/>
+  <xs:element name="Impegni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Impegno" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Impegno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FlagObbligatorio"/>
+        <xs:element ref="FlagSelezionato"/>
+        <xs:element ref="TestoImpegno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoImpegno" type="xs:string"/>
+
+  <!-- QUADRO ALLEGATI  -->
+  <xs:element name="QuadroAllegati">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneAllegati"/>
+        <xs:element ref="GruppiAllegati"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneAllegati" type="xs:string"/>
+  <xs:element name="GruppiAllegati">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="GruppoAllegati" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GruppoAllegati">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="TitoloGruppoAllegati"/>
+         <xs:element ref="Allegati" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloGruppoAllegati" type="xs:string"/>
+  <xs:element name="Allegati">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Allegato" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Allegato">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FlagObbligatorio"/>
+        <xs:element ref="FlagSelezionato"/>
+        <xs:element ref="TestoAllegato"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoAllegato" type="xs:string"/>
+  
+   <!-- QUADRO PARTICELLE IMPEGNO Rinunciate  -->
+  <xs:element name="QuadroParticelleImpegnoRinunciate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="VisibilityRin"/>
+        <xs:element ref="TabellaClassiPremioImpegnoGlobale"/>
+		<xs:element ref="TabLegendaUsiSuoloImpRin"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityRin" type="xs:boolean"/>
+  <!--     Elenco  ClassiPremio    -->
+  <xs:element name="TabellaClassiPremioImpegnoGlobale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassiPremioImpegnoGlobale" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassiPremioImpegnoGlobale">
+    <xs:complexType>
+      <xs:sequence>
+            <xs:element ref="TabClassePremioImpegno" maxOccurs="unbounded" />
+			<xs:element ref="TabElencoParticelleRin" maxOccurs="unbounded" />
+			<xs:element ref="TotaleSupAmmissibileRin" />
+			<xs:element ref="TotaleSupImpegnoRin" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSupAmmissibileRin" type="xs:decimal"/>
+  <xs:element name="TotaleSupImpegnoRin" type="xs:decimal"/>
+    <!--     tabella Classi Premio e impegni oggetti di rinuncia -->
+ <xs:element name="TabClassePremioImpegno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassePremioImpegno" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassePremioImpegno">
+    <xs:complexType>
+      <xs:sequence>
+	    <xs:element ref="Operaz"/>
+        <xs:element ref="DescOperazione"/>
+		<xs:element ref="DescImpegno"/>
+        <xs:element ref="MotivoEsclusione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Operaz" type="xs:string"/>
+  <xs:element name="DescOperazione" type="xs:string"/>
+  <xs:element name="DescImpegno" type="xs:string"/>
+  <xs:element name="MotivoEsclusione" type="xs:string"/> 
+  <!--     tabella  Elenco  Particelle   -->
+ <xs:element name="TabElencoParticelleRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaDatiParticellaRin" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaDatiParticellaRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ComuneRin"/>
+        <xs:element ref="SezioneRin"/>
+		<xs:element ref="FoglioRin"/>
+        <xs:element ref="ParticellaRin"/>
+		<xs:element ref="SubalternoRin"/>
+        <xs:element ref="ConduzioneRin"/>
+		<xs:element ref="ZonaAltimetricaRin"/>
+		<xs:element ref="CodiceSuoloRin"/>
+        <xs:element ref="CodiceDestinazioneRin"/>
+		<xs:element ref="CodiceUsoRin"/>
+        <xs:element ref="CodiceQualitaRin"/>
+		<xs:element ref="CodiceVarietaRin"/>
+        <xs:element ref="SuperficieAmmissibileRin"/>
+		<xs:element ref="SuperficieImpegnoRin"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ComuneRin" type="xs:string"/>
+  <xs:element name="SezioneRin" type="xs:string"/>
+  <xs:element name="FoglioRin" type="xs:decimal"/>
+  <xs:element name="ParticellaRin" type="xs:decimal"/>
+  <xs:element name="SubalternoRin" type="xs:decimal"/>
+  <xs:element name="ConduzioneRin" type="xs:decimal"/>
+  <xs:element name="ZonaAltimetricaRin" type="xs:string"/>  
+  <xs:element name="CodiceSuoloRin" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneRin" type="xs:string"/>
+  <xs:element name="CodiceUsoRin" type="xs:string"/>
+  <xs:element name="CodiceQualitaRin" type="xs:string"/>
+  <xs:element name="CodiceVarietaRin" type="xs:string"/>
+  <xs:element name="SuperficieAmmissibileRin" type="xs:decimal"/>
+  <xs:element name="SuperficieImpegnoRin" type="xs:decimal"/>    
+  <!--     Legenda usi del suolo    --> 
+   <xs:element name="TabLegendaUsiSuoloImpRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaLegendaUsiSuoloImpRin" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaLegendaUsiSuoloImpRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceSuoloLegRin"/>
+        <xs:element ref="DescrizioneSuoloRin"/>
+		<xs:element ref="CodiceDestinazioneLegRin"/>
+        <xs:element ref="DescrizioneDestinazioneRin"/>
+		<xs:element ref="CodiceUsoLegRin"/>
+        <xs:element ref="DescrizioneUsoRin"/>
+		<xs:element ref="CodiceQualitaLegRin"/>
+	    <xs:element ref="DescrizioneQualitaRin"/>
+        <xs:element ref="CodiceVarietaLegRin"/>
+		<xs:element ref="DescrizioneVarietaRin"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSuoloLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneSuoloRin" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneDestinazioneRin" type="xs:string"/>
+  <xs:element name="CodiceUsoLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneUsoRin" type="xs:string"/>
+  <xs:element name="CodiceQualitaLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneQualitaRin" type="xs:string"/>
+  <xs:element name="CodiceVarietaLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneVarietaRin" type="xs:string"/>
+  
+  
+ <!-- QUADRO Date Fine Lavori  -->
+  <xs:element name="QuadroDateFineLavori">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloFineLavori"/>
+        <xs:element ref="SezDateFineLavori"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloFineLavori" type="xs:string"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+  <xs:element name="SezDateFineLavori">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DataProroga"/>
+        <xs:element ref="NoteDateFineLavori"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataProroga" type="xs:date"/>
+  <xs:element name="NoteDateFineLavori" type="xs:string"/>  
+  
+  
+  <!-- QUADRO -  ATTESTAZIONE CAA   -->
+  <xs:element name="QuadroAttestazioniCAA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="NomeUtenteConnesso"/>
+        <xs:element ref="SezioneResponsabile"/>
+		<xs:element ref="DenominazioneCAA"/>
+		<xs:element ref="DataLuogo"/>
+		<xs:element ref="FlagConflitto"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NomeUtenteConnesso" type="xs:string"/>
+  <xs:element name="DenominazioneCAA" type="xs:string"/>
+  <xs:element name="FlagConflitto" type="xs:boolean"/>
+  <xs:element name="DataLuogo" type="xs:string"/>
+
+  <xs:element name="SezioneResponsabile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ResponsabileCAA"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResponsabileCAA" type="xs:string"/>
+   <!-- QUADRO PREMIO  -->
+  <xs:element name="QuadroPremio">
+    <xs:complexType>
+      <xs:sequence>
+		<!--</xs:sequence><xs:element ref="SezionePremio"/>-->
+		<xs:element ref="TabellaPremioSup"/>
+		<xs:element ref="TabellaSanzioniSup"/>
+		<xs:element ref="TabellaPremioUBA"/>
+		<xs:element ref="TabellaSanzioniUBA"/>
+		<xs:element ref="Premiotot"/>
+		<xs:element ref="VisibilityTitoloPremio"/>	
+		<xs:element ref="Visibility"/>	
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityTitoloPremio" type="xs:boolean"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+  <!--SEZIONE TITOLO
+  <xs:element name="SezionePremio">
+    <xs:complexType>
+      <xs:sequence>
+	  <xs:element ref="Visibility"/>
+	  <xs:element ref="TitoloSezionePremio"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezionePremio" type="xs:string"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+     -->
+	 
+	 
+  <!--SUPERFICI-->
+	 
+	 
+	 
+  <!-- TABELLA PREMIO SUPERFICIE  -->
+  <xs:element name="TabellaPremioSup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PremiSup" maxOccurs="unbounded"/>
+	    <xs:element ref="SubTotalePremioSup"/>
+		<xs:element ref="Visibility_PremioSup"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility_PremioSup" type="xs:boolean"/>
+  
+		  <!-- TABELLA-->
+		  <xs:element name="PremiSup">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="PremioSup"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="PremioSup">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="OperazionePS"/>
+				<xs:element ref="CodicePS"/>
+				<xs:element ref="DescrizionePS"/>
+				<xs:element ref="SupImpegno"/>
+				<xs:element ref="SupAccertata"/>
+				<xs:element ref="SupPremio"/>
+				<xs:element ref="SupPercentuale"/>
+				<xs:element ref="PremioUnitPS"/>
+				<xs:element ref="ImportoPremio"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="OperazionePS"    type="xs:string"/>
+		  <xs:element name="CodicePS"  	   type="xs:string"/>
+		  <xs:element name="DescrizionePS"   type="xs:string"/>
+		  <xs:element name="SupImpegno"    type="xs:string"/>
+		  <xs:element name="SupAccertata"  type="xs:string"/>
+		  <xs:element name="SupPremio"     type="xs:string"/>
+		  <xs:element name="PremioUnitPS"    type="xs:string"/>
+		  <xs:element name="ImportoPremio" type="xs:string"/>
+		  <xs:element name="SupPercentuale" type="xs:string"/>
+		  <!-- TOTALE-->
+		  <xs:element name="SubTotalePremioSup">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="TotalePremioSup"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="TotalePremioSup" type="xs:string"/>
+  <!-- FINE TABELLA PREMIO SUPERFICIE  -->
+  
+   
+  <!--UBA-->
+  
+  <!-- TABELLA PREMIO UBA  -->
+  <xs:element name="TabellaPremioUBA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PremiUBA" maxOccurs="unbounded"/>
+		<xs:element ref="SubTotalePremioUBA"/>
+		<xs:element ref="Visibility_PremioUBA"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility_PremioUBA" type="xs:boolean"/>
+  
+		  <!-- TABELLA-->
+		  <xs:element name="PremiUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="PremioUBA"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="PremioUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="OperazionePU"/>
+				<xs:element ref="CodicePU"/>
+				<xs:element ref="DescrizionePU"/>
+				<xs:element ref="Dich_Capi"/>
+				<xs:element ref="Dich_UBA"/>
+				<xs:element ref="Acc_Capi"/>
+				<xs:element ref="Acc_UBA"/>
+				<xs:element ref="Pre_Capi"/>
+				<xs:element ref="Pre_UBA"/>
+				<xs:element ref="Pag_Capi"/>
+				<xs:element ref="Pag_UBA"/>
+				<xs:element ref="PremioUnitPU"/>
+				<xs:element ref="ImportoUBA"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="OperazionePU"	 type="xs:string"/>
+		  <xs:element name="CodicePU"		 type="xs:string"/>
+ 		  <xs:element name="DescrizionePU" type="xs:string"/>
+		  <xs:element name="Dich_Capi"	 type="xs:string"/>
+		  <xs:element name="Dich_UBA"	 type="xs:string"/>
+		  <xs:element name="Acc_Capi"	 type="xs:string"/>
+		  <xs:element name="Acc_UBA"	 type="xs:string"/>
+		  <xs:element name="Pre_Capi"	 type="xs:string"/>
+		  <xs:element name="Pre_UBA"	 type="xs:string"/>
+		  <xs:element name="Pag_Capi"	 type="xs:string"/>
+		  <xs:element name="Pag_UBA"	 type="xs:string"/>
+		  <xs:element name="PremioUnitPU"	 type="xs:string"/>
+		  <xs:element name="ImportoUBA"	 type="xs:string"/>
+		  <!-- TOTALE-->
+		  <xs:element name="SubTotalePremioUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="TotalePremioUBA"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="TotalePremioUBA" type="xs:string"/>
+  <!-- FINE TABELLA PREMIO UBA  -->
+  
+  <!-- TABELLA SANZIONI UBA -->
+  <xs:element name="TabellaSanzioniUBA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SanzioniUBA" maxOccurs="unbounded"/>
+		<xs:element ref="SubTotaleSanzioniUBA"/>
+		<xs:element ref="Visibility_SanzioniUBA"/>
+	 </xs:sequence>
+    </xs:complexType>	
+  </xs:element>
+  <xs:element name="Visibility_SanzioniUBA" type="xs:boolean"/>
+		  <!-- TABELLA-->
+		  <xs:element name="SanzioniUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="SanzioneUBA"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="SanzioneUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="OperazioneSPU"/>
+				<xs:element ref="CodiceSPU"/>
+				<xs:element ref="DescrizioneSPU"/>
+				<xs:element ref="MotivoSPU"/>
+				<xs:element ref="SanzioneSPU"/>
+				<xs:element ref="ScostamentoSPU"/>
+				<xs:element ref="ImportoSPU"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="OperazioneSPU"  type="xs:string"/>
+		  <xs:element name="CodiceSPU" 	 type="xs:string"/>
+		  <xs:element name="DescrizioneSPU" type="xs:string"/>
+		  <xs:element name="MotivoSPU" 	 type="xs:string"/>
+		  <xs:element name="SanzioneSPU" 	 type="xs:string"/>
+		  <xs:element name="ScostamentoSPU" type="xs:string"/>
+		  <xs:element name="ImportoSPU" 	 type="xs:string"/>
+		  <!-- TOTALE-->
+		  <xs:element name="SubTotaleSanzioniUBA">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="TotaleSanzioniUBA"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="TotaleSanzioniUBA" type="xs:string"/>
+  
+  <!-- FINE TABELLA SANZIONI UBA  -->
+  
+
+  
+  
+  
+  <!--TOTALE-->
+  
+  <!-- TABELLA PREMIO TOTALE  -->
+  <xs:element name="Premiotot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Totali" maxOccurs="unbounded"/>
+		<xs:element ref="SubTotalePremio"/>
+		<xs:element ref="Visibility_TotalePremio"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility_TotalePremio" type="xs:boolean"/>
+  
+		  <!-- TABELLA-->
+		  <xs:element name="Totali">
+			<xs:complexType>	
+			  <xs:sequence>
+				<xs:element ref="Totale"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="Totale">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="OperazioneT"/>
+				<xs:element ref="SuperficieT"/>
+				<xs:element ref="UBA"/>
+				<xs:element ref="PremioT"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="OperazioneT"   type="xs:string"/>
+		  <xs:element name="SuperficieT"   type="xs:string"/>
+		  <xs:element name="UBA"		   type="xs:string"/>
+		  <xs:element name="PremioT"  type="xs:string"/>
+		  <!-- TOTALE-->
+		  <xs:element name="SubTotalePremio">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element ref="TotalePremio"/>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="TotalePremio" type="xs:string"/>
+  <!-- FINE TABELLA PREMIO TOTALE  -->
+  
+ 
+ 
+  
+  <!-- 
+  <xs:element name="Numero" type="xs:string"/>
+  <xs:element name="TipoIntervento" type="xs:string"/>
+  <xs:element name="DescrizioneIntervento" type="xs:string"/>
+  <xs:element name="Comuni" type="xs:string"/>
+  <xs:element name="DatoValoreUM" type="xs:string"/>
+  <xs:element name="Importo" type="xs:decimal"/>
+  <xs:element name="TotaleInvestimento" type="xs:decimal"/>
+  <xs:element name="Ribasso">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Visibility"/>
+		<xs:element ref="PercentualeRiduzione"/>
+        <xs:element ref="TotaleImportoRichiesto"/>
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PercentualeRiduzione" type="xs:string"/>
+  <xs:element name="TotaleImportoRichiesto" type="xs:string"/>
+  <xs:element name="Localizzazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ElencoParticelleInt" maxOccurs="unbounded"/>
+		<xs:element ref="Visibility"/>
+		<xs:element ref="TipoLocalizzazione"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ElencoParticelleInt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatiParticellaInt" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatiParticellaInt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="ComuneInt"/>
+        <xs:element ref="SezioneInt"/>
+		<xs:element ref="FoglioInt"/>
+        <xs:element ref="ParticellaInt"/>
+		<xs:element ref="SubalternoInt"/>
+        <xs:element ref="SupCatastaleInt"/>
+		<xs:element ref="DescDestinazioneProduttivaInt"/>
+        <xs:element ref="SupUtilizzataInt"/>
+        <xs:element ref="SupImpegnoInt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoLocalizzazione" type="xs:string"/>
+  <xs:element name="ComuneInt" type="xs:string"/>
+  <xs:element name="SezioneInt" type="xs:string"/>
+  <xs:element name="FoglioInt" type="xs:string"/>
+  <xs:element name="ParticellaInt" type="xs:string"/>
+  <xs:element name="SubalternoInt" type="xs:string"/>
+  <xs:element name="SupCatastaleInt" type="xs:string"/>
+  <xs:element name="DescDestinazioneProduttivaInt" type="xs:string"/>
+  <xs:element name="SupUtilizzataInt" type="xs:string"/>
+  <xs:element name="SupImpegnoInt" type="xs:string"/>
+
+-->
+
+<!-- QUADRO PARTECIPANTI -->
+  <xs:element name="QuadroPartecipanti">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="Partecipanti"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Visibility" type="xs:boolean"/>
+  
+  <xs:element name="Partecipanti">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Partecipante" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Partecipante">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CUAA"/>
+		<xs:element ref="Denominazione"/>
+        <xs:element ref="Comune"/>
+		<xs:element ref="Indirizzo"/>
+        <xs:element ref="CAP"/>
+		<xs:element ref="Mail"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="CUAA" type="xs:string"/>
+  <xs:element name="Denominazione" type="xs:string"/>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Indirizzo" type="xs:string"/>
+  <xs:element name="CAP" type="xs:decimal"/>
+  <xs:element name="Mail" type="xs:string"/>
+  
+  <!-- FINE QUADRO PARTECIPANTI -->
+
+  <!-- QUADRO PARTICELLE DOMANDA GRAFICA -->
+   <xs:element name="QuadroParticelleImpegnoGr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneParticelleImpegno"/>
+        <xs:element ref="ElencoClassiPremio"/>
+		<xs:element ref="LegendaUsiDelSuoloImp"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneParticelleImpegno" type="xs:string"/>
+<!--     Elenco  ClassiPremio    -->
+  <xs:element name="ElencoClassiPremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassiParticelle" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassiParticelle">
+    <xs:complexType>
+      <xs:sequence>
+            <xs:element ref="TabClassePremio" maxOccurs="unbounded" />
+			<xs:element ref="TabElencoParticelle" maxOccurs="unbounded" />
+			<xs:element ref="TotaleSupImpegno" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSupImpegno" type="xs:decimal"/>
+  <!--     tabella Classi Premio  -->
+ <xs:element name="TabClassePremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassePremio" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassePremio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Operazione"/>
+        <xs:element ref="DescrizioneOperazione"/>
+		<xs:element ref="CodicePremio"/>
+        <xs:element ref="DescrizionePremio"/>
+		<xs:element ref="CodiceSuolo"/>
+		<xs:element ref="DescrizioneSuolo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Operazione" type="xs:string"/>
+  <xs:element name="DescrizioneOperazione" type="xs:string"/>
+  <xs:element name="CodicePremio" type="xs:string"/>
+  <xs:element name="DescrizionePremio" type="xs:string"/> 
+  <xs:element name="CodiceSuolo" type="xs:string"/>
+  <xs:element name="DescrizioneSuolo" type="xs:string"/>
+ <!--     tabella  Elenco  Particelle   -->
+ <xs:element name="TabElencoParticelle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaDatiParticella" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaDatiParticella">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Comune"/>
+        <xs:element ref="Sezione"/>
+		<xs:element ref="Foglio"/>
+        <xs:element ref="Particella"/>
+		<xs:element ref="Subalterno"/>
+        <xs:element ref="Conduzione"/>
+		<xs:element ref="ZonaAltimetrica"/>
+		<xs:element ref="CodiceSuolo"/>
+        <xs:element ref="CodiceDestinazione"/>
+		<xs:element ref="CodiceUso"/>
+        <xs:element ref="CodiceQualita"/>
+		<xs:element ref="CodiceVarieta"/>
+		<xs:element ref="SuperficieCatastale"/>
+		<xs:element ref="SuperficieImpegno"/>
+		<xs:element ref="Isola"/>    
+	    <xs:element ref="Parcella"/>    
+	    <xs:element ref="Appezzamento"/>    
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Comune" type="xs:string"/>
+  <xs:element name="Sezione" type="xs:string"/>
+  <xs:element name="Foglio" type="xs:decimal"/>
+  <xs:element name="Particella" type="xs:decimal"/>
+  <xs:element name="Subalterno" type="xs:decimal"/>
+  <xs:element name="Conduzione" type="xs:decimal"/>
+  <xs:element name="ZonaAltimetrica" type="xs:string"/>  
+  <xs:element name="CodiceUso" type="xs:string"/>
+  <xs:element name="CodiceDestinazione" type="xs:string"/>
+  <xs:element name="CodiceQualita" type="xs:string"/>
+  <xs:element name="CodiceVarieta" type="xs:string"/>
+  <xs:element name="SuperficieAmmissibile" type="xs:decimal"/>
+  <xs:element name="SuperficieCatastale" type="xs:decimal"/>
+  <xs:element name="SuperficieImpegno" type="xs:decimal"/>    
+  <xs:element name="Isola" type="xs:decimal"/>    
+  <xs:element name="Parcella" type="xs:decimal"/>    
+  <xs:element name="Appezzamento" type="xs:decimal"/>    
+ <!--     ElencoParticelle    --> 
+   <xs:element name="LegendaUsiDelSuoloImp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioLegendaImp" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioLegendaImp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceSuoloLeg"/>
+        <xs:element ref="DescrizioneSuolo"/>
+		<xs:element ref="CodiceDestinazioneLeg"/>
+        <xs:element ref="DescrizioneDestinazione"/>
+		<xs:element ref="CodiceUsoLeg"/>
+        <xs:element ref="DescrizioneUso"/>
+		<xs:element ref="CodiceQualitaLeg"/>
+	    <xs:element ref="DescrizioneQualita"/>
+        <xs:element ref="CodiceVarietaLeg"/>
+		<xs:element ref="DescrizioneVarieta"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSuoloLeg" type="xs:string"/>
+  <xs:element name="DescrizioneSuolo" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneLeg" type="xs:string"/>
+  <xs:element name="DescrizioneDestinazione" type="xs:string"/>
+  <xs:element name="CodiceUsoLeg" type="xs:string"/>
+  <xs:element name="DescrizioneUso" type="xs:string"/>
+  <xs:element name="CodiceQualitaLeg" type="xs:string"/>
+  <xs:element name="DescrizioneQualita" type="xs:string"/>
+  <xs:element name="CodiceVarietaLeg" type="xs:string"/>
+  <xs:element name="DescrizioneVarieta" type="xs:string"/>
+   
+  <!-- FINE QUADRO PARTICELLE DOMANDA GRAFICA-->
+  
+  
+  <!-- QUADRO CANI DA GUARDIANIA INVESTIMENTO -->
+  <xs:element name="QuadroDatiCaniGuardianiaInv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="TitoloSezioneCaniDaGuardiania"/>
+         <xs:element ref="ElencoCaniInv"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitoloSezioneCaniDaGuardiania" type="xs:string"/>
+  <xs:element name="ElencoCaniInv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DettaglioCaniInv" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DettaglioCaniInv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Razza"/>
+        <xs:element ref="Microchip"/>
+		<xs:element ref="Sostituzione"/>
+		<xs:element ref="UlterioriInformazioni"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Razza" type="xs:string"/>
+  <xs:element name="Microchip" type="xs:string"/>
+  <xs:element name="Sostituzione" type="xs:string"/>
+  <xs:element name="UlterioriInformazioni" type="xs:string"/>
+   
+  <!-- FINE QUADRO CANI DA GUARDIANIA INVESTIMENTO -->
+  
+  
+   <!-- QUADRO SOSTITUZIONE RAZZE PROTETTE -->
+  <xs:element name="QuadroSostRazze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+		<xs:element ref="ElencoSostRazze"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility" type="xs:boolean"/>
+  
+  <xs:element name="ElencoSostRazze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaSostRazze" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RigaSostRazze">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DataSostituzione"/>
+		<xs:element ref="CodiceAzienda"/>
+        <xs:element ref="Specie"/>
+        <xs:element ref="Categoria"/>
+		<xs:element ref="Razza"/>
+        <xs:element ref="MatricolaOld"/>
+		<xs:element ref="CategoriaOld"/>
+        <xs:element ref="MatricolaNew"/>
+		<xs:element ref="Note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DataSostituzione" type="xs:string"/>
+  <xs:element name="CodiceAzienda" type="xs:string"/>
+  <xs:element name="Specie" type="xs:string"/>
+  <xs:element name="Categoria" type="xs:string"/>
+  <xs:element name="Razza" type="xs:string"/>
+  <xs:element name="MatricolaOld" type="xs:string"/>
+  <xs:element name="CategoriaOld" type="xs:string"/>
+  <xs:element name="MatricolaNew" type="xs:string"/>
+  <xs:element name="Note" type="xs:string"/>
+  <!-- FINE QUADRO SOSTITUZIONE RAZZE PROTETTE -->
+  
+  <!-- QUADRO PARTICELLE IMPEGNO Rinunciate (Domanda grafica) -->
+  <xs:element name="QuadroPartGrafImpegnoRinunciate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="VisibilityRin"/>
+        <xs:element ref="TabellaClassiPremioImpegnoGlobale"/>
+		<xs:element ref="TabLegendaUsiSuoloImpRin"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityRin" type="xs:boolean"/>
+  
+<!--     Elenco  ClassiPremio    -->
+  <xs:element name="TabellaClassiPremioImpegnoGlobale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassiPremioImpegnoGlobale" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassiPremioImpegnoGlobale">
+    <xs:complexType>
+      <xs:sequence>
+            <xs:element ref="TabClassePremioImpegno" maxOccurs="unbounded" />
+			<xs:element ref="TabElencoParticelleRin" maxOccurs="unbounded" />
+			<xs:element ref="TotaleSupAmmissibileRin" />
+			<xs:element ref="TotaleSupImpegnoRin" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSupAmmissibileRin" type="xs:decimal"/>
+  <xs:element name="TotaleSupImpegnoRin" type="xs:decimal"/>
+  
+  <!--     tabella Classi Premio e impegni oggetti di rinuncia -->
+ <xs:element name="TabClassePremioImpegno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaClassePremioImpegno" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaClassePremioImpegno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Operaz"/>
+		<xs:element ref="DescOperazione"/>
+		<xs:element ref="DescImpegno"/>
+        <xs:element ref="MotivoEsclusione"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Operaz" type="xs:string"/>
+  <xs:element name="DescOperazione" type="xs:string"/>
+  <xs:element name="DescImpegno" type="xs:string"/>
+  <xs:element name="MotivoEsclusione" type="xs:string"/> 
+ 
+ <!--     tabella  Elenco  Particelle   -->
+ <xs:element name="TabElencoParticelleRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaDatiParticellaRin" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaDatiParticellaRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ComuneRin"/>
+        <xs:element ref="SezioneRin"/>
+		<xs:element ref="FoglioRin"/>
+        <xs:element ref="ParticellaRin"/>
+		<xs:element ref="SubalternoRin"/>
+		<xs:element ref="ZonaAltimetricaRin"/>
+		<xs:element ref="CodiceSuoloRin"/>
+        <xs:element ref="CodiceDestinazioneRin"/>
+		<xs:element ref="CodiceUsoRin"/>
+        <xs:element ref="CodiceQualitaRin"/>
+		<xs:element ref="CodiceVarietaRin"/>
+        <xs:element ref="SuperficieAmmissibileRin"/>
+		<xs:element ref="SuperficieImpegnoRin"/>
+		<xs:element ref="Isola"/>
+		<xs:element ref="Parcella"/>
+		<xs:element ref="Appezzamento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ComuneRin" type="xs:string"/>
+  <xs:element name="SezioneRin" type="xs:string"/>
+  <xs:element name="FoglioRin" type="xs:decimal"/>
+  <xs:element name="ParticellaRin" type="xs:decimal"/>
+  <xs:element name="SubalternoRin" type="xs:decimal"/>
+  <xs:element name="ZonaAltimetricaRin" type="xs:string"/>  
+  <xs:element name="CodiceSuoloRin" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneRin" type="xs:string"/>
+  <xs:element name="CodiceUsoRin" type="xs:string"/>
+  <xs:element name="CodiceQualitaRin" type="xs:string"/>
+  <xs:element name="CodiceVarietaRin" type="xs:string"/>
+  <xs:element name="SuperficieAmmissibileRin" type="xs:decimal"/>
+  <xs:element name="SuperficieImpegnoRin" type="xs:decimal"/>    
+  <xs:element name="Isola" type="xs:string"/>   
+  <xs:element name="Parcella" type="xs:string"/>   
+  <xs:element name="Appezzamento" type="xs:string"/>   
+ 
+ <!--     ElencoParticelle    --> 
+   <xs:element name="TabLegendaUsiSuoloImpRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaLegendaUsiSuoloImpRin" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaLegendaUsiSuoloImpRin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CodiceSuoloLegRin"/>
+        <xs:element ref="DescrizioneSuoloRin"/>
+		<xs:element ref="CodiceDestinazioneLegRin"/>
+        <xs:element ref="DescrizioneDestinazioneRin"/>
+		<xs:element ref="CodiceUsoLegRin"/>
+        <xs:element ref="DescrizioneUsoRin"/>
+		<xs:element ref="CodiceQualitaLegRin"/>
+	    <xs:element ref="DescrizioneQualitaRin"/>
+        <xs:element ref="CodiceVarietaLegRin"/>
+		<xs:element ref="DescrizioneVarietaRin"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSuoloLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneSuoloRin" type="xs:string"/>
+  <xs:element name="CodiceDestinazioneLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneDestinazioneRin" type="xs:string"/>
+  <xs:element name="CodiceUsoLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneUsoRin" type="xs:string"/>
+  <xs:element name="CodiceQualitaLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneQualitaRin" type="xs:string"/>
+  <xs:element name="CodiceVarietaLegRin" type="xs:string"/>
+  <xs:element name="DescrizioneVarietaRin" type="xs:string"/>
+ <!-- FINE QUADRO PARTICELLE IMPEGNO RINUNCIATE (Domanda grafica) -->
+ 
+ <!-- QUADRO BORGATE  -->
+  <xs:element name="QuadroBorgate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+		<xs:element ref="DatiBorgata"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Visibility" type="xs:boolean"/>
+
+  <xs:element name="DatiBorgata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FlagStrada"/>
+		<xs:element ref="FlagStradaNolim"/>
+		<xs:element ref="NumEdif"/>
+		<xs:element ref="NumEdifOld"/>
+		<xs:element ref="NumEdifDet"/>
+		<xs:element ref="NumEdifDetOld"/>
+		<xs:element ref="NumEdifCrollati"/>
+		<xs:element ref="NumEdifCostruz"/>
+		<xs:element ref="NumEdifDepuraz"/>
+		<xs:element ref="NumEdifArcheo"/>
+		<xs:element ref="NumManufArcheo"/>
+		<xs:element ref="FlagPrgc"/>
+		<xs:element ref="AltitMedia"/>
+		<xs:element ref="FlagReteFogna"/>
+		<xs:element ref="FlagAcqued"/>
+		<xs:element ref="FlagFontane"/>
+		<xs:element ref="FlagElettro"/>
+		<xs:element ref="FlagIllumin"/>
+		<xs:element ref="FlagTelefo"/>
+		<xs:element ref="FlagTelPubblic"/>
+		<xs:element ref="FlagDifferenzia"/>
+		<xs:element ref="FlagGas"/>
+		<xs:element ref="NumResidenti"/>
+		<xs:element ref="NumUnitaLocali"/>
+		<xs:element ref="FlagProgNoTraffico"/>
+		<xs:element ref="FlagNoTraffico"/>
+		<xs:element ref="FlagProgLinAeree"/>
+		<xs:element ref="FlagProgRiqPavi"/>
+		<xs:element ref="FlagProgRendimEnerg"/>
+		<xs:element ref="FlagMultimTurist"/>
+		<xs:element ref="Note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="FlagStrada" type="xs:string"/>
+  <xs:element name="FlagStradaNolim" type="xs:string"/>
+  <xs:element name="NumEdif" type="xs:string"/>
+  <xs:element name="NumEdifOld" type="xs:string"/>
+  <xs:element name="NumEdifDet" type="xs:string"/>
+  <xs:element name="NumEdifDetOld" type="xs:string"/>
+  <xs:element name="NumEdifCrollati" type="xs:string"/>
+  <xs:element name="NumEdifCostruz" type="xs:string"/>
+  <xs:element name="NumEdifDepuraz" type="xs:string"/>
+  <xs:element name="NumEdifArcheo" type="xs:string"/>
+  <xs:element name="NumManufArcheo" type="xs:string"/>
+  <xs:element name="FlagPrgc" type="xs:string"/>
+  <xs:element name="AltitMedia" type="xs:string"/>
+  <xs:element name="FlagReteFogna" type="xs:string"/>
+  <xs:element name="FlagAcqued" type="xs:string"/>
+  <xs:element name="FlagFontane" type="xs:string"/>
+  <xs:element name="FlagElettro" type="xs:string"/>
+  <xs:element name="FlagIllumin" type="xs:string"/>
+  <xs:element name="FlagTelefo" type="xs:string"/>
+  <xs:element name="FlagTelPubblic" type="xs:string"/>
+  <xs:element name="FlagDifferenzia" type="xs:string"/>
+  <xs:element name="FlagGas" type="xs:string"/>
+  <xs:element name="NumResidenti" type="xs:string"/>
+  <xs:element name="NumUnitaLocali" type="xs:string"/>
+  <xs:element name="FlagProgNoTraffico" type="xs:string"/>
+  <xs:element name="FlagNoTraffico" type="xs:string"/>
+  <xs:element name="FlagProgLinAeree" type="xs:string"/>
+  <xs:element name="FlagProgRiqPavi" type="xs:string"/>
+  <xs:element name="FlagProgRendimEnerg" type="xs:string"/>
+  <xs:element name="FlagMultimTurist" type="xs:string"/>
+  <xs:element name="Note" type="xs:string"/>
+  
+  <!-- FINE QUADRO BORGATE  -->
+ 
+</xs:schema>

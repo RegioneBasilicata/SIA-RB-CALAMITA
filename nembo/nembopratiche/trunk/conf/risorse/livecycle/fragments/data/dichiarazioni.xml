@@ -1,0 +1,191 @@
+<Domanda>
+	<!-- QUADRO DICHIARAZIONI -->
+	<QuadroDichiarazioni>
+		<Visibility>true</Visibility>
+<!--
+		<TitoloSezioneDichiarazioni> Quadro - Dichiarazioni	</TitoloSezioneDichiarazioni>
+-->
+		<GruppiDichiarazioni>
+			<GruppoDichiarazioni>
+				<TitoloGruppoDichiarazioni> IL SOTTOSCRITTO </TitoloGruppoDichiarazioni>
+				<Dichiarazioni>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> ai sensi e per gli effetti della presente domanda di pagamento:  </TestoDichiarazione>
+					</Dichiarazione>
+				</Dichiarazioni>
+			</GruppoDichiarazioni>
+			<GruppoDichiarazioni>
+				<TitoloGruppoDichiarazioni> A) DICHIARA: </TitoloGruppoDichiarazioni>
+				<Dichiarazioni>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 1) di essere agricoltore ai sensi dell'art. 2, lettera a) del reg.(CE) 73/2009 e s.m.i.;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 2) di essere a conoscenza della normativa nazionale (D.P.R. n. 503/1999) che ha istituito il fascicolo aziendale e l'anagrafe delle imprese agroalimentari e quella regionale che ha istituito l'anagrafe agricola unica del TOBECONFIG (art. 28 della l.r. 14/2006, sostituito dall'art. 11 della l.r. 9/2007);  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 3) di essere a conoscenza degli atti e delle norme relativi al regime di condizionalità in riferimento al regolamento (CE) n. 73/2009 e s.m.i. come richiamato per lo sviluppo rurale dagli artt. 50 bis e 51 del reg. (CE) n.1698/2005 e s.m.i. e come definiti dalle vigenti norme nazionali (Decreto Ministeriale 22 dicembre 2009 n. 30125 modificato dal D.M. n. 27417 del 22 dicembre 2011) e dai provvedimenti applicativi regionali;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 4) di essere a conoscenza dei requisiti minimi di impiego dei fertilizzanti e dei prodotti fitosanitari e dei requisiti obbligatori supplementari, come previsti nel PSR 2007-2013;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 5) di essere a conoscenza delle prescrizioni previste per l'azione prescelta nell'ambito dei pagamenti agroambientali (di cui agli artt. 36 e 39 del reg. (CE) 1698/2005 e s.m.i.), dal reg. (CE) 1974/2006 e s.m.i, dal reg. (UE) 65/2011 e s.m.i., dal PSR 2007-2013 e dalle disposizioni applicative regionali, disponibili presso il sito internet della Regione o tramite richiesta agli Enti delegati (Province e Comunità Montane) o i soggetti che assistono gli agricoltori; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 6) di essere a conoscenza dell'obbligo di presentare le eventuali successive domande di pagamento a conferma degli impegni, in conformità alle successive disposizioni che saranno emanate dalle competenti autorità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 7) di essere a conoscenza che è un suo onere comunicare tempestivamente al proprio CAA e all'Ente delegato competente eventuali variazioni degli estremi di conto corrente bancario o postale sul quale effettuare l'erogazione dei contributi. Qualora non fornisse alcuna comunicazione ovvero le coordinate bancarie risultassero sbagliate o non più presenti in fascicolo, autorizza fin d'ora Arpea ad effettuare l'erogazione dei contributi sull'ultimo conto corrente bancario o postale valido dichiarato in fascicolo con liberazione di Arpea da ogni responsabilità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 8) di essere a conoscenza del fatto che in caso di indebiti percepimenti dovuti ad affermazioni non rispondenti al vero, verranno applicate le sanzioni amministrative e penali previste dalle norme nazionali, in particolare dalla legge 898/86 e s.m.i. e dalla legge 689/81 e s.m.i; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 9) di essere a conoscenza, inoltre, che ai sensi del bando regionale che ha regolamentato per la programmazione 2007-2013 gli aumenti delle superfici, non potrà essere garantito il pagamento delle superfici aggiunte; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 10) di essere a conoscenza, inoltre, che al superamento delle riduzioni di superficie consentite dalla misura 214 del PSR (10% complessivo nel quinquennio in caso di cessione di terreni che non sia seguita da subentro degli impegni) verrà operato il recupero degli importi percepiti in riferimento alle superfici sottratte agli impegni; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 11) di essere a conoscenza che il reg. (UE) n. 1310/2013 stabilisce alcune disposizioni transitorie sul sostegno allo sviluppo rurale da parte del FEASR e sancisce all'articolo 3 par. 1 l'ammissibilità al beneficio di un contributo del FEASR nel periodo di programmazione 2014-2020 delle spese relative agli impegni giuridici nei confronti dei beneficiari sostenute nell'ambito, tra l'altro, delle misure di cui all'art. 36 del reg.(CE) 1698/2005, di cui ai pagamenti agro ambientali; </TestoDichiarazione>
+					</Dichiarazione>
+				</Dichiarazioni>
+			</GruppoDichiarazioni>
+			<GruppoDichiarazioni>
+				<TitoloGruppoDichiarazioni> A) DICHIARA: </TitoloGruppoDichiarazioni>
+				<Dichiarazioni>
+					<Dichiarazione>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoDichiarazione> 1) di essere agricoltore ai sensi dell'art. 2, lettera a) del reg.(CE) 73/2009 e s.m.i.;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 2) di essere a conoscenza della normativa nazionale (D.P.R. n. 503/1999) che ha istituito il fascicolo aziendale e l'anagrafe delle imprese agroalimentari e quella regionale che ha istituito l'anagrafe agricola unica del TOBECONFIG (art. 28 della l.r. 14/2006, sostituito dall'art. 11 della l.r. 9/2007);  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 3) di essere a conoscenza degli atti e delle norme relativi al regime di condizionalità in riferimento al regolamento (CE) n. 73/2009 e s.m.i. come richiamato per lo sviluppo rurale dagli artt. 50 bis e 51 del reg. (CE) n.1698/2005 e s.m.i. e come definiti dalle vigenti norme nazionali (Decreto Ministeriale 22 dicembre 2009 n. 30125 modificato dal D.M. n. 27417 del 22 dicembre 2011) e dai provvedimenti applicativi regionali;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 4) di essere a conoscenza dei requisiti minimi di impiego dei fertilizzanti e dei prodotti fitosanitari e dei requisiti obbligatori supplementari, come previsti nel PSR 2007-2013;  </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 5) di essere a conoscenza delle prescrizioni previste per l'azione prescelta nell'ambito dei pagamenti agroambientali (di cui agli artt. 36 e 39 del reg. (CE) 1698/2005 e s.m.i.), dal reg. (CE) 1974/2006 e s.m.i, dal reg. (UE) 65/2011 e s.m.i., dal PSR 2007-2013 e dalle disposizioni applicative regionali, disponibili presso il sito internet della Regione o tramite richiesta agli Enti delegati (Province e Comunità Montane) o i soggetti che assistono gli agricoltori; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 6) di essere a conoscenza dell'obbligo di presentare le eventuali successive domande di pagamento a conferma degli impegni, in conformità alle successive disposizioni che saranno emanate dalle competenti autorità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 7) di essere a conoscenza che è un suo onere comunicare tempestivamente al proprio CAA e all'Ente delegato competente eventuali variazioni degli estremi di conto corrente bancario o postale sul quale effettuare l'erogazione dei contributi. Qualora non fornisse alcuna comunicazione ovvero le coordinate bancarie risultassero sbagliate o non più presenti in fascicolo, autorizza fin d'ora Arpea ad effettuare l'erogazione dei contributi sull'ultimo conto corrente bancario o postale valido dichiarato in fascicolo con liberazione di Arpea da ogni responsabilità; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 8) di essere a conoscenza del fatto che in caso di indebiti percepimenti dovuti ad affermazioni non rispondenti al vero, verranno applicate le sanzioni amministrative e penali previste dalle norme nazionali, in particolare dalla legge 898/86 e s.m.i. e dalla legge 689/81 e s.m.i; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 9) di essere a conoscenza, inoltre, che ai sensi del bando regionale che ha regolamentato per la programmazione 2007-2013 gli aumenti delle superfici, non potrà essere garantito il pagamento delle superfici aggiunte; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 10) di essere a conoscenza, inoltre, che al superamento delle riduzioni di superficie consentite dalla misura 214 del PSR (10% complessivo nel quinquennio in caso di cessione di terreni che non sia seguita da subentro degli impegni) verrà operato il recupero degli importi percepiti in riferimento alle superfici sottratte agli impegni; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 11) di essere a conoscenza che il reg. (UE) n. 1310/2013 stabilisce alcune disposizioni transitorie sul sostegno allo sviluppo rurale da parte del FEASR e sancisce all'articolo 3 par. 1 l'ammissibilità al beneficio di un contributo del FEASR nel periodo di programmazione 2014-2020 delle spese relative agli impegni giuridici nei confronti dei beneficiari sostenute nell'ambito, tra l'altro, delle misure di cui all'art. 36 del reg.(CE) 1698/2005, di cui ai pagamenti agro ambientali; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<TestoDichiarazione> 12) di essere a conoscenza che è prevista una clausola di revisione per gli impegni della misura pagamenti agroambientali (corrispondenti all'articolo 39 del regolamento (CE) n.1698/2005), al fine di garantirne l'adeguamento in caso di modifica dei pertinenti criteri o requisiti obbligatori di cui all'articolo 39, paragrafo 3, del medesimo regolamento, stabiliti a norma degli articoli 5 e 6 e degli allegati II e III del regolamento (CE) n. 73/2009, nonché dei requisiti minimi relativi all'uso di fertilizzanti e prodotti fitosanitari e di altri pertinenti requisiti obbligatori prescritti dalla legislazione nazionale, che sono oltrepassati dagli impegni della misura Pagamenti agro ambientali; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 13) di essere consapevole che la presentazione delle domande di pagamento comporta preventivamente la presenza o l'attivazione di posizione nell'anagrafe agricola unica del TOBECONFIG e la costituzione del proprio fascicolo aziendale; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 14) di essere consapevole che l'accoglimento della presente domanda, con i diritti e gli obblighi connessi, è subordinato all'approvazione del PSR 2014-2020 da parte della commissione UE, alla codecisione di finanziamento comunitario e nazionale ed alla disponibilità di tali fondi e dei fondi regionali che necessitano di apposite procedure che possono prolungarsi nel tempo; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 15) di essere consapevole che l'impegno pluriennale assunto ai sensi della presente misura oltrepassa il 2013, termine del PSR 2007-2013, e che esso è considerato ammissibile al beneficio di un contributo del FEASR della programmazione 2014-2020 (art. 3 del reg. (UE) 1310/2013) se sottoposto alla clausola di revisione (ai sensi dell'art. 46 del reg. (CE) n.1974/2006 come modificato dal reg. (UE) 679/2011) degli impegni assunti; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<TestoDichiarazione> 16) di essere consapevole che non possono essere concessi aiuti del PSR a beneficiari che non soddisfino le condizioni previste al par. 16 del capitolo 11.4 del PSR 2007-2013 del TOBECONFIG; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 17) di essere consapevole che le autorità competenti potranno avere accesso, in ogni momento e senza restrizioni, agli appezzamenti e agli impianti dell'azienda e alle sedi del richiedente per le attività di ispezione previste, nonché a tutta la documentazione che riterranno necessaria ai fini dell'istruttoria e dei controlli, pena la decadenza della domanda secondo quanto previsto dall'art. 26 del regolamento (CE) 1122/2009 e s.m.i. e art. 4 paragrafo 6 del Reg. UE 65 del 2011 e s.m.i.; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 18) di essere consapevole che la mancanza dei requisiti di ammissibilità, l'inosservanza degli adempimenti tecnici, delle norme della condizionalità e dei requisiti obbligatori, nonché la mancata corrispondenza tra i dati dichiarati in domanda e quelli effettivamente riscontrati (anche mediante il sistema integrato di gestione e di controllo) riguardo alle superfici e agli animali rilevanti nel calcolo del premio comportano esclusioni, riduzioni, penalità e/o revoca della domanda [Titolo I del reg. (UE) 65/2011 e s.m.i., D.M. 22 dicembre 2009 n. 30125 e s.m.i., D.G.R. n. 80-9406 del 1/08/2008 e s.m.i (abrogata dalla D.G.R. N. 28-4503 del 27 giugno 2012) e successivi atti di recepimento regionale]; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 19) di essere consapevole che l'aumento volontario delle superfici è determinato in rapporto alla superficie agricola utilizzata accertata nel primo anno e pertanto l'entità della nuova superficie a premio potrebbe essere diversa rispetto a quella ipotizzabile al momento della presentazione della domanda; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 20) di essere consapevole che la diminuzione volontaria delle superfici è determinata in rapporto alla superficie agricola utilizzata totale accertata nel 1° anno e pertanto l'entità in cui la superficie è ridotta potrebbe essere diversa rispetto a quella ipotizzabile al momento della presentazione della domanda; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoDichiarazione> 21) di essere consapevole che qualora aderisca alla misura di sostegno "vendemmia verde" il premio agroambientale per le stesse superfici vitate non può essere erogato; </TestoDichiarazione>
+					</Dichiarazione>
+					<Dichiarazione>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoDichiarazione> 22) di essere consapevole che la Regione TOBECONFIG, l'Arpea e gli Enti delegati all'istruttoria delle domande non assumono responsabilità per la perdita di proprie comunicazioni dipendente da inesatte indicazioni del recapito da parte del richiedente, oppure di mancata o tardiva comunicazione del cambiamento dell'indirizzo indicato nella domanda, né per eventuali disguidi postali o telegrafici o comunque imputabili a responsabilità di terzi, a caso fortuito o forza maggiore. </TestoDichiarazione>
+					</Dichiarazione>
+				</Dichiarazioni>
+			</GruppoDichiarazioni>
+		</GruppiDichiarazioni>
+	</QuadroDichiarazioni>
+
+
+</Domanda>

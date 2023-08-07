@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.3158.1.475346" APIVersion="2.8.8118.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-10-12T13:34:07Z" uuid="067a4b01-676b-4b9e-8c5d-3509217d532b">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <?formServer defaultPDFRenderFormat acrobat8.1static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="Domanda" locale="it_IT" layout="tb">
+      <pageSet>
+         <pageArea>
+            <contentArea x="0.25in" y="0.25in" w="203.2mm" h="266.7mm" id="contentArea_ID"/>
+            <medium stock="letter" short="215.9mm" long="279.4mm"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <subform w="203.2mm" minH="251.625mm" layout="tb" name="QuadroDatiIdentificativi">
+         <subform w="200.025mm" name="titolo" h="12.696mm">
+            <bind match="none"/>
+            <keep intact="none"/>
+            <draw name="Rectangle2" w="200.025mm" h="11.352mm">
+               <value>
+                  <rectangle>
+                     <edge thickness="0.1753mm"/>
+                     <corner radius="5.08mm" join="round" thickness="0.175mm"/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </rectangle>
+               </value>
+            </draw>
+            <field name="Titolo1sezAnagrafica" w="187.325mm" h="6.35mm" access="readOnly" y="3.175mm" x="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="12pt" typeface="Myriad Pro" weight="bold"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <bind match="dataRef" ref="$.SezioneAnagrafica.Titolo1sezAnagrafica"/>
+               <traversal>
+                  <traverse ref="Visibility[0]"/>
+               </traversal>
+               <value>
+                  <text>Quadro - Dati identificativi</text>
+               </value>
+            </field>
+            <field name="Visibility" w="12.7mm" h="9.525mm" presence="hidden" access="readOnly" y="3.175mm" x="180.975mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle" hAlign="center"/>
+               <caption reserve="0.01in">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle" hAlign="center"/>
+                  <value>
+                     <text>Visibility</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.SezioneAnagrafica.Visibility"/>
+               <value>
+                  <text>0</text>
+               </value>
+               <traversal>
+                  <traverse ref="sezI_II_III[0].SezioneAnagrafica[0].SubTitoloAzienda[0].Titolo2sezAnagrafica[0]"/>
+               </traversal>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <subform w="200.234mm" layout="tb" name="sezI_II_III">
+            <bind match="none"/>
+            <subform w="200.025mm" name="SezioneAnagrafica" layout="tb">
+               <subform w="196.882mm" name="SubTitoloAzienda">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Titolo2sezAnagrafica" w="194.31mm" h="5.233mm" access="readOnly" x="2.6mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Myriad Pro" size="11pt" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <bind match="dataRef" ref="$.Titolo2sezAnagrafica"/>
+                     <value>
+                        <text>Dati anagrafici dell'azienda</text>
+                     </value>
+                     <border>
+                        <edge/>
+                        <fill>
+                           <color value="153,204,255"/>
+                        </fill>
+                        <corner/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SubCuaaPartitaIva[0].Cuaa[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" minH="6.35mm" name="SubCuaaPartitaIva">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Cuaa" w="98.957mm" access="readOnly" x="2.6mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="11.6973mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>CUAA:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Cuaa"/>
+                     <traversal>
+                        <traverse ref="PartitaIva[0]"/>
+                     </traversal>
+                     <border>
+                        <edge/>
+                        <corner/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="PartitaIva" w="95.354mm" access="readOnly" x="101.556mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="21.0552mm">
+                        <font typeface="Myriad Pro" weight="bold" size="11pt" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Partita IVA:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.PartitaIva"/>
+                     <traversal>
+                        <traverse ref="SubDenominazione[0].Denominazione[0]"/>
+                     </traversal>
+                     <border>
+                        <edge/>
+                        <corner/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" minH="9mm" name="SubDenominazione">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Denominazione" w="7.648944in" access="readOnly" x="2.6mm" minH="5.881mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="29.3519mm">
+                        <font typeface="Myriad Pro" weight="bold" size="11pt" baselineShift="0pt"/>
+                        <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Denominazione:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Denominazione"/>
+                     <traversal>
+                        <traverse ref="SubIndirizzoSedeLeg[0].IndirizzoSedeLeg[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" minH="9mm" name="SubIntestazioneAzienda">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="IntestazioneAzienda" w="194.31mm" access="readOnly" x="2.6mm" minH="5.881mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="38.9272mm">
+                        <font typeface="Myriad Pro" weight="bold" size="11pt" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Intestazione azienda:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IntestazionePartitaIva"/>
+                     <traversal>
+                        <traverse ref="SubRegistroAnno[0].Registro[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" name="SubIndirizzoSedeLeg" h="5.881mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="IndirizzoSedeLeg" w="194.31mm" access="readOnly" x="2.6mm" minH="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="36.5873mm">
+                        <font typeface="Myriad Pro" weight="bold" size="11pt" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Indirizzo sede legale:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IndirizzoSedeLeg"/>
+                     <traversal>
+                        <traverse ref="SubPec[0].Pec[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" name="SubPec" h="5.881mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Pec" w="194.31mm" access="readOnly" x="2.6mm" minH="5.825mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="8.5057mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>PEC:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Pec"/>
+                     <traversal>
+                        <traverse ref="SubTelMailTitolare[0].Tel[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.922mm" name="SubTelMailTitolare" h="5.881mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Tel" w="99.215mm" access="readOnly" x="2.6mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="17.2284mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Telefono:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Tel"/>
+                     <traversal>
+                        <traverse ref="email[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="email" w="95.308mm" access="readOnly" x="101.602mm" minH="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="9.3578mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Mail:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.email"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneFirmatario[0].SubTelMailFirmatario[0].TelefonoFirmatario[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="196.883mm" name="SubRegistroAnno" h="5.881mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Registro" w="98.956mm" access="readOnly" x="2.6mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="30.8444mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Registro imprese:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Registro"/>
+                     <traversal>
+                        <traverse ref="Anno[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="Anno" w="3.740361in" access="readOnly" x="101.905mm" h="0.231528in">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="28.607mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Anno iscrizione:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.Anno"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneTitolare[0].TitoloSezTitolare[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="dataRef" ref="$.SezioneAnagrafica"/>
+               <event activity="ready" ref="$form" name="event__form_ready">
+                  <script>
+if (Domanda.QuadroDatiIdentificativi.titolo.Visibility.rawValue == "true") then
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneAnagrafica.presence = "visible";
+else	
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneAnagrafica.presence = "hidden";
+endif
+</script>
+               </event>
+               <?templateDesigner expand 1?></subform>
+            <subform name="subSpazioAzienda" w="200.234mm" h="2.854mm">
+               <bind match="none"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden"/>
+               </border>
+            </subform>
+            <subform w="200.025mm" name="SezioneTitolare" h="24.273mm">
+               <keep intact="none"/>
+               <field name="Visibility" w="12.7mm" h="9.525mm" presence="hidden" access="readOnly" y="0.525mm" x="180.975mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+                  <caption reserve="0.01in">
+                     <font typeface="Myriad Pro"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <value>
+                        <text>Visibility</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.Visibility"/>
+                  <value>
+                     <text>0</text>
+                  </value>
+                  <traversal>
+                     <traverse ref="SezioneAnagrafica[0].SubIntestazioneAzienda[0].IntestazioneAzienda[0]"/>
+                  </traversal>
+               </field>
+               <field h="5.233mm" access="readOnly" name="TitoloSezTitolare" w="194.31mm" x="2.6mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="11pt" weight="bold"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <bind match="dataRef" ref="$.TitoloSezTitolare"/>
+                  <traversal>
+                     <traverse ref="SubNominativoTitolare[0].Cognome[0]"/>
+                  </traversal>
+                  <value>
+                     <text>Titolare / Rappresentante legale</text>
+                  </value>
+                  <border>
+                     <edge/>
+                     <corner/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </border>
+               </field>
+               <subform w="194.31mm" h="6.173mm" name="SubNominativoTitolare" y="5.042mm" x="2.6mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Cognome" w="98.956mm" access="readOnly" minH="5.881mm" y="0.26mm" x="0mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="18.8733mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Cognome:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.CognomeTitolare"/>
+                     <traversal>
+                        <traverse ref="Nome[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="Nome" w="95.359mm" access="readOnly" y="0.26mm" x="98.951mm" h="5.881mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="12.0386mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Nome:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.NomeTitolare"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SubCodiceFiscaleTitolare[0].CodiceFiscale[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform w="194.31mm" h="6.204mm" name="SubCodiceFiscaleTitolare" y="11.358mm" x="2.6mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="CodiceFiscale" h="6.204mm" access="readOnly" w="194.31mm" x="0mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="28.5733mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Codice Fiscale:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.CodiceFiscaleTitolare"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneFirmatario[0].TitoloSezFirmatario[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <event activity="ready" ref="$form" name="event__form_ready">
+                  <script>
+if (Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneTitolare.Visibility.rawValue == "true") then
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneTitolare.presence = "visible";
+else
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneTitolare.presence = "hidden";	
+endif
+</script>
+               </event>
+               <bind match="dataRef" ref="$.SezioneTitolare"/>
+               <subform w="196.922mm" name="SubTelMailTitolare" h="5.881mm" y="17.624mm" x="0.259mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="TelefonoTitolare" w="99.494mm" access="readOnly" x="2.284mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="17.2284mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Telefono:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.TelefonoTitolare"/>
+                     <traversal>
+                        <traverse ref="MailTitolare[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="MailTitolare" w="95.095mm" access="readOnly" x="101.556mm" minH="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="9.3578mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Mail:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.MailTitolare"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneFirmatario[0].SubNominativoFirmatario[0].Cognome[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <subform name="subSpazioTitolare" w="200.214mm" h="1.886mm">
+               <bind match="none"/>
+            </subform>
+            <subform w="200.025mm" name="SezioneFirmatario" h="30.62mm">
+               <keep intact="none"/>
+               <field name="Visibility" w="12.7mm" h="9.525mm" presence="hidden" access="readOnly" y="0.525mm" x="180.975mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+                  <caption reserve="0.01in">
+                     <font typeface="Myriad Pro"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <value>
+                        <text>Visibility</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.Visibility"/>
+                  <value>
+                     <text>0</text>
+                  </value>
+                  <traversal>
+                     <traverse ref="SubRuoloFirmatario[0].Ruolo[0]"/>
+                  </traversal>
+               </field>
+               <field h="5.233mm" access="readOnly" x="2.6mm" name="TitoloSezFirmatario" w="194.31mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="11pt" weight="bold"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <bind match="dataRef" ref="$.TitoloSezFirmatario"/>
+                  <traversal>
+                     <traverse ref="Visibility[0]"/>
+                  </traversal>
+                  <value>
+                     <text>Richiedente</text>
+                  </value>
+                  <border>
+                     <edge/>
+                     <corner/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </border>
+               </field>
+               <subform x="2.6mm" y="5.388mm" name="SubRuoloFirmatario" w="194.31mm" h="6.204mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Ruolo" h="6.204mm" access="readOnly" w="194.31mm" x="0mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="12.064mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Ruolo:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.RuoloFirmatario"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform h="6.141mm" x="2.6mm" y="11.681mm" name="SubNominativoFirmatario" w="194.31mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="Cognome" w="98.956mm" access="readOnly" minH="5.881mm" y="0.26mm" x="0mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="18.26mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Cognome:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.CognomeFirmatario"/>
+                     <traversal>
+                        <traverse ref="Nome[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="Nome" w="95.359mm" access="readOnly" minH="5.881mm" y="0.26mm" x="98.951mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="12.0386mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Nome:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.NomeFirmatario"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SubCodiceFiscaleFirmatario[0].CodiceFiscale[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform x="2.6mm" y="17.968mm" name="SubCodiceFiscaleFirmatario" w="194.31mm" h="6.204mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="CodiceFiscale" h="6.204mm" access="readOnly" w="194.31mm" x="0mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="28.5733mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Codice Fiscale:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.CodiceFiscaleFirmatario"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneTitolare[0].Visibility[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <event activity="ready" ref="$form" name="event__form_ready">
+                  <script>
+if (Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneFirmatario.Visibility.rawValue == "true") then
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneFirmatario.presence = "visible";
+else
+	Domanda.QuadroDatiIdentificativi.sezI_II_III.SezioneFirmatario.presence = "hidden";	
+endif
+</script>
+               </event>
+               <bind match="dataRef" ref="$.SezioneFirmatario"/>
+               <subform w="196.594mm" name="SubTelMailFirmatario" h="5.881mm" x="0.411mm" y="24.411mm">
+                  <bind match="none"/>
+                  <keep intact="none"/>
+                  <field name="TelefonoFirmatario" w="99.215mm" access="readOnly" x="2.189mm" h="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="17.2284mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Telefono:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.TelefonoFirmatario"/>
+                     <traversal>
+                        <traverse ref="MailFirmatario[0]"/>
+                     </traversal>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <corner presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                     </border>
+                  </field>
+                  <field name="MailFirmatario" w="95.308mm" access="readOnly" x="101.191mm" minH="5.881mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="9.3578mm">
+                        <font typeface="Myriad Pro" size="11pt" weight="bold" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <value>
+                           <text>Mail:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.MailFirmatario"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden"/>
+                        <edge/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                        <corner/>
+                        <corner presence="hidden"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="SezioneTitolare[0].SubTelMailTitolare[0].TelefonoTitolare[0]"/>
+                     </traversal>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <subform name="subFirmatario" w="200.214mm" h="1.886mm">
+               <bind match="none"/>
+            </subform>
+            <?templateDesigner expand 1?></subform>
+         <bind match="dataRef" ref="$.QuadroDatiIdentificativi"/>
+         <traversal>
+            <traverse operation="first" ref="titolo[0].Titolo1sezAnagrafica[0]"/>
+         </traversal>
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle QuadroDatiIdentificativi?>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 32 8 001100370043004A004D00540055005A0Vbilsty?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 152 38 0001000E0010001B00220024002500260027002A002E002F0031003200330035003600370042004400450046004700480049004A004D004E004F0050005100530054005500560057005B0068 -/:ACDEFIMNPQRTUVacdefghilmnoprstuvz'?>
+   </subform>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.6/?>
+   <?templateDesigner FormTargetVersion 26?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner DefaultPreviewDataFileName ..\data\datiIdentificativi.xml?>
+   <?templateDesigner Zoom 98?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>1</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+   </psMap>
+   <?originalXFAVersion http://www.xfa.org/schema/xci/2.8/?></config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2018-10-12T13:34:07Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:067a4b01-676b-4b9e-8c5d-3509217d532b</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">QuadroDatiIdentificativi</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.Domanda.QuadroDatiIdentificativi</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
+   <locale name="it_IT" desc="Italiano (Italia)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>gennaio</month>
+            <month>febbraio</month>
+            <month>marzo</month>
+            <month>aprile</month>
+            <month>maggio</month>
+            <month>giugno</month>
+            <month>luglio</month>
+            <month>agosto</month>
+            <month>settembre</month>
+            <month>ottobre</month>
+            <month>novembre</month>
+            <month>dicembre</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>gen</month>
+            <month>feb</month>
+            <month>mar</month>
+            <month>apr</month>
+            <month>mag</month>
+            <month>giu</month>
+            <month>lug</month>
+            <month>ago</month>
+            <month>set</month>
+            <month>ott</month>
+            <month>nov</month>
+            <month>dic</month>
+         </monthNames>
+         <dayNames>
+            <day>domenica</day>
+            <day>lunedì</day>
+            <day>martedì</day>
+            <day>mercoledì</day>
+            <day>giovedì</day>
+            <day>venerdì</day>
+            <day>sabato</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>dom</day>
+            <day>lun</day>
+            <day>mar</day>
+            <day>mer</day>
+            <day>gio</day>
+            <day>ven</day>
+            <day>sab</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>aC</era>
+            <era>dC</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">DD MMMM YYYY</datePattern>
+         <datePattern name="med">DD/MMM/YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">H:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.7/?></localeSet>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.4/">
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.8/?>
+   <xsdConnection name="DataConnection" dataDescription="Domanda">
+      <uri>..\schemas\datiIdentificativi.xsd</uri>
+      <rootElement>Domanda</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="Domanda">
+      <Domanda>
+         <QuadroDatiIdentificativi>
+            <SezioneAnagrafica>
+               <Visibility/>
+               <Titolo1sezAnagrafica/>
+               <Titolo2sezAnagrafica/>
+               <Cuaa/>
+               <PartitaIva/>
+               <IntestazionePartitaIva/>
+               <Denominazione/>
+               <FormaGiuridica/>
+               <IndirizzoSedeLeg/>
+               <Pec/>
+               <email/>
+               <Tel/>
+               <Fax/>
+               <Ateco/>
+               <Ote/>
+               <Registro/>
+               <Anno/>
+            </SezioneAnagrafica>
+            <SezioneTitolare>
+               <Visibility/>
+               <TitoloSezTitolare/>
+               <CodiceFiscaleTitolare/>
+               <CognomeTitolare/>
+               <NomeTitolare/>
+               <TelefonoTitolare/>
+               <MailTitolare/>
+               <SessoTitolare/>
+               <IndirizzoResidenzaTitolare/>
+               <DataNascitaTitolare/>
+               <LuogoNascitaTitolare/>
+            </SezioneTitolare>
+            <SezioneFirmatario>
+               <Visibility/>
+               <TitoloSezFirmatario/>
+               <RuoloFirmatario/>
+               <CodiceFiscaleFirmatario/>
+               <CognomeFirmatario/>
+               <NomeFirmatario/>
+               <TelefonoFirmatario/>
+               <MailFirmatario/>
+               <SessoFirmatario/>
+               <IndirizzoFirmatario/>
+               <DataNascitaFirmatario/>
+               <LuogoNascitaFirmatario/>
+            </SezioneFirmatario>
+         </QuadroDatiIdentificativi>
+      </Domanda>
+   </dd:dataDescription>
+</xfa:datasets>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" id="XFASchemaXSD">
+   <xs:element name="Domanda">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="QuadroDatiIdentificativi"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Visibility" type="xs:boolean"/>
+   <!-- QUADRO Dati Identificativi  -->
+   <xs:element name="QuadroDatiIdentificativi">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="SezioneAnagrafica"/>
+            <xs:element ref="SezioneTitolare"/>
+            <xs:element ref="SezioneFirmatario"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="SezioneAnagrafica">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="Titolo1sezAnagrafica"/>
+            <xs:element ref="Titolo2sezAnagrafica"/>
+            <xs:element ref="Cuaa"/>
+            <xs:element ref="PartitaIva"/>
+            <xs:element ref="IntestazionePartitaIva"/>
+            <xs:element ref="Denominazione"/>
+            <xs:element ref="FormaGiuridica"/>
+            <xs:element ref="IndirizzoSedeLeg"/>
+            <xs:element ref="Pec"/>
+            <xs:element ref="email"/>
+            <xs:element ref="Tel"/>
+            <xs:element ref="Fax"/>
+            <xs:element ref="Ateco"/>
+            <xs:element ref="Ote"/>
+            <xs:element ref="Registro"/>
+            <xs:element ref="Anno"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Titolo1sezAnagrafica" type="xs:string"/>
+   <xs:element name="Titolo2sezAnagrafica" type="xs:string"/>
+   <xs:element name="Cuaa" type="xs:string"/>
+   <xs:element name="PartitaIva" type="xs:string"/>
+   <xs:element name="IntestazionePartitaIva" type="xs:string"/>
+   <xs:element name="Denominazione" type="xs:string"/>
+   <xs:element name="FormaGiuridica" type="xs:string"/>
+   <xs:element name="IndirizzoSedeLeg" type="xs:string"/>
+   <xs:element name="Pec" type="xs:string"/>
+   <xs:element name="email" type="xs:string"/>
+   <xs:element name="Tel" type="xs:string"/>
+   <xs:element name="Fax" type="xs:string"/>
+   <xs:element name="Ateco" type="xs:string"/>
+   <xs:element name="Ote" type="xs:string"/>
+   <xs:element name="Registro" type="xs:string"/>
+   <xs:element name="Anno" type="xs:string"/>
+   <xs:element name="SezioneTitolare">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="TitoloSezTitolare"/>
+            <xs:element ref="CodiceFiscaleTitolare"/>
+            <xs:element ref="CognomeTitolare"/>
+            <xs:element ref="NomeTitolare"/>
+            <xs:element ref="TelefonoTitolare"/>
+            <xs:element ref="MailTitolare"/>
+            <xs:element ref="SessoTitolare"/>
+            <xs:element ref="IndirizzoResidenzaTitolare"/>
+            <xs:element ref="DataNascitaTitolare"/>
+            <xs:element ref="LuogoNascitaTitolare"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloSezTitolare" type="xs:string"/>
+   <xs:element name="CodiceFiscaleTitolare" type="xs:string"/>
+   <xs:element name="CognomeTitolare" type="xs:string"/>
+   <xs:element name="NomeTitolare" type="xs:string"/>
+   <xs:element name="TelefonoTitolare" type="xs:string"/>
+   <xs:element name="MailTitolare" type="xs:string"/>
+   <xs:element name="SessoTitolare" type="xs:string"/>
+   <xs:element name="IndirizzoResidenzaTitolare" type="xs:string"/>
+   <xs:element name="DataNascitaTitolare" type="xs:string"/>
+   <xs:element name="LuogoNascitaTitolare" type="xs:string"/>
+   <xs:element name="SezioneFirmatario">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="TitoloSezFirmatario"/>
+            <xs:element ref="RuoloFirmatario"/>
+            <xs:element ref="CodiceFiscaleFirmatario"/>
+            <xs:element ref="CognomeFirmatario"/>
+            <xs:element ref="NomeFirmatario"/>
+            <xs:element ref="TelefonoFirmatario"/>
+            <xs:element ref="MailFirmatario"/>
+            <xs:element ref="SessoFirmatario"/>
+            <xs:element ref="IndirizzoFirmatario"/>
+            <xs:element ref="DataNascitaFirmatario"/>
+            <xs:element ref="LuogoNascitaFirmatario"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloSezFirmatario" type="xs:string"/>
+   <xs:element name="RuoloFirmatario" type="xs:string"/>
+   <xs:element name="CodiceFiscaleFirmatario" type="xs:string"/>
+   <xs:element name="CognomeFirmatario" type="xs:string"/>
+   <xs:element name="NomeFirmatario" type="xs:string"/>
+   <xs:element name="TelefonoFirmatario" type="xs:string"/>
+   <xs:element name="MailFirmatario" type="xs:string"/>
+   <xs:element name="SessoFirmatario" type="xs:string"/>
+   <xs:element name="IndirizzoFirmatario" type="xs:string"/>
+   <xs:element name="DataNascitaFirmatario" type="xs:string"/>
+   <xs:element name="LuogoNascitaFirmatario" type="xs:string"/>
+</xs:schema></xdp:xdp>

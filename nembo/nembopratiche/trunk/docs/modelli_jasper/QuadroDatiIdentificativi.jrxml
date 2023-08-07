@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.1.final using JasperReports Library version 6.2.1  -->
+<!-- 2021-09-13T23:14:35 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroDatiIdentificativi" pageWidth="483" pageHeight="802" columnWidth="483" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7d514f7b-96f0-4d7b-92e5-a953247421b9">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroDatiIdentificativi]]>
+	</queryString>
+	<field name="Cuaa" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Cuaa]]></fieldDescription>
+	</field>
+	<field name="PartitaIva" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/PartitaIva]]></fieldDescription>
+	</field>
+	<field name="Denominazione" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Denominazione]]></fieldDescription>
+	</field>
+	<field name="IndirizzoSedeLeg" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/IndirizzoSedeLeg]]></fieldDescription>
+	</field>
+	<field name="Pec" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Pec]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/email]]></fieldDescription>
+	</field>
+	<field name="Tel" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Tel]]></fieldDescription>
+	</field>
+	<field name="Ateco" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Ateco]]></fieldDescription>
+	</field>
+	<field name="Ote" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Ote]]></fieldDescription>
+	</field>
+	<field name="Registro" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Registro]]></fieldDescription>
+	</field>
+	<field name="Anno" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Anno]]></fieldDescription>
+	</field>
+	<field name="CodiceFiscaleTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/CodiceFiscaleTitolare]]></fieldDescription>
+	</field>
+	<field name="CognomeTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/CognomeTitolare]]></fieldDescription>
+	</field>
+	<field name="NomeTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/NomeTitolare]]></fieldDescription>
+	</field>
+	<field name="TelefonoTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/TelefonoTitolare]]></fieldDescription>
+	</field>
+	<field name="MailTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/MailTitolare]]></fieldDescription>
+	</field>
+	<field name="Visibility_titolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/Visibility]]></fieldDescription>
+	</field>
+	<field name="Visibility_firmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/Visibility]]></fieldDescription>
+	</field>
+	<field name="RuoloFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/RuoloFirmatario]]></fieldDescription>
+	</field>
+	<field name="CodiceFiscaleFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/CodiceFiscaleFirmatario]]></fieldDescription>
+	</field>
+	<field name="CognomeFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/CognomeFirmatario]]></fieldDescription>
+	</field>
+	<field name="NomeFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/NomeFirmatario]]></fieldDescription>
+	</field>
+	<field name="MailFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/MailFirmatario]]></fieldDescription>
+	</field>
+	<field name="TelefonoFirmatario" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneFirmatario/TelefonoFirmatario]]></fieldDescription>
+	</field>
+	<field name="LuogoNascitaTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/LuogoNascitaTitolare]]></fieldDescription>
+	</field>
+	<field name="DataNascitaTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/DataNascitaTitolare]]></fieldDescription>
+	</field>
+	<field name="IndirizzoTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/IndirizzoTitolare]]></fieldDescription>
+	</field>
+	<field name="NumeroIscrizioneCCIAA" class="java.lang.String">
+		<fieldDescription><![CDATA[NumeroIscrizioneCCIAA]]></fieldDescription>
+	</field>
+	<field name="Indirizzo" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/Indirizzo]]></fieldDescription>
+	</field>
+	<field name="Comune" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/Comune]]></fieldDescription>
+	</field>
+	<field name="ComuneSedeLeg" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/ComuneSedeLeg]]></fieldDescription>
+	</field>
+	<field name="IndirizziSediOperative" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/IndirizziSediOperative]]></fieldDescription>
+	</field>
+	<field name="CuaaAnagrafica" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/cuaa]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="284">
+			<staticText>
+				<reportElement x="0" y="4" width="99" height="20" uuid="67e37b31-495d-4fea-8307-d9da6be052cc"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Il sottoscritto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="29" width="99" height="20" uuid="b2f736a6-7eed-4997-97be-cf053843e7b9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[nato/a a]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="51" width="99" height="20" uuid="86497fb3-b794-4370-934b-767d98cc5570">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[il]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="73" width="110" height="20" uuid="cee26f3e-d5c2-4df5-8916-cb10828188c7">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Residente a]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="96" width="110" height="20" uuid="5bb3bf32-f8c1-4e1b-9837-ee2075f8cbc6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Codice fiscale]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="118" width="110" height="20" uuid="d8b7a1d0-1575-4c8c-a460-ac19ba573a79"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="111" height="20" uuid="a9bff8a2-78c5-4c5f-b9c7-3c38b0cd8fab"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mail / PEC]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="121" y="4" width="77" height="20" isRemoveLineWhenBlank="true" uuid="ee5d378d-5384-4b4d-9cef-9d193558e469"/>
+				<textFieldExpression><![CDATA[$F{CognomeTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="208" y="4" width="256" height="20" isRemoveLineWhenBlank="true" uuid="8d89acc0-8606-42d5-8671-488f603c4e02">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{NomeTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="29" width="345" height="20" isRemoveLineWhenBlank="true" uuid="69983096-f737-486a-b231-6d7fac423c8c"/>
+				<textFieldExpression><![CDATA[$F{LuogoNascitaTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="51" width="346" height="20" isRemoveLineWhenBlank="true" uuid="52b861b3-6520-4ba1-866d-c80c5668115b"/>
+				<textFieldExpression><![CDATA[$F{DataNascitaTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="73" width="346" height="20" isRemoveLineWhenBlank="true" uuid="17998cdd-727b-4a88-9b82-d17e8495ca05">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{IndirizzoTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="95" width="346" height="20" isRemoveLineWhenBlank="true" uuid="0c71cebd-ddec-4fed-ac4d-ceb30d6010a6">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CodiceFiscaleTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="119" width="346" height="20" isRemoveLineWhenBlank="true" uuid="9075bd86-0985-4098-bd58-ebdc24eb6ea5">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TelefonoTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="121" y="141" width="334" height="20" isRemoveLineWhenBlank="true" uuid="ed8e1cff-ff61-40ff-8173-666c86d7e453">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{MailTitolare}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="25" width="483" height="1" uuid="0872708a-8900-43a5-8809-86dcb08de331"/>
+			</line>
+			<line>
+				<reportElement x="0" y="48" width="483" height="1" uuid="e4ed94ad-15dd-457e-ad94-f32188ceed05">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="71" width="483" height="1" isRemoveLineWhenBlank="true" uuid="32ea6aa0-1dc0-423f-b614-ebb551b31aa8"/>
+			</line>
+			<line>
+				<reportElement x="0" y="92" width="483" height="1" uuid="d5e98172-95f9-4b0d-98ff-8d3e9dc8b2ea"/>
+			</line>
+			<line>
+				<reportElement x="0" y="163" width="483" height="1" uuid="540a6c4a-7189-4742-81f5-a62314f16b2a"/>
+			</line>
+			<line>
+				<reportElement x="110" y="3" width="1" height="160" uuid="9c24792b-f446-4e76-8094-ead06f20f20e"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="184" width="470" height="20" uuid="953db25c-a8bf-4f62-9f85-bd634863e633"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[In qualità di legale rappresentante/procuratore dell'Azienda]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="115" width="483" height="1" uuid="3f8760da-ce95-4851-a5b1-54c2df06a3dc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="138" width="483" height="1" uuid="46dcb33b-e9ef-47a4-993a-e1e480f34a29">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+		<band height="262">
+			<staticText>
+				<reportElement x="0" y="-45" width="110" height="36" uuid="0e56140f-94b6-4cd8-96bd-15c5fb4e8b3f"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Ragione/denominazione sociale e forma giuridica]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="-40" width="301" height="24" isRemoveLineWhenBlank="true" uuid="d8693d7e-236e-42bb-b260-aa52e27a84d3">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Denominazione}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="21" width="126" height="20" uuid="fdd471cf-d728-46ab-97a7-f9ecae2c4799"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Indirizzo e n. civico]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="43" width="150" height="37" uuid="e14234ee-6abb-4801-9b39-ce578f3dcb9a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Indirizzo sede/i operativa/e (se diversa da quella legale)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="113" width="150" height="16" uuid="9c81f82c-a760-4c7f-ae0f-756e94111b3d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Partita IVA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="162" width="150" height="16" uuid="0b8e6fc4-85e4-4734-a8fa-4edca63647bf">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="209" width="150" height="16" uuid="0c6d3fda-a188-4f70-9dcf-2ebcf069118d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[PEC]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="40" width="483" height="1" uuid="b464f4ab-5a1f-4de9-bea5-8074c3d2116f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="20" width="483" height="1" uuid="345fbbaa-4584-4cb8-9675-ffae801e9638"/>
+			</line>
+			<line>
+				<reportElement x="0" y="40" width="483" height="1" uuid="e7bd5bbf-cdf1-4545-97a0-5a717efadfb5"/>
+			</line>
+			<line>
+				<reportElement x="0" y="106" width="483" height="1" uuid="2023ac12-5b56-4a6a-91a7-775515d4de67"/>
+			</line>
+			<line>
+				<reportElement x="0" y="134" width="483" height="1" uuid="0a7af2ea-9c6c-47b6-83d9-ee3f3d75fb94"/>
+			</line>
+			<line>
+				<reportElement x="0" y="182" width="483" height="1" uuid="fffd4c26-1071-4442-9103-6e7c4a3b3d82"/>
+			</line>
+			<line>
+				<reportElement x="0" y="205" width="483" height="1" uuid="b256e5ab-d1c4-42ed-b258-37f92f5c70f3"/>
+			</line>
+			<line>
+				<reportElement x="0" y="232" width="483" height="1" uuid="8660b448-88f0-4e76-8451-454b78e43d72"/>
+			</line>
+			<line>
+				<reportElement x="160" y="-52" width="1" height="283" uuid="30eda49a-b527-4c7e-9fea-68e5bb0ccd23">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="23" width="301" height="17" isRemoveLineWhenBlank="true" uuid="3127b43f-5485-4b1e-ba9f-def9447ad275">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{IndirizzoSedeLeg}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="43" width="301" height="58" isRemoveLineWhenBlank="true" uuid="5e59a69b-5c87-41d5-b8b7-415a5dd352ff">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IndirizziSediOperative}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="113" width="299" height="16" isRemoveLineWhenBlank="true" uuid="d69936f0-cb58-4f27-b908-cffe15ea1530">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{PartitaIva}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="186" width="150" height="16" uuid="54297355-9655-40a7-b04b-28d6395181a5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mail]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="161" width="301" height="13" isRemoveLineWhenBlank="true" uuid="805587f8-b0e6-43e1-9711-3ac1bc1b1b70">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Tel}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="186" width="286" height="13" isRemoveLineWhenBlank="true" uuid="f29f66b0-9eae-435c-a349-6041b3aed75a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="210" width="301" height="13" isRemoveLineWhenBlank="true" uuid="2e4ef102-6ba8-46d5-8d7c-65dd5bf7fdb5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Pec}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="-4" width="126" height="20" uuid="50e53f67-2414-42ee-83f6-bef76e8072ee"/>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Sede legale nel Comune di]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="169" y="-3" width="303" height="17" isRemoveLineWhenBlank="true" uuid="e607b756-c5a8-4c04-a4bb-ab9313d96938">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ComuneSedeLeg}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="159" width="483" height="1" uuid="27f56cf2-f897-4e12-98cc-7043b7f3f6c8"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="138" width="150" height="16" uuid="91f68285-2fdd-4070-bfc1-e9c0488acbf2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box bottomPadding="0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Codice Fiscale]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="168" y="137" width="301" height="16" isRemoveLineWhenBlank="true" uuid="6f249c88-1b80-4b92-b592-73193d62daf7">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CuaaAnagrafica}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="251" width="100" height="1" uuid="0899c33c-206f-4fb6-ad06-12dd44c90a22"/>
+			</break>
+		</band>
+	</detail>
+</jasperReport>

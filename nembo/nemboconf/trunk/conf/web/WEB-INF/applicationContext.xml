@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans default-autowire="autodetect">
+  <bean id="stampe" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Stampe" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.IStampeEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  <bean id="catalogoMisure" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/CatalogoMisure" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.ICatalogoMisureEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  <bean id="pianoFinaziarioNemboconf" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/PianoFinanziarioNemboconf" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.IPianoFinanziarioNemboEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+  <bean id="cruscottoBandi" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/CruscottoBandi" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.ICruscottoBandiEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+  <bean id="gestioneeventi" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/GestioneEventi" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.IGestioneEventiEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+   <bean id="economie" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Economie" />
+    <property name="businessInterface" value="it.csi.nembo.nemboconf.business.IEconomieEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+</beans>

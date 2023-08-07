@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="nembopratiche" xmlns:ivy="antlib:fr.jayasoft.ivy.ant" default="distribution">
+	<description>Build file per componente nembopratiche (Prodotto PSR20)</description>
+
+	<property environment="env" />
+
+	<!--<target name="resolve-dependencies" description="carica le librerie dal repository remoto">
+		<ivy:configure file="buildfiles/ivyconf.xml" />
+		<ivy:resolve file="buildfiles/ivy.xml" />
+	</target>-->
+
+	<!--<target name="load-dependencies" depends="resolve-dependencies, clean-lib" description="Risolve le dipendenze esterne.">
+		<ivy:retrieve pattern="lib/[artifact].[type]" />
+		<copy todir="${dir.lib}" failonerror="false">
+			<fileset dir="my.lib" includes="*.jar" />
+		</copy>
+	</target>-->
+
+	<target name="load-properties">
+		<echo message="Loading build properties..." />
+		<property file="buildfiles/build.properties" />
+    <tstamp />
+		<!-- Se non è stato indicato il target si imposta di default tst-rp-01 -->
+		<condition property="target" value="tst-rp-01">
+			<not>
+				<isset property="target" />
+			</not>
+		</condition>
+		<loadproperties srcFile="buildfiles/${target}.properties" />
+	</target>
+
+	<target name="init" depends="load-properties">
+		<path id="ref.classpath">
+			<fileset dir="${dir.lib}" includes="*.jar" />
+		</path>
+		<mkdir dir="${dir.build}" />
+	</target>
+
+	<target name="distribution-legacy" unless="env.XDOCLET_VERSION" >
+    <echo message="Eseguo target 'distribution-legacy'"/>
+    <antcall target="clean-all" />
+    <antcall target="package-all" />
+	</target>
+
+	<target name="distribution-chef" if="env.XDOCLET_VERSION" depends="init">
+  	<filterset id="changeplaceholder" begintoken="@" endtoken="@">
+	   	<filtersfile file="buildfiles/build.properties"/>
+	  </filterset>  
+		<copy todir="${dir.temp}" overwrite="true" verbose="true">
+      <fileset dir="${dir.conf}/chef" includes="${jb620.envname}-${jb620.cookbookversion}.sh"/>     
+      <filterset refid="changeplaceholder"/>
+    </copy>
+    
+    <echo message="Eseguo target 'distribution-chef'"/>
+		<delete dir="${dir.dist.target}" />
+		<mkdir dir="${dir.dist.target}" />
+		<tar tarfile="${dir.dist.target}/${app.componente}-${app.version}.tar" basedir="${dir.temp}" includes="${jb620.envname}-${jb620.cookbookversion}.sh" />
+	</target>
+
+	<target name="distribution">
+    <echo message="env.XDOCLET_VERSION = ${env.XDOCLET_VERSION}"/>
+    <antcall target="distribution-chef" />
+    <antcall target="distribution-legacy" />
+	</target>
+
+	<target name="java-environment" depends="init">
+		<delete dir="${dir.classes}" />
+		<mkdir dir="${dir.classes}" />
+		<delete dir="${dir.temp.src}" />
+		<mkdir dir="${dir.temp.src}" />
+		<copy todir="${dir.temp.src}">
+			<fileset dir="${dir.src.java}" includes="**/*.java" />
+		</copy>
+    <!--Copio i file di properties (essenzialmente solo config.properties) -->
+		<copy todir="${dir.classes}">
+			<fileset dir="${dir.conf.application}" includes="*.properties" />
+		</copy>
+    <!-- e rimpiazzo i valori -->
+		
+		<replace file="${dir.classes}/config.properties" token="@@gaaserv_endpoint_url@@" value="${gaaserv_endpoint_url}" />
+		
+		<replaceregexp match="(\\b)*papuaserv.profilazione.rest.baseurl(.)+" replace="papuaserv.profilazione.rest.baseurl=${papuaserv.profilazione.rest.baseurl}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		<replaceregexp match="(\\b)*papuaserv.messaggistica.wsdl.server(.)+" replace="papuaserv.messaggistica.wsdl.server=${papuaserv.messaggistica.wsdl.server}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		
+		<fail unless="ismea.bpol.wsdl" />
+    <replaceregexp match="(\\b)*ismea.bpol.wsdl(.)+" replace="ismea.bpol.wsdl=${ismea.bpol.wsdl}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+		
+		<fail unless="ismea.wsdl.usernameWS" />
+    <replaceregexp match="(\\b)*ismea.wsdl.usernameWS(.)+" replace="ismea.wsdl.usernameWS=${ismea.wsdl.usernameWS}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+		
+		<fail unless="ismea.wsdl.passwordWS" />
+    <replaceregexp match="(\\b)*ismea.wsdl.passwordWS(.)+" replace="ismea.wsdl.passwordWS=${ismea.wsdl.passwordWS}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+		
+		<fail unless="ismea.web.url" />
+    <replaceregexp match="(\\b)*ismea.web.url(.)+" replace="ismea.web.url=${ismea.web.url}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+		
+		
+		<fail unless="siapcomm.wsdl" />
+    <replaceregexp match="(\\b)*siapcomm.wsdl(.)+" replace="siapcomm.wsdl=${siapcomm.wsdl}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+	
+	<fail unless="sigopserv.ws.url" />
+    <replaceregexp match="(\\b)*sigopserv.ws.url(.)+" replace="sigopserv.ws.url=${sigopserv.ws.url}" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="config.properties" />
+    </replaceregexp>
+		
+		<replaceregexp match="(\\b)*psr20.gestione.servers(.)+" replace="psr20.gestione.servers=${psr20.gestione.servers}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		
+		
+		<replaceregexp match="(\\b)*anag.sian.servlet.url(.)+" replace="anag.sian.servlet.url=${anag.sian.servlet.url}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		
+		<replaceregexp match="(\\b)*SERVICE_PROTOCOLLO_ENDPOINT_URL(.)+" replace="SERVICE_PROTOCOLLO_ENDPOINT_URL=${SERVICE_PROTOCOLLO_ENDPOINT_URL}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		<replaceregexp match="(\\b)*USER_ACCOUNT_PROT(.)+" replace="USER_ACCOUNT_PROT=${USER_ACCOUNT_PROT}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		<replaceregexp match="(\\b)*PWD_ACCOUNT_PROT(.)+" replace="PWD_ACCOUNT_PROT=${PWD_ACCOUNT_PROT}" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="config.properties" />
+		</replaceregexp>
+		
+		<!--Copio le PD-->
+		<copy todir="${dir.classes}">
+			<fileset dir="${dir.conf.application}" includes="*.wsdl" />
+		</copy>
+		<!--Copio i WSDL -->
+		<copy todir="${dir.classes}">
+			<fileset dir="${dir.conf.application}" includes="*-client*.xml" />
+		</copy>
+		<!--Copio i file di spring-->
+		<copy todir="${dir.classes}">
+			<fileset dir="${dir.conf.ejb}/${app.componente}/" includes="beanRefContext.xml,springContext.xml" />
+		</copy>		
+		<!--Rimpiazzo i puntamenti nelle PD-->
+		
+		<replace file="${dir.classes}/smrgaasv-client-5.4.0.xml" token="@SMRGAASVSERVICE_SERVICE_ENDPOINT_URL@" value="${anagService_service_endpoint_url}"/>
+		
+    <replaceregexp match="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;(.*)&quot; /&gt;" replace="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;${pd.gaaserv.url}&quot; /&gt;" flags="m" byline="true">
+			<fileset dir="${dir.classes}" includes="gaasrv-HL-client*.xml" />
+		</replaceregexp>		   		
+    <replaceregexp match="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;(.*)&quot; /&gt;" replace="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;${pd.modolsrv.url}&quot; /&gt;" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="modolsrv-client*.xml" />
+    </replaceregexp>
+    <replaceregexp match="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;(.*)&quot; /&gt;" replace="&lt;property name=&quot;java.naming.provider.url&quot; value=&quot;${pd.modolsrv.pdfgenerator.url}&quot; /&gt;" flags="m" byline="true">
+      <fileset dir="${dir.classes}" includes="pdf-generator-client*.xml" />
+    </replaceregexp>
+	
+	</target>
+
+	<target name="compile-all" depends="init, java-environment" description="Compila i sorgenti nella build directory">
+		<mkdir dir="${dir.classes}" />
+		<javac srcdir="${dir.temp.src}" classpathref="ref.classpath" destdir="${dir.classes}" optimize="on" deprecation="on" fork="true" encoding="iso8859-15" memoryInitialSize="128m" memoryMaximumSize="512m" debug="true">
+		</javac>
+	</target>
+
+	<target name="web-environment">
+		<echo>Copying web configuration files from ${dir.conf.webinf} to temporary directory ${dir.temp.webinf}</echo>
+		<mkdir dir="${dir.temp.webinf}" />
+		<copy todir="${dir.temp.webinf}">
+			<fileset dir="${dir.conf.webinf}" includes="*.xml,*.tld,**/*.properties" />
+		</copy>
+		<mkdir dir="${dir.temp.webinf}/conf" />
+		<copy todir="${dir.temp.webinf}/conf">
+			<fileset dir="${dir.conf}" includes="messages.properties" />
+		</copy>
+		<replaceregexp match="(&lt;param-name&gt;remincl.resource.provider.portal&lt;/param-name&gt;[^&lt;]*&lt;param-value&gt;)[^&lt;]*(&lt;/param-value&gt;)" replace="\1${remincl.resource.provider.portal}\2" flags="s" byline="false" file="${file.temp.webxml}" />
+	</target>
+
+	<target name="package-war" depends="init, web-environment">
+		<mkdir dir="${dir.archive.target}" />
+		<echo>Creating web archive ${war.archive}</echo>
+		<war basedir="${dir.src.web}" warfile="${war.archive}" excludes="**/*.class" webxml="${file.temp.webxml}">
+			<webinf dir="${dir.temp.webinf}" excludes="/jsp/**,/include/**" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${DSTAMP}" />
+				<attribute name="Target" value="${target}" />
+        <attribute name="ComponentName" value="${app.componente}" />
+				<attribute name="ComponentVersion" value="${app.version}" />
+			</manifest>
+		</war>
+	</target>
+
+	<target name="package-ejb" depends="compile-all">
+		<echo>Creating ${ejb.archive}</echo>
+		<jar basedir="${dir.classes}" includes="**/*.class,**/*.xml,**/*.properties,**/*.wsdl" destfile="${ejb.archive}" >
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${DSTAMP}" />
+				<attribute name="Target" value="${target}" />
+        <attribute name="ComponentName" value="${app.componente}" />
+				<attribute name="ComponentVersion" value="${app.version}" />
+			</manifest>
+    </jar>
+	</target>
+
+	<target name="package-ear" depends="package-war, package-ejb" description="Costruisce l'ear per un ambiente">
+		<ear appxml="${file.applicationxml}" earfile="${ear.archive}">
+			<fileset dir="${dir.archive.target}" includes="${war.name},${ejb.name}" />
+			<zipfileset dir="${dir.lib}" excludes="${ear.lib.excludes}" prefix="lib" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${DSTAMP}" />
+				<attribute name="Target" value="${target}" />
+        <attribute name="ComponentName" value="${app.componente}" />
+				<attribute name="ComponentVersion" value="${app.version}" />
+			</manifest>
+		</ear>
+	</target>
+
+	<target name="package-all" depends="package-ear" description="Ccrea tutti gli archivi per un ambiente">
+		<delete dir="${dir.dist.target}" />
+		<mkdir dir="${dir.dist.target}" />
+		<tar destfile="${dir.dist.target}/${app.componente}-${app.version}.tar">
+			<tarfileset dir="${dir.archive.target}" includes="${ear.name}" />
+			<!-- tarfileset dir="${dir.conf.tar}" includes="*-ds.xml" / -->
+		</tar>
+	</target>
+
+	<target name="clean-cache" depends="load-properties" description="Cancella la directory build/cache creata da Ivy con il download delle dipendenze">
+		<echo>Deleting dir ${dir.cache}</echo>
+		<delete dir="${dir.cache}" />
+	</target>
+
+	<target name="clean-temp" depends="load-properties" description="Cancella la directory build/temp creata da Ant">
+		<echo>Deleting dir ${dir.temp}</echo>
+		<delete dir="${dir.temp}" />
+	</target>
+
+	<target name="clean-classes" depends="load-properties" description="Cancella la directory build/classes creata da Ant contenente i file .class ottenuti dalla compilazione del sorgente Java">
+		<delete dir="${dir.classes}" />
+	</target>
+
+	<target name="clean-archive" depends="load-properties" description="Cancella la directory build/dist creata da Ant contenente tutti gli archivi generati dai target">
+		<delete dir="${dir.archive}" />
+	</target>
+
+	<target name="clean-dist" depends="load-properties">
+		<delete dir="${dir.dist.target}" />
+	</target>
+
+	<!--<target name="clean-lib" depends="load-properties">
+		<delete dir="${dir.lib}" />
+	</target>-->
+
+	<target name="clean-all" depends="clean-temp, clean-cache, clean-classes, clean-archive, clean-dist" description="Cancella tutte le directory create da Ant ad eccezione della cache di Ivy" />
+	
+	<target name="generate-wsdl" depends="init">
+    <mkdir dir="${dir.lib.ws}" />
+    <ivy:configure file="buildfiles/ivyconf.xml" override="true" />
+    <ivy:resolve file="buildfiles/ivy4ws.xml" />
+    <ivy:retrieve pattern="lib/[artifact].[type]"  />
+    <path id="ref.classpath.ws">
+      <fileset dir="${dir.lib.ws}" includes="*.jar" />
+    </path>
+
+	  <java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+	  	<sysproperty key="http.proxyHost" value="proxy.csi.it"/>
+      <sysproperty key="http.proxyPort" value="80"/>
+	    <arg value="-d"/>
+	    <arg value="${dir.src.java}"/>
+	    <arg value="-p"/>
+	    <arg value="${package}"/>
+	    <arg value="${wsdl}"/>
+	    <classpath>
+	      <path refid="ref.classpath"/>
+	      <path refid="ref.classpath.ws"/>
+	    </classpath>
+	  </java>
+		<delete dir="${dir.lib.ws}"/>
+	</target>
+  
+  <target name="genera-classi-ws-bpol" depends="init">
+    <delete dir="${dir.src.java.ws}/ismea/bpol" />
+    <antcall target="generate-wsdl">
+      <param name="package" value="it.csi.nembo.nembopratiche.integration.ws.ismea.bpol"/>
+      <param name="wsdl" value="http://bpoltest.ismea.it/WSBP_BPOL3_RRN/Service.asmx?WSDL"/>
+    </antcall>
+    <delete><fileset dir="${dir.src.java.ws}/ismea/bpol" includes="**/package-info.java"/></delete>
+  </target>
+  
+  <target name="genera-classi-ws-profilazione" depends="init">
+    <delete dir="${dir.src.java.ws}/papuaserv/profilazione" />
+    <antcall target="generate-wsdl">
+      <param name="package" value="it.csi.nembo.nembopratiche.integration.ws.papuaserv.profilazione"/>
+      <param name="wsdl" value="http://TOBECONFIG/papuaserv/ws/profilazione?wsdl"/>
+    </antcall>
+    <delete><fileset dir="${dir.src.java.ws}/papuaserv/profilazione" includes="**/package-info.java"/></delete>
+  </target>
+  
+  <target name="genera-classi-ws-messaggistica" depends="init">
+  	<delete dir="${dir.src.java.ws}/papuaserv/messaggistica" />
+    <antcall target="generate-wsdl">
+      <param name="package" value="it.csi.nembo.nembopratiche.integration.ws.papuaserv.messaggistica"/>
+      <param name="wsdl" value="http://TOBECONFIG/papuaserv/ws/messaggistica?wsdl"/>
+    </antcall>
+    <delete><fileset dir="${dir.src.java.ws}/papuaserv/messaggistica" includes="**/package-info.java"/></delete>
+  </target>
+</project>

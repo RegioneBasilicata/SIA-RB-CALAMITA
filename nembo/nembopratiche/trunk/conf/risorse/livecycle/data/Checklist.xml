@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Domanda>
+   
+  <SezioneIstruttoriaPagamento>
+	<NomeOggetto>Istruttoria Saldo</NomeOggetto>
+	<SezioneLiquidazione>
+		<VisibilityLiquidazione>true</VisibilityLiquidazione>
+		<TabellaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 1</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 1</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 2</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+			<RigaImportoLiquidato>
+				<Livello>115</Livello>
+				<Importo>10000</Importo>
+				<NLista>2</NLista>
+				<StatoLista>IN BOZZA</StatoLista>
+				<TecnicoLiquidatore>Tecnico 2</TecnicoLiquidatore>
+				<Ripartizione>
+				  <VoceRipart>Voce 3</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+				<Ripartizione>
+				  <VoceRipart>Voce 4</VoceRipart>
+				  <PercentRipart>20</PercentRipart>
+				  <ImportoRipart>2000</ImportoRipart>
+				</Ripartizione>
+			</RigaImportoLiquidato>
+		</TabellaImportoLiquidato>
+	</SezioneLiquidazione>
+  </SezioneIstruttoriaPagamento>
+  <SezioneDomandaSostegno>
+	<NomeOggetto>DomandaSostegno</NomeOggetto>
+	
+  </SezioneDomandaSostegno>
+  
+  <RiquadroData>
+    <Data>28/07/17</Data>
+  </RiquadroData>
+</Domanda>

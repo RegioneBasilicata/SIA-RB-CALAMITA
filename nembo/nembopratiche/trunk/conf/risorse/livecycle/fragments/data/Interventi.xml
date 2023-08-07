@@ -1,0 +1,62 @@
+<Domanda>
+	<!-- QUADRO Interventi -->
+	<QuadroInterventi>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneInterventi> Quadro - Interventi </TitoloSezioneInterventi>
+		<Interventi>
+		<TabInterventi>
+			<RigaInterventi>
+				<ProgressivoDanno>1</ProgressivoDanno>
+				<TipoDanno>Terreni Ripristinabili</TipoDanno>
+				<Danno>Danno di prova ai terreni</Danno>
+				<ProgressivoIntervento>1</ProgressivoIntervento>
+				<Intervento>Ripristino Terreni</Intervento>
+				<DescIntervento>Intervento di sostituzione della terra attraverso una reimmissione</DescIntervento>
+				<ImportoIntervento>300000 Euro</ImportoIntervento>
+			</RigaInterventi>
+			<RigaInterventi>
+				<ProgressivoDanno>2</ProgressivoDanno>
+				<TipoDanno>Scorte morte</TipoDanno>
+				<Danno>Dispersione dei combustibili</Danno>
+				<ProgressivoIntervento>2</ProgressivoIntervento>
+				<Intervento>Acquisto materiali e manutenzione</Intervento>
+				<DescIntervento>Riacquisto combustibili e bonifica dell'area di dispersione</DescIntervento>
+				<ImportoIntervento>1000,00 Euro</ImportoIntervento>
+			</RigaInterventi>
+			<RigaTotale>
+				<TotImporto>301000 Euro</TotImporto>
+			</RigaTotale>
+		</TabInterventi>
+		</Interventi>
+		<Localizzazione>
+			<VisibilityLoc>true</VisibilityLoc>
+			<TabLoc>
+				<RigaLoc>
+					<Progressivo>1</Progressivo>
+					<Comune>Isildur</Comune>
+					<Sezione>3</Sezione>
+					<Foglio>5</Foglio>
+					<Particella>161</Particella>
+					<Subalterno>-</Subalterno>
+					<SupCatastale>0,0350</SupCatastale>
+					<Occupazione>Melo</Occupazione>
+					<Destinazione>Da Mensa</Destinazione>
+					<SupUtilizzata>0,0350</SupUtilizzata>
+				</RigaLoc>
+				<RigaLoc>
+					<Progressivo>1</Progressivo>
+					<Comune>Mordor</Comune>
+					<Sezione>-</Sezione>
+					<Foglio>5</Foglio>
+					<Particella>161</Particella>
+					<Subalterno>-</Subalterno>
+					<SupCatastale>0,0350</SupCatastale>
+					<Occupazione>Melo</Occupazione>
+					<Destinazione>Da Mensa</Destinazione>
+					<SupUtilizzata>0,0350</SupUtilizzata>
+				</RigaLoc>
+			</TabLoc>
+		</Localizzazione>
+	</QuadroInterventi>
+</Domanda>

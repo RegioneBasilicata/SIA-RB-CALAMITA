@@ -1,0 +1,874 @@
+@import url('icon16.css');
+@import url('icon32.css');
+@import url('icon24.css');
+.ico_spaced
+{
+  margin-left:4px;
+  margin-right:4px;
+}
+.current-user
+{
+  color: white; 
+  font-weight: bold;
+  display:inline-block;
+  position:relative;
+  background-color:#0153A9;
+}
+
+.current-user ul
+{
+	  margin-bottom:0px;
+	  margin-top:0px;
+    padding-bottom:0px;  
+    padding-top:0px;  
+}
+.espandi,.clickMe{
+	cursor: pointer
+}
+
+table th.center {
+	text-align: center;
+}
+
+table th.right {
+	text-align: right;
+}
+ 
+a.noLink{
+	text-decoration:none !important;
+	color:#444E56;
+	cursor:default
+}
+
+a.noUnderline{
+	text-decoration:none !important;
+	color:#444E56;
+}
+
+.espandiTutti, .espandiTuttiSottomisura{
+	cursor: pointer;
+	opacity:0.3;
+}
+
+input.pageValueNum {
+	width: 4em;
+}
+
+.colorCell{
+	background-color: #0B416C;
+	color: #FFFFFF !important;
+}
+.colorCell a{
+	background-color: #0B416C;
+	color: #FFFFFF !important;
+}
+
+
+/* inizio style per icona "insert" */
+div.commandPanel span.insert a, div.commandPanel span.insert a:link, div.commandPanel span.insert a:hover,
+div.commandPanel span.insert a:active, div.commandPanel span.insert a:visited
+{
+	padding-left: 21px;
+}
+
+span.insert input, span.insert button, span.insert a, span.insert a:link,
+	span.insert a:hover, span.insert a:active, span.insert a:visited 
+{
+	background: transparent
+		url(../img/ico_insert.png) 0 50% no-repeat;
+	padding-left: 18px;
+}
+
+table span.insert a, table span.insert a:link, table span.insert a:hover,
+table span.insert a:active, table span.insert a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.insert button
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	padding-top: 16px;
+	padding-left: 14px;
+	cursor: pointer;
+}
+
+/* fine style per icona "insert" */
+/* inizio style per icona "ok" */
+div.commandPanel span.ok a, div.commandPanel span.ok a:link, div.commandPanel span.ok a:hover,
+div.commandPanel span.ok a:active, div.commandPanel span.ok a:visited
+{
+  padding-left: 21px;
+}
+
+span.ok input, span.ok button, span.ok a, span.ok a:link,
+  span.ok a:hover, span.ok a:active, span.ok a:visited 
+{
+  background: transparent
+    url(../img/ico_ok.png) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.ok a, table span.ok a:link, table span.ok a:hover,
+table span.ok a:active, table span.ok a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.ok button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+/* fine style per icona "ok" */
+/* inizio style per icona "freccia" */
+div.commandPanel span.freccia a, div.commandPanel span.freccia a:link, div.commandPanel span.freccia a:hover,
+div.commandPanel span.freccia a:active, div.commandPanel span.freccia a:visited
+{
+  padding-left: 21px;
+}
+
+span.freccia input, span.freccia button, span.freccia a, span.freccia a:link,
+  span.freccia a:hover, span.freccia a:active, span.freccia a:visited 
+{
+  background: transparent
+    url(../img/ico_freccia.gif) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.freccia a, table span.freccia a:link, table span.freccia a:hover,
+table span.freccia a:active, table span.freccia a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.freccia button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+/* fine style per icona "freccia" */
+/* inizio style per icona "freccia_su" */
+div.commandPanel span.freccia_su a, div.commandPanel span.freccia_su a:link, div.commandPanel span.freccia_su a:hover,
+div.commandPanel span.freccia_su a:active, div.commandPanel span.freccia_su a:visited
+{
+  padding-left: 21px;
+}
+
+span.freccia_su input, span.freccia_su button, span.freccia_su a, span.freccia_su a:link,
+  span.freccia_su a:hover, span.freccia_su a:active, span.freccia_su a:visited 
+{
+  background: transparent
+    url(../img/ico_freccia_su.gif) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.freccia_su a, table span.freccia_su a:link, table span.freccia_su a:hover,
+table span.freccia_su a:active, table span.freccia_su a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.freccia_su button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+/* fine style per icona "freccia_su" */
+/* inizio style per icona "freccia_giu" */
+div.commandPanel span.freccia_giu a, div.commandPanel span.freccia_giu a:link, div.commandPanel span.freccia_giu a:hover,
+div.commandPanel span.freccia_giu a:active, div.commandPanel span.freccia_giu a:visited
+{
+  padding-left: 21px;
+}
+
+span.freccia_giu input, span.freccia_giu button, span.freccia_giu a, span.freccia_giu a:link,
+  span.freccia_giu a:hover, span.freccia_giu a:active, span.freccia_giu a:visited 
+{
+  background: transparent
+    url(../img/ico_freccia_giu.gif) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.freccia_giu a, table span.freccia_giu a:link, table span.freccia_giu a:hover,
+table span.freccia_giu a:active, table span.freccia_giu a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.freccia_giu button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+/* fine style per icona "freccia_giu" */
+/* inizio style per icona "cerca" */
+div.commandPanel span.cerca a, div.commandPanel span.cerca a:link, div.commandPanel span.cerca a:hover,
+div.commandPanel span.cerca a:active, div.commandPanel span.cerca a:visited
+{
+  padding-left: 21px;
+}
+
+span.cerca input, span.cerca button, span.cerca a, span.cerca a:link,
+  span.cerca a:hover, span.cerca a:active, span.cerca a:visited 
+{
+  background: transparent
+    url(../img/ico_cerca.gif) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.cerca a, table span.cerca a:link, table span.cerca a:hover,
+table span.cerca a:active, table span.cerca a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.cerca button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+.center 
+{
+  text-align: center;
+}
+
+/* fine style per icona "cerca" */
+
+/* inizio style per icona "cancella" */
+div.commandPanel span.cancella a, div.commandPanel span.cancella a:link, div.commandPanel span.cancella a:hover,
+div.commandPanel span.cancella a:active, div.commandPanel span.cancella a:visited
+{
+  padding-left: 21px;
+}
+
+span.cancella input, span.cancella button, span.cancella a, span.cancella a:link,
+  span.cancella a:hover, span.cancella a:active, span.cancella a:visited 
+{
+  background: transparent
+    url(../img/ico_cancel.gif) 0 50% no-repeat;
+  padding-left: 18px;
+}
+
+table span.cancella a, table span.cancella a:link, table span.cancella a:hover,
+table span.cancella a:active, table span.cancella a:visited
+{
+  display:inline-block;
+  width:0;height:16px;
+  /*margin-right:4px; problemi IE6*/
+}
+
+table span.cancella button
+{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+th.sortable{
+	
+	cursor:pointer;
+}
+
+/* fine style per icona "cancella" */
+
+.error_mark
+{
+  padding-left: 18px;
+  width:20px !important;
+  height:20px !important;
+  background-image:url(/ris/resources/global/images/error.gif);
+  background-position:centerX, centerY;
+  background-repeat:no-repeat;
+  overflow:hidden;
+  color:transparent;
+}
+
+.no-display
+{
+  display:none;
+}
+
+.no-close-dialog .ui-dialog-titlebar-close
+{
+    display:none;
+}
+
+.linkable-cell
+{
+  position:absolute;
+  width:100%;
+  height:20px;
+  cursor:pointer;
+  top:0;
+  left:0;
+  width:105px;
+}
+
+.linkable-cell a
+{
+  padding-right:20px;
+  border:1px solid red;
+}
+
+.top_right_cancel
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  display:block;
+  width:15px;
+  height:15px;
+  background: transparent
+    url(../img/ico_close.png) 0 50% no-repeat;
+}
+
+.top_right_cancel:hover
+{
+  background: transparent
+    url(../img/ico_close_hover.png) 0 50% no-repeat;
+}
+
+.padding_right_15
+{
+  padding-right:15px;
+}
+
+.updatable-value-cell
+{
+  padding-right: 15px;
+  text-align:center;
+  margin:0px;
+  position:relative;
+  min-width:96px;
+}
+
+.totaleRiga
+{
+  text-align:center;
+}
+
+.importo-misura
+{
+  background-color:#E0E9F2;
+  min-width:96px;
+  text-align:center;
+}
+
+.importo-sottomisura
+{
+  background-color:#EFF4F8;
+  min-width:96px;
+  text-align:center;
+}
+
+
+@import url('icon16.css');
+@import url('icon32.css');
+@import url('icon24.css');
+.ico_spaced
+{
+  margin-left:4px;
+  margin-right:4px;
+}
+.current-user
+{
+  color: white; 
+  font-weight: bold;
+  display:inline-block;
+  position:relative;
+  background-color:#0153A9;
+}
+
+.current-user ul
+{
+	  margin-bottom:0px;
+	  margin-top:0px;
+    padding-bottom:0px;  
+    padding-top:0px;  
+}
+
+.NEMBO_breadcrumb ul
+{
+	padding-bottom:0px;
+}
+
+.NEMBO_breadcrumb ul li
+{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.form-horizontal textarea
+{
+	font-size:14px;
+}
+.red-tooltip.top .tooltip-inner 
+{
+    background-color:#A94442;
+    font-weight:bold;
+    font-size:1.2em;
+    padding:8px;
+}
+.red-tooltip.top .tooltip-arrow 
+{
+      border-top-color: #A94442;
+}
+
+.txt-tooltip.top .tooltip-inner 
+{
+    padding:8px;
+    max-width:800px;
+    background-color:#A94442;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.txt-tooltip.top .tooltip-arrow 
+{
+      border-top-color: #A94442;
+}
+
+.clear
+{
+	clear:left;
+}
+table .caption
+{
+	background-color: #DDDDDD !important; 
+	color: #000000; 
+	text-align: left;
+	font-weight:bold;
+}
+
+.has-error-checkbox
+{
+border: 2px solid #a94442;
+}
+
+div .toggleHeader{
+	background-color: #3071A9;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	padding-left:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	cursor:pointer;
+}
+
+.link{
+	cursor:pointer !important;
+}
+
+#ricercaProcedimenti select[readonly]:hover{ cursor:default}
+#ricercaProcedimenti select option:selected{
+	cursor: not-allowed !important;
+	background-color: #eee !important;
+	opacity: 1 !important;
+}
+
+.tableBlueTh thead th{
+	background-color:#428BCA;
+	color:#FFF;
+}
+
+.tableBlueTh > thead > tr > th:first-child
+{
+	border-top-left-radius:4px;
+}
+
+.tableBlueTh > thead > tr > th:last-child
+{
+  border-top-right-radius:4px;
+}
+.no-decoration
+{
+	text-decoration:none;
+}
+
+.no-decoration:hover
+{
+  text-decoration:none !important;
+}
+
+.uppercase
+{
+	text-transform:uppercase;
+}
+
+.numero
+{
+	text-align:right;
+}
+
+.center
+{
+  text-align:center;
+}
+
+.modal-large .modal-dialog
+{
+	width:760px;
+}
+
+.dropdown-menu-hideColumn{
+	left: -8em !important;
+	right:0 !important;
+}
+
+#ui-datepicker-div
+{
+	z-index:10000 !important;
+}
+
+.icons_cell
+{
+	padding:0px;
+	margin:0px !important;
+	line-height:1;
+	vertical-align:middle !important;	
+}
+
+.noPaddingRight{
+	padding-right: 0px !important;
+}
+
+.noPadding{
+	padding: 0px;
+}
+
+.please_wait
+{
+  display:inline-block;
+  width:128px;
+  height:128px;
+  background-image: url('../img/please_wait.gif');
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.header 
+{
+	height:32px;
+  padding-top:4px !important;
+  margin:0px !important;
+}
+
+.header h1
+{
+	font-size:18px !important;
+	padding-top:0px !important;
+  margin:0px !important;
+}
+
+#header-servizio
+{
+  height:48px;	
+  padding-top:4px !important;
+  padding-bottom:4px !important;
+}
+
+#header-servizio h2
+{
+	font-size:20px !important;
+}
+
+#header_info
+{
+	font-weight:bold;
+	padding-left:50px;
+}
+
+.alignRight
+{
+	text-align:right;
+}
+
+/* NAV TABS */
+
+.no-border-bottom{ border-bottom: 0px !important }
+
+.nav-tabs>li{margin-bottom: -2px !important;} 
+.nav-tabs {border-bottom: 3px solid #428BCA;} 
+.nav-tabs li a  
+{
+	color:#000000; 
+	border-color:#428BCA !important;  
+ 	height:56px;  
+ 	background-color:#DDDDDD
+}  
+.nav-tabs .active a  
+{
+	height:56px;  
+	color:#000000!important;  
+	border:2px solid !important;
+	border-color:#428BCA !important; 
+	border-bottom:4px solid #FFF !important; 
+	font-weight:bold!important;   
+	background-color:#FFF !important;      
+}
+
+
+.myovertable a {
+	text-decoration: none;
+}
+
+.form-horizontal textarea
+{
+	font-size:14px;
+}
+.red-tooltip.top .tooltip-inner 
+{
+    background-color:#A94442;
+    font-weight:bold;
+    font-size:1.2em;
+    padding:8px;
+}
+.red-tooltip.top .tooltip-arrow 
+{
+      border-top-color: #A94442;
+}
+
+.txt-tooltip.top .tooltip-inner 
+{
+    padding:8px;
+    max-width:800px;
+    background-color:#A94442;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.txt-tooltip.top .tooltip-arrow 
+{
+      border-top-color: #A94442;
+}
+
+.clear
+{
+	clear:left;
+}
+table .caption
+{
+	background-color: #DDDDDD !important; 
+	color: #000000; 
+	text-align: left;
+	font-weight:bold;
+}
+
+.has-error-checkbox
+{
+border: 2px solid #a94442;
+}
+
+.valign-middle
+{
+	vertical-align:middle !important;	
+}
+
+
+.fixed-table-container thead th .asc {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAAM1BMVEUAAADc3Nzc3Nzc3NzZ2dzZ2dzY2NzX2NzW19zW1tzNztzNztzV1dzV1dzX19zX19zc3NzGa49PAAAAEHRSTlMAFEGAhYaJjMDFyc7S1u/zLeBaEwAAAEFJREFUeAFjwAcYmRgxxNgEWDCU8QvwMaIJcQoICHCgCjILgAAzijJesBgPskJ2AQhgRRLjhopxoTgOAhgZhioAAFkOAmODlaCDAAAAAElFTkSuQmCC) !important;
+}
+
+.fixed-table-container thead th .desc {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAAM1BMVEUAAADc3Nzc3Nzc3NzZ2dzZ2dzY2NzX2NzW19zW1tzNztzNztzV1dzV1dzX19zX19zc3NzGa49PAAAAEHRSTlMAFEGAhYaJjMDFyc7S1u/zLeBaEwAAAEJJREFUeAFjGLKAkQkCGJHEuAQggBtJjBUqxo6slwcsxIusl4EZLMaMagkHUIiTEc1mPgF+RnTnsAiwYXEiIz4fAAAzjwJjNTQfLAAAAABJRU5ErkJggg==) !important;
+}
+
+.form-group .control-label{
+	background-color: #EEEEEE;
+	border-radius: 7px;
+	min-height:2.4em;
+    border: 1px solid #ccc;
+}
+
+
+.form-horizontal .form-group{
+	margin-left: 0px;
+}
+
+#chartContainer
+{
+	position:relative;	
+	width: 100%;
+}
+
+#onePageChartContainer
+{
+	width: 100%;
+}
+
+.onePageSingleChart
+{
+	width:95%;
+	height:700px;
+}
+
+
+
+
+.singleChart
+{
+	width:48%;
+	height:600px;
+	float:left;
+	border-right: 2px solid #1E354D;
+	margin-bottom: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.dettChart
+{
+	width:100%;
+	height:600px;
+}
+
+.please_wait
+{
+  display:inline-block;
+  width:128px;
+  height:128px;
+  background-image: url('../img/please_wait.gif');
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.blueFolder
+{
+	color: #337ab7;
+}
+
+.ico_pleasewait {
+    -webkit-animation:spin 1.1s linear infinite;
+    -moz-animation:spin 1.1s linear infinite;
+    animation:spin 1.1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.pull-right .dropdown-menu-hideColumn{
+	left: -15em !important;
+	right:0 !important;
+}
+
+.fixed-table-toolbar .columns label {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+}
+
+
+.pull-right .dropdown-menu{
+	left: -15em !important;
+	right:0 !important;
+}
+
+i.glyphicon-picture {
+    font-size: 1.4em;
+}
+.spanheader{
+    color: #0153A9 !important;
+    text-transform: uppercase;
+    font-size: 17px !important;
+    font-weight: bold;
+    line-height: 18px !important;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.navpanel{
+	border-top:none;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    max-height: 540px;
+    overflow-y: auto;
+}
+
+
+.testo-messaggistica .msg-container
+{
+  width:100%;
+  overflow:hidden;
+}
+
+.testo-messaggistica div
+{
+  width:99999px;
+}
+#messaggi-testata
+{
+  padding:0px;
+  margin:0px;
+}
+
+#messaggi-testata a
+{
+  color:blue;
+}
+
+#help_text{
+	border:1px solid blank !important;
+	
+}
+
+.alert-warning{	
+	background-color: #fced9c !important;
+}
+
+checkbox-field {
+	max-width: 36px !important;
+	width:36px !important;
+	min-width: 36px !important;
+	text-align:center;
+	padding: 8px 0;
+}

@@ -1,0 +1,161 @@
+.ico32
+{
+	text-decoration:none;
+  display:inline-block;
+  width:32px;
+  height:32px;
+}
+/* ICON ico_image */
+.ico32.ico_image
+{
+  background:url('../img/32/image.png');
+}
+
+/* ICON ico_pdf */
+.ico32.ico_pdf
+{
+  background:url('../img/32/pdf.png');
+}
+
+/* ICON ico_excel */
+.ico32.ico_excel
+{
+  background:url('../img/32/excel.png');
+}
+
+/* ICON ico_word */
+.ico32.ico_word
+{
+  background:url('../img/32/word.png');
+}
+
+/* ICON ico_text */
+.ico32.ico_text
+{
+  background:url('../img/32/text.png');
+}
+
+/* ICON ico_file */
+.ico32.ico_file
+{
+  background:url('../img/32/file.png');
+}
+
+/* ICON ico_trash */
+.ico32.ico_trash
+{
+  background:url('../img/32/trash.png');
+}
+
+/* ICON ico_modify */
+.ico32.ico_modify
+{
+  background:url('../img/32/modify.png');
+}
+
+/* ICON ico_add */
+.ico32.ico_add
+{
+  background:url('../img/32/add.png');
+}
+/* ICON ico_print */
+.ico32.ico_print
+{
+  background:url('../img/32/print.png');
+}
+/* ICON ico_document */
+.ico32.ico_document
+{
+  background:url('../img/32/document.png');
+}
+
+/* ICON ico_clean */
+.ico32.ico_clean
+{
+  background:url('../img/32/clean.png');
+}
+
+/* ICON ico_warning */
+.ico32.ico_warning
+{
+  background:url('../img/32/errorW.png');
+}
+
+/* ICON ico_fatal */
+.ico32.ico_fatal
+{
+  background:url('../img/32/errorG.png');
+}
+
+/* ICON ico_error */
+.ico32.ico_error
+{
+  background:url('../img/32/errorB.png');
+}
+
+/* ICON ico_magnify */
+.ico32.ico_magnify
+{
+  background:url('../img/32/magnify.png');
+}
+
+/* ICON ico_ok */
+.ico32.ico_ok
+{
+  background:url('../img/32/ok.png');
+}
+
+/* ICON ico_up */
+.ico32.ico_up
+{
+  background:url('../img/32/blueUp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ICON ico_down */
+.ico32.ico_down
+{
+  background:url('../img/32/blueDown.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ICON ico_pleasewait */
+.ico32.ico_pleasewait
+{
+  background:url('../img/32/pleasewait.gif');
+}
+
+/* ICON ico_warning */
+.ico32.ico_warning
+{
+  background:url('../img/32/warning.png');
+}
+
+/* ICON ico_fail */
+.ico32.ico_fail
+{
+  background:url('../img/32/fail.png');
+}
+
+/* ICON ico_success */
+.ico32.ico_success
+{
+  background:url('../img/32/success.png');
+}
+
+/* ICON ico_graphic */
+.ico32.ico_graphic
+{
+  background:url('../img/32/graphic.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_youvegotmail */
+.ico32.ico_youvegotmail
+{
+  background:url('../img/32/youvegotmail.png');
+}

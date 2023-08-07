@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>Sistema di gestione pratiche - NEMBOPRATICHE</display-name>
+	<distributable/>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/mvc-dispatcher-servlet.xml,classpath:beanRefContext.xml,/WEB-INF/applicationContext.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>remincl.resource.provider.portal</param-name>
+		<param-value>http://TOBECONFIG</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+  <filter>
+    <filter-name>Shibboleth filter</filter-name>
+    <filter-class>it.csi.shibboleth.shibfilter.ShibbolethFilter</filter-class>
+    <!-- parametri da iniettare in sessione personalizzabile per applicazione -->
+    <init-param>
+      <param-name>IRIDE_ID_SESSIONATTR</param-name>
+      <param-value>identita</param-value>
+    </init-param>
+    <init-param>
+      <param-name>NO_CHECK_PAGE</param-name>
+      <param-value></param-value>
+    </init-param>
+  </filter>
+	<servlet>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+  <filter-mapping>
+    <filter-name>Shibboleth filter</filter-name>
+    <url-pattern>/login/wrup/*</url-pattern>
+  </filter-mapping>	
+  <filter-mapping>
+    <filter-name>Shibboleth filter</filter-name>
+    <url-pattern>/login/sisp/*</url-pattern>
+  </filter-mapping> 
+  <filter-mapping>
+    <filter-name>Shibboleth filter</filter-name>
+    <url-pattern>/login/spid/*</url-pattern>
+  </filter-mapping> 
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>*.json</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>*.xls</url-pattern>
+	</servlet-mapping>
+	
+	<error-page>
+	    <error-code>404</error-code>
+	    <location>/error/notfound.do</location>
+  	</error-page>
+  	<error-page>
+    	<error-code>500</error-code>
+    	<location>/error/internalerror.do</location>
+  </error-page>
+</web-app>

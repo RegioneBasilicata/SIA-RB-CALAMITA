@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2020-09-21T17:02:56 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroFirma" pageWidth="483" pageHeight="802" columnWidth="483" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cf555a9e-a271-406c-bad0-07fa9cbb0288">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="XPath">
+		<![CDATA[/Domanda/QuadroDatiIdentificativi]]>
+	</queryString>
+	<field name="Denominazione" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/Denominazione]]></fieldDescription>
+	</field>
+	<field name="CognomeTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/CognomeTitolare]]></fieldDescription>
+	</field>
+	<field name="NomeTitolare" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneTitolare/NomeTitolare]]></fieldDescription>
+	</field>
+	<field name="ComuneSedeLeg" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/ComuneSedeLeg]]></fieldDescription>
+	</field>
+	<field name="DataOdierna" class="java.lang.String">
+		<fieldDescription><![CDATA[SezioneAnagrafica/DataOdierna]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="140" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="17" width="270" height="26" uuid="43895b24-4637-4784-8d6e-74d2054e9c14"/>
+				<textElement>
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Luogo e data _____________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="60" width="470" height="30" uuid="03f822cc-94c8-4760-a853-7dd088c3c0ac"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Azienda ____________________________________________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="95" width="270" height="30" uuid="04df56f5-a2f7-457d-870f-b816d0363ae1"/>
+				<textElement>
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Il legale rappresentante _____________________]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="120" y="91" width="360" height="20" isRemoveLineWhenBlank="true" uuid="2f502468-f0df-4750-a031-5ef5a6d7bfa3"/>
+				<textFieldExpression><![CDATA[$F{CognomeTitolare}+" "+$F{NomeTitolare}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="70" y="54" width="374" height="14" isRemoveLineWhenBlank="true" uuid="138171fc-53e7-4dc8-bbd6-0e9f16a269d7">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Denominazione}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="73" y="13" width="407" height="17" isRemoveLineWhenBlank="true" uuid="026c3f9f-b9ea-4066-a5e9-ada1952961f5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ComuneSedeLeg}+" "+$F{DataOdierna}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,50 @@
+<Domanda>
+	<!-- QUADRO Colture Aziendali -->
+	<QuadroColtureAziendali>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezioneColtureAziendali> Quadro - Colture Aziendali </TitoloSezioneColtureAziendali>
+		<SezDatiColture>
+		<VisibilityDati>true</VisibilityDati>
+		<SezRiepilogo>
+			<TotSup>15</TotSup>
+			<PLVOrdinaria>2.98</PLVOrdinaria>
+			<PLVEffettiva>1.52</PLVEffettiva>
+			<PercDanno>59</PercDanno>
+		</SezRiepilogo>
+		<SezElencoColture>
+		<TabColtureAziendali>
+			<RigaColtureAziendali>
+				<UbicazioneTerreno>Cuneo</UbicazioneTerreno>
+				<Utilizzo>Castagneto</Utilizzo>
+				<Superficie>0,5</Superficie>
+				<QuintaliHa>100</QuintaliHa>
+				<TotQliOrd>0</TotQliOrd>
+				<PrezzoQleOrd>1</PrezzoQleOrd>
+				<TotEuroOrd>52</TotEuroOrd>
+				<TotQliEff>526</TotQliEff>
+				<PrezzoQleEff>2</PrezzoQleEff>
+				<TotEuroEff>30</TotEuroEff>
+				<Danno>36</Danno>
+			</RigaColtureAziendali>
+			<RigaColtureAziendali>
+				<UbicazioneTerreno>Carmagnola</UbicazioneTerreno>
+				<Utilizzo>Banano</Utilizzo>
+				<Superficie>0,8</Superficie>
+				<QuintaliHa>52</QuintaliHa>
+				<TotQliOrd>96</TotQliOrd>
+				<PrezzoQleOrd>1258</PrezzoQleOrd>
+				<TotEuroOrd>639877</TotEuroOrd>
+				<TotQliEff>300</TotQliEff>
+				<PrezzoQleEff>2</PrezzoQleEff>
+				<TotEuroEff>52</TotEuroEff>
+				<Danno>98</Danno>
+			</RigaColtureAziendali>	
+		</TabColtureAziendali>
+		</SezElencoColture>
+		</SezDatiColture>
+		<SezNulla>
+			<VisibilitySezNulla>false</VisibilitySezNulla>
+		</SezNulla>
+	</QuadroColtureAziendali>
+</Domanda>

@@ -1,0 +1,59 @@
+<Domanda>
+	<!-- QUADRO ALLEGATI -->
+	<QuadroAllegati>
+		<Visibility>true</Visibility>
+<!--
+		<TitoloSezioneAllegati> Quadro - Allegati	</TitoloSezioneAllegati>
+-->
+		<GruppiAllegati>
+			<GruppoAllegati>
+				<TitoloGruppoAllegati> Allegati Gruppo 1: </TitoloGruppoAllegati>
+				<Allegati>
+					<Allegato>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoAllegato> Fotocopia leggibile (fronte e retro) non autenticata di un documento di riconoscimento in corso di validità del richiedente.  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 2  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoAllegato> Allegato 3  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 4  </TestoAllegato>
+					</Allegato>
+				</Allegati>
+			</GruppoAllegati>
+			<GruppoAllegati>
+				<TitoloGruppoAllegati> Allegati Gruppo 2: </TitoloGruppoAllegati>
+				<Allegati>
+					<Allegato>
+						<FlagObbligatorio>true</FlagObbligatorio>
+						<TestoAllegato> Fotocopia leggibile (fronte e retro) non autenticata di un documento di riconoscimento in corso di validità del richiedente.  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 2  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>false</FlagSelezionato>
+						<TestoAllegato> Allegato 3  </TestoAllegato>
+					</Allegato>
+					<Allegato>
+						<FlagObbligatorio>false</FlagObbligatorio>
+						<FlagSelezionato>true</FlagSelezionato>
+						<TestoAllegato> Allegato 4  </TestoAllegato>
+					</Allegato>
+				</Allegati>
+			</GruppoAllegati>
+		</GruppiAllegati>
+	</QuadroAllegati>
+</Domanda>

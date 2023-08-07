@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Domanda>
+	<Header>
+		<Titolo1>REGIONE TOBECONFIG</Titolo1>
+		<Titolo2>Direzione Agricoltura Torino</Titolo2>
+		<Titolo3/>
+		<DatiAzienda>
+			<Denominazione>AZIENDA AGRICOLA CIOCCA DI SERRAVALLE GIOVANNI BATTIST</Denominazione>
+			<Indirizzo>REGIONE PASCO 3 - 12033 - MORETTA (CN)</Indirizzo>
+			<CUAA>SRRGNN65A07F723P</CUAA>
+		</DatiAzienda>
+		<RiferimentiDomanda>
+			<NumeroDomanda>20201072830</NumeroDomanda>
+		</RiferimentiDomanda>
+		<Oggetto>
+			<Bando>2016 - PSR 2014-2020 - Sostegno alla nuova adesione ai regimi di qualitÃ  - Misura 3 - Sottomisura 3.1. - Operazione 3.1.1. - Secondo blocco</Bando>
+		</Oggetto>
+	</Header>
+	<Global>
+		<Bozza>true</Bozza>
+	</Global>
+	<SezioneTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>Il sottoscritto  funzionario incaricato di effettuare l'istruttoria della domanda di sostegno intesa ad ottenere le provvidenze previste dal Programma di Sviluppo Rurale 2014-2020 della Regione TOBECONFIG;</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>Visto il Regolamento (UE) n. 1305/2013 del Parlamento europeo e del Consiglio del 17 dicembre 2013 sul sostegno allo sviluppo rurale da parte del Fondo europeo agricolo per lo sviluppo rurale (FEASR) e che abroga il regolamento (CE) n. 1698/2005 del Consiglio;</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>visto il Regolamento delegato (UE) n. 807/2014 della Commissione dell'11 marzo 2014, che integra talune disposizioni del citato regolamento (UE) n. 1305/2013 e che introduce disposizioni transitorie sul sostegno allo sviluppo rurale da parte del Fondo europeo agricolo per lo sviluppo rurale (FEASR);</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>visto il Regolamento di esecuzione (UE) n. 808/2014 della Commissione del 17 luglio 2014, recante modalitÃ  di applicazione del citato regolamento (UE) n. 1305/2013;</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>visto che i Regolamenti UE sopra citati prevedono che il sostegno allo sviluppo rurale per il periodo di programmazione 2014-2020 sia attuato attraverso appositi  Programmi di Sviluppo Rurale (PSR); disciplinandone altresÃ¬ l'articolazione del contenuto;</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+		<RigaTestoConfigurato1>
+			<TestoConfigurato1>visto il Programma di Sviluppo Rurale 2014-2020 del TOBECONFIG (PSR) approvato con la decisione C(2015)7456 del 28 ottobre 2015 della Commissione europea e recepito con la Deliberazione della Giunta Regionale 9 novembre 2015, n. 29-2396;</TestoConfigurato1>
+		</RigaTestoConfigurato1>
+	</SezioneTestoConfigurato1>
+	<SezioneTestoConfigurato2>
+		<RigaTestoConfigurato2>
+			<TestoConfigurato2>Vista la domanda di sostegno n. 20201072830, presentata da:
+ - Richiedente: SERRAVALLE GIOVANNI BATTISTA
+ - CUAA: SRRGNN65A07F723P
+ - Denominazione: AZIENDA AGRICOLA CIOCCA DI SERRAVALLE GIOVANNI BATTIST
+ - Sede legale: REGIONE PASCO 3 - 12033 - MORETTA (CN)
+ - PEC: </TestoConfigurato2>
+		</RigaTestoConfigurato2>
+	</SezioneTestoConfigurato2>
+	<SezioneTestoConfigurato3>
+		<RigaTestoConfigurato3>
+			<TestoConfigurato3>Per le motivazioni sopra illustrate</TestoConfigurato3>
+		</RigaTestoConfigurato3>
+	</SezioneTestoConfigurato3>
+	<SezioneTestoConfigurato4>
+		<RigaTestoConfigurato4>
+			<TestoConfigurato4>PROPONE</TestoConfigurato4>
+		</RigaTestoConfigurato4>
+	</SezioneTestoConfigurato4>
+	<SezioneTestoConfigurato5>
+		<RigaTestoConfigurato5>
+			<TestoConfigurato5>Al responsabile del procedimento l' ammissione della domanda di  sostegno a favore del richiedente, per la realizzazione degli interventi di seguito indicati e per gli importi e le percentuali ivi precisate:</TestoConfigurato5>
+		</RigaTestoConfigurato5>
+	</SezioneTestoConfigurato5>
+	<SezioneTestoConfigurato6>
+		<RigaTestoConfigurato6>
+			<TestoConfigurato6/>
+		</RigaTestoConfigurato6>
+		<RigaTestoConfigurato6>
+			<TestoConfigurato6/>
+		</RigaTestoConfigurato6>
+	</SezioneTestoConfigurato6>
+	<QuadroInterventi>
+		<Visibility>true</Visibility>
+		<FlagBeneficiario>true</FlagBeneficiario>
+		<Interventi>
+			<Intervento>
+				<Numero>1</Numero>
+				<DescrizioneIntervento>ALBA D.O.C. + CERTIFICAZIONE SOSTENIBILITA' AMBIENTALE</DescrizioneIntervento>
+				<CUAA_Beneficiario>GLFSVN67A17G674C -
+ GALFIONE SILVANO</CUAA_Beneficiario>
+				<SpesaPreventivata>1.200,00</SpesaPreventivata>
+				<SpesaAmmessa>0,00</SpesaAmmessa>
+				<PercentualeContributo/>
+				<ImportoContributo>0,00</ImportoContributo>
+			</Intervento>
+			<Intervento>
+				<Numero>2</Numero>
+				<DescrizioneIntervento>ALBUGNANO D.O.C.</DescrizioneIntervento>
+				<CUAA_Beneficiario>GLFSVN67A17G674C -
+ GALFIONE SILVANO</CUAA_Beneficiario>
+				<SpesaPreventivata>1.000,00</SpesaPreventivata>
+				<SpesaAmmessa>0,00</SpesaAmmessa>
+				<PercentualeContributo/>
+				<ImportoContributo>0,00</ImportoContributo>
+			</Intervento>
+		</Interventi>
+		<TotaliInterventi>
+			<TotaleSpesaPreventivata>2.200,00</TotaleSpesaPreventivata>
+			<TotaleSpesaAmmessa>0,00</TotaleSpesaAmmessa>
+			<TotaleImportoContributo>0,00</TotaleImportoContributo>
+		</TotaliInterventi>
+		<Localizzazione>
+			<Visibility>false</Visibility>
+		</Localizzazione>
+	</QuadroInterventi>
+	<RiquadroFirma>
+		<DataFirma/>
+		<FunzionarioIstruttore>_______</FunzionarioIstruttore>
+		<FunzionarioGradoSuperiore>_______</FunzionarioGradoSuperiore>
+	</RiquadroFirma>
+</Domanda>

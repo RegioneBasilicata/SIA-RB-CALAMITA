@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2020-01-21T17:27:59 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="comunicazione_esito_parziale" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="5c4510e2-549c-4d62-87f3-c69b996ac8a2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lettera_com_massiva"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="AnomalieDS" uuid="01276023-3ac5-4124-942c-4d5bba2ff14f">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lettera_com_massiva"/>
+		<queryString language="xPath">
+			<![CDATA[/Comunicazione/ElencoAnomalie/Anomalia]]>
+		</queryString>
+		<field name="Codice" class="java.lang.String">
+			<fieldDescription><![CDATA[Codice]]></fieldDescription>
+		</field>
+		<field name="Ec" class="java.lang.String">
+			<fieldDescription><![CDATA[Ec]]></fieldDescription>
+		</field>
+		<field name="Tipo" class="java.lang.String">
+			<fieldDescription><![CDATA[Tipo]]></fieldDescription>
+		</field>
+		<group name="Codice">
+			<groupExpression><![CDATA[$F{Codice}]]></groupExpression>
+		</group>
+		<group name="Ec">
+			<groupExpression><![CDATA[$F{Ec}]]></groupExpression>
+		</group>
+		<group name="Tipo">
+			<groupExpression><![CDATA[$F{Tipo}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="XPath">
+		<![CDATA[/Comunicazione]]>
+	</queryString>
+	<field name="Esito" class="java.lang.String">
+		<fieldDescription><![CDATA[Esito]]></fieldDescription>
+	</field>
+	<field name="Denominazione" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/Denominazione]]></fieldDescription>
+	</field>
+	<field name="IndirizzoCompleto" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/IndirizzoCompleto]]></fieldDescription>
+	</field>
+	<field name="Pec" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/Pec]]></fieldDescription>
+	</field>
+	<field name="DenominazioneBando" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/DenominazioneBando]]></fieldDescription>
+	</field>
+	<field name="Cuaa" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/Cuaa]]></fieldDescription>
+	</field>
+	<field name="Istruttore" class="java.lang.String">
+		<fieldDescription><![CDATA[Istruttore]]></fieldDescription>
+	</field>
+	<field name="ImportoRichiesto" class="java.lang.String">
+		<fieldDescription><![CDATA[ImportoRichiesto]]></fieldDescription>
+	</field>
+	<field name="RifDomanda" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/RifDomanda]]></fieldDescription>
+	</field>
+	<field name="CaaPec" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/CaaPec]]></fieldDescription>
+	</field>
+	<field name="CaaNome" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/CaaNome]]></fieldDescription>
+	</field>
+	<title>
+		<band height="72">
+			<textField>
+				<reportElement x="126" y="3" width="200" height="56" uuid="b5a6df12-7ed3-459b-80ee-94d7036ef76c"/>
+				<textElement markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>DIPARTIMENTO</b> <br>"
++"<b>POLITICHE AGRICOLE E FORESTALI</b> <br>"
++"UFFICIO EROGAZIONI COMUNITARIE IN <br> AGRICOLTURA (UECA)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="4" width="184" height="50" uuid="49c372ed-d8fd-4bdb-ba1f-358c21b7501a"/>
+				<textElement markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Via A.M. Di Francia, 40 – 75100 Matera <br>"
++"Corso Garibaldi, 139 – 85100 Potenza <br>"
++"Sevizio misure a superficie Matera <br>"
++"www.basilicatapsr.it <br>"
++"ufficio.ueca@cert.regione.basilicata.it"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="273" splitType="Stretch">
+			<textField>
+				<reportElement x="296" y="4" width="182" height="60" uuid="b36d9aed-4f45-4d3f-a40a-20a6c6d08ef5"/>
+				<textElement markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Spett.le <br>" 
++ $F{Denominazione} +"<br>"
++ $F{IndirizzoCompleto} +"<br>"
++ "<b>PEC:</b> " +$F{Pec}+"<br>"
++"e p.c.<br>" 
++"CAA "+ $F{CaaNome} +"<br>"
++"<b>PEC:</b> "+ $F{CaaPec} +"<br>"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="74" width="483" height="84" uuid="f19119fd-ea24-4e1d-bae2-8a63a7195346"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["==================================================================================" +"<br>"
++"<b>Oggetto:</b> "+ $F{DenominazioneBando}+". Beneficiario "+$F{Denominazione}+" (CUAA:" +$F{Cuaa}+") - Domanda n. "+$F{RifDomanda}+". Comunicazione ai sensi della Legge 241/90 e ss.mm.ii. esito  controlli amministrativi "+"<br>"
++"=================================================================================="]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="171" width="483" height="30" uuid="b93fb680-7958-4876-85e9-3f487c6efefe"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Esito}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="144" width="483" height="30" uuid="bb3b10ac-9dfb-4bdc-9bb9-9ae632eaf58b"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Con la presente si comunica l’esito dei controlli amministrativi (art. 48  del Reg. (UE) 809/2014) della domanda in oggetto:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="195" width="483" height="30" uuid="5d07a72b-5158-429c-96cb-22b8b113c47e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[in quanto, la stessa, presenta le seguenti anomalie:]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement positionType="Float" x="90" y="217" width="300" height="50" uuid="e4910e90-6530-4b6f-85de-0ccfd931bfeb">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="AnomalieDS" uuid="fd23d2f6-87c5-4b3b-be7b-d8db36bc2885">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource) $P{REPORT_DATA_SOURCE}).subDataSource("//ElencoAnomalie/Anomalia")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="23027054-729a-4466-ad86-105d598eedeb">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna1"/>
+						<jr:columnHeader style="Table_CH" height="20">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<box padding="0"/>
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="20" uuid="aa9c9584-9ee3-4dad-aee2-600a327e1d01"/>
+								<box leftPadding="4"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Codice]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<textField>
+								<reportElement x="0" y="0" width="100" height="20" uuid="42dda915-1920-4e8b-a401-980ed0c58086"/>
+								<box padding="4"/>
+								<textElement>
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Codice}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="08bc8646-48e0-4e7c-bf96-74ed08282ec4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna2"/>
+						<jr:columnHeader style="Table_CH" height="20">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="20" uuid="cf61b9ee-788c-437f-b7b4-d95962ee59d1"/>
+								<box topPadding="0" leftPadding="4"/>
+								<textElement verticalAlignment="Middle">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Ec]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="18a558e9-7b48-43c3-943c-534ea5e0d1de"/>
+								<box padding="4"/>
+								<textElement>
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Ec}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="111cc8a1-427b-488e-8521-db9e5ce604d9">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna3"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<jr:columnHeader style="Table_CH" height="20">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="20" uuid="3895bfc7-f27e-4fff-b0c7-2140bf595858"/>
+								<box leftPadding="4"/>
+								<textElement verticalAlignment="Middle">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Tipo]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="d4ed2554-6ef6-4bef-8cb7-a8243eec55aa"/>
+								<box padding="4"/>
+								<textElement>
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Tipo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="227">
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="2" width="483" height="148" uuid="822aa449-cfc3-4579-87a3-1a7fd724294a"/>
+				<textElement markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tale esito ha determinato un pagamento inferiore a quanto richiesto in domanda pari ad € "+$F{ImportoRichiesto}+"." +"<br>"
++"Ai sensi della L. 241/90, entro il termine di 10 giorni dal ricevimento della presente, la S.V. ha diritto a presentare per iscritto le osservazioni, eventualmente corredate da documenti, che dovranno essere inoltrate allo scrivente ufficio anche per il tramite del CAA mandatario."   +"<br>" 
++"Decorso il termine sopra indicato il presente provvedimento assumerà carattere definitivo." +"<br>"
++"Le relative tipologie di anomalie rilevate sono consultabili dal suo CAA sul sistema SIAN, 'Consultazione procedimenti' del Fascicolo Aziendale." +"<br>" +"<br>"
+
++"Per ulteriori chiarimenti relativi alla pratica di cui trattasi può essere presa visione, avvalendosi dell’ausilio del CAA mandatario, presso l’Ufficio UECA della Regione Basilicata, in Via A.M. Di Francia, 40 – 75100 Matera, rivolgendosi, nei giorni di lunedì, martedì, mercoledì e giovedì, all’istruttore Sig. "+$F{Istruttore}+"."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="20" y="152" width="100" height="30" uuid="021cf051-b21f-4cbd-8d01-6ded6db130b0"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Distinti Saluti]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="7" y="185" width="230" height="34" uuid="08a95155-62ad-4e91-bdaa-a2d073662954"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Il responsabile P.O. <br>"
++"<b><i>Tommaso Romeo</i></b> <br>"
++"E-mail tommaso.romeo@regione.basilicata.it"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="247" y="186" width="230" height="33" uuid="8db66bd4-fd34-4bf4-8b26-566f39431b7e"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Il Dirigente <br>"
++"<b><i>Dott. Ermanno Pennacchio</i></b>"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="71"/>
+	</lastPageFooter>
+</jasperReport>

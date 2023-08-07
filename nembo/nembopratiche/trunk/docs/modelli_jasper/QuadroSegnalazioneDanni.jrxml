@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final utlizzo versione della libreria JasperReports6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroSegnalazioneDanni" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0d23f682-fb10-4ae9-93fc-4690f8bd5a07">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="DSSegnalazioni" uuid="d8b9bc9a-7e32-4e67-a064-34d01afc3c02">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString language="XPath">
+			<![CDATA[/Domanda/QuadroSegnalazioneDanni/Segnalazioni]]>
+		</queryString>
+		<field name="comune" class="java.lang.String">
+			<fieldDescription><![CDATA[comune]]></fieldDescription>
+		</field>
+		<field name="foglio" class="java.lang.String">
+			<fieldDescription><![CDATA[foglio]]></fieldDescription>
+		</field>
+		<field name="coltura" class="java.lang.String">
+			<fieldDescription><![CDATA[coltura]]></fieldDescription>
+		</field>
+		<field name="superficie" class="java.lang.String">
+			<fieldDescription><![CDATA[superficie]]></fieldDescription>
+		</field>
+		<field name="importoDanno" class="java.lang.String">
+			<fieldDescription><![CDATA[importoDanno]]></fieldDescription>
+		</field>
+		<field name="percDanno" class="java.lang.String">
+			<fieldDescription><![CDATA[percDanno]]></fieldDescription>
+		</field>
+		<field name="note" class="java.lang.String">
+			<fieldDescription><![CDATA[note]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroSegnalazioneDanni]]>
+	</queryString>
+	<detail>
+		<band height="80" splitType="Stretch">
+			<componentElement>
+				<reportElement x="0" y="0" width="545" height="70" uuid="f4b5fe9d-71f8-4e50-b7cd-ef80c73543c3">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DSSegnalazioni" uuid="322cac48-64ca-40da-a709-8653b8e87123">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="3f26a688-ad07-4268-b205-d91e74fd2699">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna1"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="32fd393b-7610-407f-8005-b0ab76e384e4"/>
+								<text><![CDATA[comune]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="eb49f802-e848-4628-b428-fa3c998ed1e4"/>
+								<textFieldExpression><![CDATA[$F{comune}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="56" uuid="9c710cbb-42bc-4ef3-aa26-23bed872ed97">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna2"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="56" height="30" uuid="8753eea7-6789-4839-bdcb-4e270e770a0b"/>
+								<text><![CDATA[foglio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="56" height="30" uuid="2bb3b4e1-ffc2-44b1-a66d-9a74789c4a26"/>
+								<textFieldExpression><![CDATA[$F{foglio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="74" uuid="413bb5ad-c40d-4e9a-9894-6077bb1c877e">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna3"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="74" height="30" uuid="21a0015c-523a-43aa-a011-f2d77ea4d09e"/>
+								<text><![CDATA[coltura]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="74" height="30" uuid="a6a67134-ebb5-4499-98c4-9132b1a4914f"/>
+								<textFieldExpression><![CDATA[$F{coltura}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="e9f59f74-fa2a-47e3-b07e-b641c53ff065">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna4"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="60" height="30" uuid="8a50eb0a-a9cc-4c8e-bc4e-d5883647c8e8"/>
+								<text><![CDATA[superficie]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="30" uuid="c0c1da71-5b5d-4523-bee4-9bdac0c38fae"/>
+								<textFieldExpression><![CDATA[$F{superficie}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="351f2662-5061-4a89-957c-9620bf2048ed">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna5"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="fe46ed75-5c54-409c-baef-f10355c32e78"/>
+								<text><![CDATA[importoDanno]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="b8bf96c9-dad7-4d3f-b4d4-01397f72fd4b"/>
+								<textFieldExpression><![CDATA[$F{importoDanno}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="64" uuid="ee4f1d4c-c791-4a37-9cd5-289eba98034f">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna6"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="64" height="30" uuid="8e2f30c8-f457-49b4-bd70-b55b0fd2f191"/>
+								<text><![CDATA[percDanno]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="64" height="30" uuid="9c0fd2c9-1cd4-419e-af31-60108bf4e483"/>
+								<textFieldExpression><![CDATA[$F{percDanno}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="15edc367-8964-44ea-8eda-ada56d6d0a82">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Colonna7"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="120" height="30" uuid="8ff3728b-c9cd-41ba-a488-ad7a84efb593"/>
+								<text><![CDATA[note]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="120" height="30" uuid="0ede97f1-5af4-4990-96fe-dddefbf2e943"/>
+								<textFieldExpression><![CDATA[$F{note}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.3158.1.475346" APIVersion="2.8.8118.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-11-02T14:01:46Z" uuid="5e5a592d-67bb-456d-bcf5-1e7273e76f36">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <?formServer defaultPDFRenderFormat acrobat8.1static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="Domanda" layout="tb" locale="it_IT" restoreState="auto">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea x="0.25in" y="0.25in" w="576pt" h="756pt"/>
+            <medium stock="default" short="612pt" long="792pt"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <desc>
+         <text name="version">8.2.1.3158.1.475346.466429</text>
+      </desc>
+      <subform w="203.2mm" name="QuadroPLVVegetale" layout="tb">
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle QuadroPLVVegetale?>
+         <subform w="202.994mm" h="12.7mm" name="SezionePLVVegetale">
+            <draw name="Rectangle3" w="200.025mm" h="9.525mm">
+               <value>
+                  <rectangle>
+                     <edge/>
+                     <corner radius="5.08mm" join="round"/>
+                     <fill>
+                        <color value="153,204,255"/>
+                     </fill>
+                  </rectangle>
+               </value>
+            </draw>
+            <field name="TitoloSezionePLVVegetale" h="5.2331mm" access="readOnly" minW="84.034mm" x="3.175mm" y="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="11pt" typeface="Myriad Pro" baselineShift="0pt" weight="bold"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+               <bind match="dataRef" ref="$.TitoloSezionePLVVegetale"/>
+               <value>
+                  <text>Quadro - P.L.V. Vegetale</text>
+               </value>
+               <traversal>
+                  <traverse ref="Visibility[0]"/>
+               </traversal>
+            </field>
+            <field name="Visibility" w="15.875mm" h="9.525mm" access="readOnly" presence="hidden">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="13.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+               </caption>
+               <value>
+                  <text>False</text>
+               </value>
+               <traversal>
+                  <traverse ref="PLVVegetale[0].TabPLV[0].HeaderRow[0].Cell1[0]"/>
+               </traversal>
+               <bind match="dataRef" ref="$.Visibility"/>
+            </field>
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <traversal>
+            <traverse operation="first" ref="SezionePLVVegetale[0].TitoloSezionePLVVegetale[0]"/>
+         </traversal>
+         <subform w="200.025mm" name="PLVVegetale" layout="tb">
+            <subform name="TabPLV" layout="table" columnWidths="25.0032mm 25.0032mm 25.0032mm 25.0032mm 25.0032mm 25.0032mm 25.0032mm 24.734mm">
+               <border>
+                  <edge/>
+               </border>
+               <subform layout="row" name="HeaderRow" id="HeaderRow_ID_copy1">
+                  <assist role="TH"/>
+                  <draw w="30mm" h="9.684mm" name="Cell1">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>Utilizzo	</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell2[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw w="30mm" h="9.684mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>Superficie (ha)</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell3[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw w="30mm" h="9.684mm" name="Cell3">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>Produzione (q)</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell4[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw w="30mm" h="9.684mm" name="Cell4">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>Giornate Lavorative</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell5[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw w="30mm" h="9.684mm" name="Cell5">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>U.F.</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell6[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw w="50.8mm" h="9.684mm" name="Cell6">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>Reimpieghi Q</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <traversal>
+                        <traverse ref="Cell8[0]"/>
+                     </traversal>
+                  </draw>
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="letter-spacing:0in">Reimpieghi<span style="xfa-spacerun:yes"> </span></p><p style="letter-spacing:0in">U.F.</p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold" baselineShift="0pt"/>
+                     <para vAlign="middle" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.175mm"/>
+                     </border>
+                  </draw>
+                  <draw w="30mm" h="9.684mm" name="Cell8">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>P.L.V.</text>
+                     </value>
+                     <font typeface="Myriad Pro" weight="bold"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 0?></subform>
+               <break overflowLeader="HeaderRow"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <bind match="dataRef" ref="$.TabPLV"/>
+               <subform layout="row" name="RigaPLV" id="RigaPLV_ID">
+                  <assist role="TR"/>
+                  <field w="30mm" h="17.677mm" name="Utilizzo" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="Superficie[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.Utilizzo"/>
+                  </field>
+                  <field name="Superficie" w="30mm" h="17.677mm" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="Produzione[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.Superficie"/>
+                  </field>
+                  <field w="30mm" h="17.677mm" name="Produzione" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="GGLavorative[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.Produzione"/>
+                  </field>
+                  <field w="30mm" h="17.677mm" name="GGLavorative" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="UF[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.GGLavorative"/>
+                  </field>
+                  <field w="30mm" h="17.677mm" name="UF" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="ReimpieghiQ[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.UF"/>
+                  </field>
+                  <field w="50.8mm" h="17.677mm" name="ReimpieghiQ" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <traversal>
+                        <traverse ref="ReimpieghiUF[0]"/>
+                     </traversal>
+                     <bind match="dataRef" ref="$.ReimpieghiQ"/>
+                  </field>
+                  <field name="ReimpieghiUF" access="readOnly" h="17.677mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <bind match="dataRef" ref="$.ReimpieghiUF"/>
+                     <traversal>
+                        <traverse ref="PLV[0]"/>
+                     </traversal>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.175mm"/>
+                     </border>
+                  </field>
+                  <field w="30mm" h="17.677mm" name="PLV" access="readOnly">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Myriad Pro" size="9pt"/>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para vAlign="middle" hAlign="center"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <bind match="dataRef" ref="$.PLV"/>
+                  </field>
+                  <bind match="dataRef" ref="$.RigaPLV[*]"/>
+                  <occur max="-1"/>
+                  <?templateDesigner expand 0?></subform>
+               <?templateDesigner expand 1?></subform>
+            <bind match="dataRef" ref="$.PLVVegetale"/>
+            <field name="VisibilityPLVVegetale" w="62mm" presence="hidden" access="readOnly">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Text Field</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.VisibilityPLVVegetale"/>
+               <traversal>
+                  <traverse ref="SezioneNulla[0].TestoNullo[0]"/>
+               </traversal>
+            </field>
+            <event activity="ready" ref="$form" name="event__form_ready">
+               <script>if (Domanda.QuadroPLVVegetale.PLVVegetale.VisibilityPLVVegetale.rawValue == "true") then
+		Domanda.QuadroPLVVegetale.PLVVegetale.presence = "visible";  
+	else
+		Domanda.QuadroPLVVegetale.PLVVegetale.presence = "hidden";
+	endif
+
+
+</script>
+            </event>
+            <subform name="Subform1" w="161.925mm" h="3.131mm">
+               <bind match="none"/>
+            </subform>
+            <?templateDesigner expand 1?></subform>
+         <subform w="202.994mm" name="SezioneNulla" layout="tb">
+            <bind match="dataRef" ref="$.SezioneNulla"/>
+            <draw name="TestoNullo" w="200.025mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes">   </span><span style="font-weight:bold">Non esistono utilizzi per l'azienda</span></p></body>
+                  </exData>
+               </value>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <traversal>
+                  <traverse ref="VisibilityTestoNullo[0]"/>
+               </traversal>
+            </draw>
+            <field name="VisibilityTestoNullo" w="62mm" h="9mm" presence="hidden" access="readOnly">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Text Field</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.VisibilityTestoNullo"/>
+               <traversal>
+                  <traverse ref="PLVVegetale[0].TabPLV[0].HeaderRow[0].#draw[6]"/>
+               </traversal>
+            </field>
+            <event activity="ready" ref="$form" name="event__form_ready">
+               <script>
+if (Domanda.QuadroPLVVegetale.SezioneNulla.VisibilityTestoNullo.rawValue == "true") then
+		Domanda.QuadroPLVVegetale.SezioneNulla.presence = "visible";  
+	else
+		Domanda.QuadroPLVVegetale.SezioneNulla.presence = "hidden";
+	endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform w="199.817mm" h="3.078mm" name="spaziatura" id="overflowLeader_ID_copy1">
+            <bind match="none"/>
+         </subform>
+         <bind match="dataRef" ref="$.QuadroPLVVegetale"/>
+         <event activity="ready" ref="$form" name="event__form_ready">
+            <script>
+if (Domanda.QuadroPLVVegetale.SezionePLVVegetale.Visibility.rawValue == "true") then
+		Domanda.QuadroPLVVegetale.presence = "visible";  
+	else
+		Domanda.QuadroPLVVegetale.presence = "hidden";
+	endif
+</script>
+         </event>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 44 11 000100270035004200450046004A004D005400550059 FTadeilstx?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 144 36 00010009000A000E000F00270028002D002F0031003200330034003600370042004400450046004700480049004A004D004E004F00500051005200530054005500560057005B0068 ()-.FGLNPQRSUVacdefghilmnopqrstuvz'?></subform>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner SavePDFWithLog 0?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner DefaultPreviewDataFileName ..\data\PLVVegetale.xml?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner FormTargetVersion 26?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 98?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>0</embed>
+         </fontInfo>
+         <tagged>0</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>1</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+   </psMap>
+   <?originalXFAVersion http://www.xfa.org/schema/xci/2.8/?></config>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
+   <locale name="it_IT" desc="Italiano (Italia)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>gennaio</month>
+            <month>febbraio</month>
+            <month>marzo</month>
+            <month>aprile</month>
+            <month>maggio</month>
+            <month>giugno</month>
+            <month>luglio</month>
+            <month>agosto</month>
+            <month>settembre</month>
+            <month>ottobre</month>
+            <month>novembre</month>
+            <month>dicembre</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>gen</month>
+            <month>feb</month>
+            <month>mar</month>
+            <month>apr</month>
+            <month>mag</month>
+            <month>giu</month>
+            <month>lug</month>
+            <month>ago</month>
+            <month>set</month>
+            <month>ott</month>
+            <month>nov</month>
+            <month>dic</month>
+         </monthNames>
+         <dayNames>
+            <day>domenica</day>
+            <day>lunedì</day>
+            <day>martedì</day>
+            <day>mercoledì</day>
+            <day>giovedì</day>
+            <day>venerdì</day>
+            <day>sabato</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>dom</day>
+            <day>lun</day>
+            <day>mar</day>
+            <day>mer</day>
+            <day>gio</day>
+            <day>ven</day>
+            <day>sab</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>aC</era>
+            <era>dC</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">DD MMMM YYYY</datePattern>
+         <datePattern name="med">DD/MMM/YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">H:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2018-11-02T14:01:46Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:5e5a592d-67bb-456d-bcf5-1e7273e76f36</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">QuadroPLVVegetale</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.Domanda.QuadroPLVVegetale</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>8.2.1.3158.1.475346.466429</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.4/">
+   <xsdConnection name="DataConnection" dataDescription="Domanda">
+      <uri>..\schemas\PLVVegetale.xsd</uri>
+      <rootElement>Domanda</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="Domanda">
+      <Domanda>
+         <QuadroPLVVegetale>
+            <Visibility/>
+            <TitoloSezionePLVVegetale/>
+            <PLVVegetale>
+               <TabPLV>
+                  <RigaPLV dd:maxOccur="-1">
+                     <Utilizzo/>
+                     <Superficie/>
+                     <Produzione/>
+                     <GGLavorative/>
+                     <UF/>
+                     <ReimpieghiQ/>
+                     <ReimpieghiUF/>
+                     <PLV/>
+                  </RigaPLV>
+               </TabPLV>
+               <VisibilityPLVVegetale/>
+            </PLVVegetale>
+            <SezioneNulla>
+               <VisibilityTestoNullo/>
+            </SezioneNulla>
+         </QuadroPLVVegetale>
+      </Domanda>
+   </dd:dataDescription>
+</xfa:datasets>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" id="XFASchemaXSD">
+   <xs:element name="Domanda">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="QuadroPLVVegetale"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Visibility" type="xs:boolean"/>
+   <xs:element name="SezioneVuota" type="xs:boolean"/>
+   <!-- Quadro PLV Vegetale -->
+   <xs:element name="QuadroPLVVegetale">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Visibility"/>
+            <xs:element ref="TitoloSezionePLVVegetale"/>
+            <xs:element ref="PLVVegetale"/>
+            <xs:element ref="SezioneNulla"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="TitoloSezionePLVVegetale" type="xs:string"/>
+   <xs:element name="PLVVegetale">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="TabPLV"/>
+            <xs:element ref="VisibilityPLVVegetale"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="VisibilityPLVVegetale" type="xs:boolean"/>
+   <xs:element name="TabPLV">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="RigaPLV" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="RigaPLV">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Utilizzo"/>
+            <xs:element ref="Superficie"/>
+            <xs:element ref="Produzione"/>
+            <xs:element ref="GGLavorative"/>
+            <xs:element ref="UF"/>
+            <xs:element ref="ReimpieghiQ"/>
+            <xs:element ref="ReimpieghiUF"/>
+            <xs:element ref="PLV"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="Utilizzo" type="xs:string"/>
+   <xs:element name="Superficie" type="xs:string"/>
+   <xs:element name="Produzione" type="xs:string"/>
+   <xs:element name="GGLavorative" type="xs:string"/>
+   <xs:element name="UF" type="xs:string"/>
+   <xs:element name="ReimpieghiQ" type="xs:string"/>
+   <xs:element name="ReimpieghiUF" type="xs:string"/>
+   <xs:element name="PLV" type="xs:string"/>
+   <xs:element name="SezioneNulla">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="VisibilityTestoNullo"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="VisibilityTestoNullo" type="boolean"/>
+</xs:schema></xdp:xdp>

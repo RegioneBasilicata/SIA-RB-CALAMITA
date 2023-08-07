@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xfa="http://www.adobe.com/2003/xfa" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Global"/>
+        <xs:element ref="Header"/>
+		<xs:element ref="SezioneTestoConfigurato1"/>
+		<xs:element ref="SezioneTestoConfigurato2"/>
+		<xs:element ref="SezioneTestoConfigurato3"/>
+		<xs:element ref="SezioneTestoConfigurato4"/>
+		<xs:element ref="SezioneTestoConfigurato5"/>
+		<xs:element ref="QuadroInterventi"/>
+		<xs:element ref="RiquadroFirma"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Global">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Bozza"/>
+		<xs:element ref="IsVariante"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bozza" type="xs:boolean"/>
+  <xs:element name="IsVariante" type="xs:boolean"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+
+  <xs:element name="Header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LogoSinistro"/>
+        <xs:element ref="LogoCentrale"/>
+        <xs:element ref="LogoDestro"/>
+        <xs:element ref="Titolo1"/>
+        <xs:element ref="Titolo2"/>
+        <xs:element ref="Titolo3"/>
+        <xs:element ref="RiferimentiDomanda"/>
+        <xs:element ref="Oggetto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogoSinistro" type="xs:base64Binary"/>
+  <xs:element name="LogoCentrale" type="xs:base64Binary"/>
+  <xs:element name="LogoDestro" type="xs:base64Binary"/>
+  <xs:element name="Titolo1" type="xs:string"/>
+  <xs:element name="Titolo2" type="xs:string"/>
+  <xs:element name="Titolo3" type="xs:string"/>
+
+  <xs:element name="RiferimentiDomanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NumeroDomanda"/>
+        <xs:element ref="DataPresentazione"/>
+        <xs:element ref="Protocollo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumeroDomanda" type="xs:string"/>
+  <xs:element name="DataPresentazione" type="xs:string"/>
+  <xs:element name="Protocollo" type="xs:string"/>
+
+  <xs:element name="Oggetto">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="Bando"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bando" type="xs:string"/>
+
+  <xs:element name="SezioneTestoConfigurato1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaTestoConfigurato1" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTestoConfigurato1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TestoConfigurato1"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoConfigurato1" type="xs:string"/>
+
+    <xs:element name="SezioneTestoConfigurato2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaTestoConfigurato2" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTestoConfigurato2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TestoConfigurato2"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoConfigurato2" type="xs:string"/>
+
+    <xs:element name="SezioneTestoConfigurato3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaTestoConfigurato3" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTestoConfigurato3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TestoConfigurato3"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoConfigurato3" type="xs:string"/>
+
+    <xs:element name="SezioneTestoConfigurato4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaTestoConfigurato4" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTestoConfigurato4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TestoConfigurato4"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoConfigurato4" type="xs:string"/>
+
+    <xs:element name="SezioneTestoConfigurato5">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RigaTestoConfigurato5" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RigaTestoConfigurato5">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TestoConfigurato5"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestoConfigurato5" type="xs:string"/>
+
+  <!-- QUADRO INTERVENTI  -->
+  <xs:element name="QuadroInterventi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Visibility"/>
+        <xs:element ref="Interventi"/>
+        <xs:element ref="TotaliInterventi"/>
+		<xs:element ref="Localizzazione"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Interventi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Intervento" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Intervento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="TipoIntervento"/>
+		<xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="SpesaPreventivata"/>
+		<xs:element ref="SpesaAmmessa"/>
+		<xs:element ref="PercentualeContributo"/>
+        <xs:element ref="ImportoContributo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Numero" type="xs:string"/>
+  <xs:element name="TipoIntervento" type="xs:string"/>
+  <xs:element name="DescrizioneIntervento" type="xs:string"/>
+  <xs:element name="SpesaPreventivata" type="xs:string"/>
+  <xs:element name="SpesaAmmessa" type="xs:string"/>
+  <xs:element name="PercentualeContributo" type="xs:string"/>
+  <xs:element name="ImportoContributo" type="xs:string"/>
+
+  <xs:element name="TotaliInterventi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TotaleSpesaPreventivata"/>
+        <xs:element ref="TotaleSpesaAmmessa"/>
+        <xs:element ref="TotaleImportoContributo"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotaleSpesaPreventivata" type="xs:string"/>
+  <xs:element name="TotaleSpesaAmmessa" type="xs:string"/>
+  <xs:element name="TotaleImportoContributo" type="xs:string"/>
+
+  <xs:element name="Localizzazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ElencoParticelleInt" maxOccurs="unbounded"/>
+		<xs:element ref="Visibility"/>
+		<xs:element ref="TipoLocalizzazione"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ElencoParticelleInt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatiParticellaInt" maxOccurs="unbounded"/>
+	 </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatiParticellaInt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Numero"/>
+        <xs:element ref="DescrizioneIntervento"/>
+        <xs:element ref="ComuneInt"/>
+        <xs:element ref="SezioneInt"/>
+		<xs:element ref="FoglioInt"/>
+        <xs:element ref="ParticellaInt"/>
+		<xs:element ref="SubalternoInt"/>
+        <xs:element ref="SupCatastaleInt"/>
+		<xs:element ref="DescDestinazioneProduttivaInt"/>
+        <xs:element ref="SupUtilizzataInt"/>
+        <xs:element ref="SupImpegnoInt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoLocalizzazione" type="xs:string"/>
+  <xs:element name="ComuneInt" type="xs:string"/>
+  <xs:element name="SezioneInt" type="xs:string"/>
+  <xs:element name="FoglioInt" type="xs:string"/>
+  <xs:element name="ParticellaInt" type="xs:string"/>
+  <xs:element name="SubalternoInt" type="xs:string"/>
+  <xs:element name="SupCatastaleInt" type="xs:string"/>
+  <xs:element name="DescDestinazioneProduttivaInt" type="xs:string"/>
+  <xs:element name="SupUtilizzataInt" type="xs:string"/>
+  <xs:element name="SupImpegnoInt" type="xs:string"/>
+
+  <xs:element name="RiquadroFirma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DataFirma"/>
+        <xs:element ref="FunzionarioIstruttore"/>
+        <xs:element ref="FunzionarioGradoSuperiore"/>
+		<xs:element ref="ResponsabileProcedimento"/>
+     </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataFirma" type="xs:string"/>
+  <xs:element name="FunzionarioIstruttore" type="xs:string"/>
+  <xs:element name="FunzionarioGradoSuperiore" type="xs:string"/>
+  <xs:element name="ResponsabileProcedimento" type="xs:string"/>
+
+</xs:schema>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Domanda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FLetteraDocumentiRichiesti"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="FLetteraDocumentiRichiesti">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="HeaderSezioni"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="HeaderSezioni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LogoCentrale"/>
+        <xs:element ref="Titolo1"/>
+        <xs:element ref="Titolo2"/>
+        <xs:element ref="Titolo3"/>
+        <xs:element ref="SezA"/>
+        <xs:element ref="SezB"/>
+        <xs:element ref="SezC"/>
+		<xs:element ref="SezD"/>
+		<xs:element ref="SezE"/>
+		<xs:element ref="SezF"/>
+		<xs:element ref="SezG"/>
+		<xs:element ref="SezH"/>
+		<xs:element ref="Visibility"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogoCentrale" type="xs:base64Binary"/>
+  <xs:element name="Titolo1" type="xs:string"/>
+  <xs:element name="Titolo2" type="xs:string"/>
+  <xs:element name="Titolo3" type="xs:string"/>
+  <xs:element name="Visibility" type="xs:boolean"/>
+
+  <xs:element name="SezA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezA"/>
+        <xs:element ref="VisibilityA"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityA" type="xs:boolean"/>
+  <xs:element name="TabSezA">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowA"/>
+			<xs:element ref="RigaSezA" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+    
+  <xs:element name="HeaderRowA">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezA"/>
+			<xs:element ref="DescSezA"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezA" type="xs:string"/>
+  <xs:element name="DescSezA" type="xs:string"/>
+  
+  <xs:element name="RigaSezA">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocA"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocA" type="xs:string"/>
+
+  <xs:element name="SezB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezB"/>
+        <xs:element ref="VisibilityB"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityB" type="xs:boolean"/>
+  <xs:element name="TabSezB">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowB"/>
+			<xs:element ref="RigaSezB" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowB">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezB"/>
+			<xs:element ref="DescSezB"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezB" type="xs:string"/>
+  <xs:element name="DescSezB" type="xs:string"/>  
+	
+  <xs:element name="RigaSezB">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocB"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocB" type="xs:string"/>
+  
+    <xs:element name="SezC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezC"/>
+        <xs:element ref="VisibilityC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityC" type="xs:boolean"/>
+  <xs:element name="TabSezC">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowC"/>
+			<xs:element ref="RigaSezC" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowC">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezC"/>
+			<xs:element ref="DescSezC"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezC" type="xs:string"/>
+  <xs:element name="DescSezC" type="xs:string"/>  
+	
+  <xs:element name="RigaSezC">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocC" type="xs:string"/>
+  
+    <xs:element name="SezD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezD"/>
+        <xs:element ref="VisibilityD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityD" type="xs:boolean"/>
+  <xs:element name="TabSezD">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowD"/>
+			<xs:element ref="RigaSezD" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowD">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezD"/>
+			<xs:element ref="DescSezD"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezD" type="xs:string"/>
+  <xs:element name="DescSezD" type="xs:string"/>  
+	
+  <xs:element name="RigaSezD">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocD" type="xs:string"/>
+  
+    <xs:element name="SezE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezE"/>
+        <xs:element ref="VisibilityE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityE" type="xs:boolean"/>
+  <xs:element name="TabSezE">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowE"/>
+			<xs:element ref="RigaSezE" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowE">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezE"/>
+			<xs:element ref="DescSezE"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezE" type="xs:string"/>
+  <xs:element name="DescSezE" type="xs:string"/>  
+	
+  <xs:element name="RigaSezE">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocE" type="xs:string"/>
+  
+    <xs:element name="SezF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezF"/>
+        <xs:element ref="VisibilityF"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityF" type="xs:boolean"/>
+  <xs:element name="TabSezF">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowF"/>
+			<xs:element ref="RigaSezF" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowF">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezF"/>
+			<xs:element ref="DescSezF"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezF" type="xs:string"/>
+  <xs:element name="DescSezF" type="xs:string"/>  
+	
+  <xs:element name="RigaSezF">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocF"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocF" type="xs:string"/>
+  
+    <xs:element name="SezG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezG"/>
+        <xs:element ref="VisibilityG"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityG" type="xs:boolean"/>
+  <xs:element name="TabSezG">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowG"/>
+			<xs:element ref="RigaSezG" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowG">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezG"/>
+			<xs:element ref="DescSezG"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezG" type="xs:string"/>
+  <xs:element name="DescSezG" type="xs:string"/>  
+	
+  <xs:element name="RigaSezG">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocG"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocG" type="xs:string"/>
+  
+    <xs:element name="SezH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabSezH"/>
+        <xs:element ref="VisibilityH"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VisibilityH" type="xs:boolean"/>
+  <xs:element name="TabSezH">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="HeaderRowH"/>
+			<xs:element ref="RigaSezH" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="HeaderRowH">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="CodiceSezH"/>
+			<xs:element ref="DescSezH"/>
+		</xs:sequence>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="CodiceSezH" type="xs:string"/>
+  <xs:element name="DescSezH" type="xs:string"/>  
+	
+  <xs:element name="RigaSezH">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element ref="DocH"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocH" type="xs:string"/>
+  
+</xs:schema>

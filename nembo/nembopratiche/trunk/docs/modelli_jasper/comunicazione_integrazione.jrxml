@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final utlizzo versione della libreria JasperReports6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="comunicazione_esito_parziale" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="5c4510e2-549c-4d62-87f3-c69b996ac8a2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lettera_com_massiva"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="AnomalieDS" uuid="01276023-3ac5-4124-942c-4d5bba2ff14f">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lettera_com_massiva"/>
+		<queryString language="xPath">
+			<![CDATA[/Comunicazione/ElencoAnomalie/Anomalia]]>
+		</queryString>
+		<field name="Codice" class="java.lang.String">
+			<fieldDescription><![CDATA[Codice]]></fieldDescription>
+		</field>
+		<field name="Ec" class="java.lang.String">
+			<fieldDescription><![CDATA[Ec]]></fieldDescription>
+		</field>
+		<field name="Tipo" class="java.lang.String">
+			<fieldDescription><![CDATA[Tipo]]></fieldDescription>
+		</field>
+		<group name="Codice">
+			<groupExpression><![CDATA[$F{Codice}]]></groupExpression>
+		</group>
+		<group name="Ec">
+			<groupExpression><![CDATA[$F{Ec}]]></groupExpression>
+		</group>
+		<group name="Tipo">
+			<groupExpression><![CDATA[$F{Tipo}]]></groupExpression>
+		</group>
+	</subDataset>
+	<parameter name="logo" class="java.lang.Object">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="footer" class="java.lang.Object">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString language="XPath">
+		<![CDATA[/Comunicazione]]>
+	</queryString>
+	<field name="Note" class="java.lang.String">
+		<fieldDescription><![CDATA[Note]]></fieldDescription>
+	</field>
+	<field name="Denominazione" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/Denominazione]]></fieldDescription>
+	</field>
+	<field name="IndirizzoCompleto" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/IndirizzoCompleto]]></fieldDescription>
+	</field>
+	<field name="Pec" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/Pec]]></fieldDescription>
+	</field>
+	<field name="DenominazioneBando" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/DenominazioneBando]]></fieldDescription>
+	</field>
+	<field name="Cuaa" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/Cuaa]]></fieldDescription>
+	</field>
+	<field name="Istruttore" class="java.lang.String">
+		<fieldDescription><![CDATA[Istruttore]]></fieldDescription>
+	</field>
+	<field name="ImportoRichiesto" class="java.lang.String">
+		<fieldDescription><![CDATA[ImportoRichiesto]]></fieldDescription>
+	</field>
+	<field name="RifDomanda" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/RifDomanda]]></fieldDescription>
+	</field>
+	<field name="CaaPec" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/CaaPec]]></fieldDescription>
+	</field>
+	<field name="CaaNome" class="java.lang.String">
+		<fieldDescription><![CDATA[Destinatario/CaaNome]]></fieldDescription>
+	</field>
+	<field name="MisuraDenominazione" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/MisuraDenominazione]]></fieldDescription>
+	</field>
+	<field name="MisuraCodice" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/MisuraCodice]]></fieldDescription>
+	</field>
+	<field name="AnnoCampagna" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/AnnoCampagna]]></fieldDescription>
+	</field>
+	<field name="Firma" class="java.lang.String">
+		<fieldDescription><![CDATA[Firma]]></fieldDescription>
+	</field>
+	<field name="HeadSx" class="java.lang.String">
+		<fieldDescription><![CDATA[HeadSx]]></fieldDescription>
+	</field>
+	<field name="HeadDx" class="java.lang.String">
+		<fieldDescription><![CDATA[HeadDx]]></fieldDescription>
+	</field>
+	<field name="Intro" class="java.lang.String">
+		<fieldDescription><![CDATA[Intro]]></fieldDescription>
+	</field>
+	<field name="Fine" class="java.lang.String">
+		<fieldDescription><![CDATA[Fine]]></fieldDescription>
+	</field>
+	<field name="DenominazioneOggetto" class="java.lang.String">
+		<fieldDescription><![CDATA[Oggetto/DenominazioneOggetto]]></fieldDescription>
+	</field>
+	<field name="FirmaSx" class="java.lang.String">
+		<fieldDescription><![CDATA[FirmaSx]]></fieldDescription>
+	</field>
+	<title>
+		<band height="76">
+			<textField>
+				<reportElement x="126" y="3" width="200" height="56" uuid="b5a6df12-7ed3-459b-80ee-94d7036ef76c"/>
+				<textElement markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{HeadSx}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="4" width="184" height="50" uuid="49c372ed-d8fd-4bdb-ba1f-358c21b7501a"/>
+				<textElement markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{HeadDx}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="4" width="100" height="66" uuid="bfc82c27-3257-46d9-bd51-cdcbaa1daf9f"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="453" splitType="Stretch">
+			<textField textAdjust="StretchHeight">
+				<reportElement x="270" y="2" width="208" height="58" uuid="b36d9aed-4f45-4d3f-a40a-20a6c6d08ef5"/>
+				<textElement markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Spett.le <br>" 
++"  "+ $F{Denominazione} +"<br>"
++"  "+ $F{IndirizzoCompleto} +"<br>"
++"  "+ "<b>PEC:</b> " +($F{Pec}!=null ? $F{Pec} : "")+"<br><br>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="68" width="483" height="48" uuid="f19119fd-ea24-4e1d-bae2-8a63a7195346"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["<br>"
++"<b>Oggetto:</b> "+ $F{DenominazioneBando}+"  - Domanda n. "+$F{RifDomanda}+" - "+$F{DenominazioneOggetto}+"<br>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="159" width="483" height="60" uuid="b93fb680-7958-4876-85e9-3f487c6efefe"/>
+				<textElement>
+					<font size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Note}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="13" y="309" width="100" height="30" uuid="214f8695-0aef-4515-bb12-9ce18dae6f80"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Cordiali Saluti]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="301" y="358" width="180" height="52" uuid="f1e452eb-bb94-4608-a37f-b629395edd8f"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Firma}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="10" y="412" width="468" height="20" uuid="99be95c2-cb79-4a7f-a11b-92456795d844"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[* “firma autografa sostituita a mezzo stampa, ai sensi dell’art. 3, comma 2 del d.lgs. n. 39/1993”]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="0" y="124" width="483" height="30" uuid="700d4a32-381d-43c8-80c1-b4caf0f46fc0"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Intro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="224" width="478" height="76" uuid="0dfe51f2-a5d3-4086-9a98-6d5b752604c8"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Fine}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="10" y="360" width="180" height="52" uuid="db6684eb-24ff-4cea-b7b6-98afd0ed2ed5"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FirmaSx}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,36 @@
+<Domanda>
+	<!-- QUADRO PLV Vegetale -->
+	<QuadroPLVVegetale>
+		<SezioneVuota>false</SezioneVuota>		
+		<Visibility>true</Visibility>
+		<TitoloSezionePLVVegetale> Quadro - PLV Vegetale </TitoloSezionePLVVegetale>
+		<PLVVegetale>
+		<VisibilityPLVVegetale>true</VisibilityPLVVegetale>
+		<TabPLV>
+		<RigaPLV>
+				<Utilizzo>Melo</Utilizzo>
+				<Superficie>150</Superficie>
+				<Produzione>0,5</Produzione>
+				<GGLavorative>100</GGLavorative>
+				<UF>0</UF>
+				<ReimpieghiQ>1</ReimpieghiQ>
+				<ReimpieghiUF>0</ReimpieghiUF>
+				<PLV>526</PLV>
+			</RigaPLV>
+			<RigaPLV>
+				<Utilizzo>Pero</Utilizzo>
+				<Superficie>12</Superficie>
+				<Produzione>0,8</Produzione>
+				<GGLavorative>52</GGLavorative>
+				<UF>0</UF>
+				<ReimpieghiQ>0</ReimpieghiQ>
+				<ReimpieghiUF>0</ReimpieghiUF>
+				<PLV>300</PLV>
+		</RigaPLV>	
+		</TabPLV>
+		</PLVVegetale>
+		<SezioneNulla>
+			<VisibilityTestoNullo>false</VisibilityTestoNullo>
+		</SezioneNulla>
+	</QuadroPLVVegetale>
+</Domanda>

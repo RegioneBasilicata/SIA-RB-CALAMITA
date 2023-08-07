@@ -1,0 +1,170 @@
+.ico16
+{
+  text-decoration:none;
+	display:inline-block;
+  width:16px;
+  height:16px;
+}
+/* ICON ico_image */
+.ico16.ico_image
+{
+  background:url('../img/16/image.png');
+}
+
+/* ICON ico_pdf */
+.ico16.ico_pdf
+{
+  background:url('../img/16/pdf.png');
+}
+
+/* ICON ico_excel */
+.ico16.ico_excel
+{
+  background:url('../img/16/excel.png');
+}
+
+/* ICON ico_word */
+.ico16.ico_word
+{
+  background:url('../img/16/word.png');
+}
+
+/* ICON ico_text */
+.ico16.ico_text
+{
+  background:url('../img/16/text.png');
+}
+
+/* ICON ico_file */
+.ico16.ico_file
+{
+  background:url('../img/16/file.png');
+}
+
+/* ICON ico_trash */
+.ico16.ico_trash
+{
+  background:url('../img/16/trash.png');
+}
+
+/* ICON ico_modify */
+.ico16.ico_modify
+{
+  background:url('../img/16/modify.png');
+}
+
+/* ICON ico_add */
+.ico16.ico_add
+{
+  background:url('../img/16/add.png');
+}
+/* ICON ico_print */
+.ico16.ico_print
+{
+  background:url('../img/16/print.png');
+}
+/* ICON ico_document */
+.ico16.ico_document
+{
+  background:url('../img/16/document.png');
+}
+
+/* ICON ico_clean */
+.ico16.ico_clean
+{
+  background:url('../img/16/clean.png');
+}
+
+/* ICON ico_warning */
+.ico16.ico_warning
+{
+  background:url('../img/16/errorW.png');
+}
+
+/* ICON ico_fatal */
+.ico16.ico_fatal
+{
+  background:url('../img/16/errorG.png');
+}
+
+/* ICON ico_error */
+.ico16.ico_error
+{
+  background:url('../img/16/errorB.png');
+}
+
+/* ICON ico_magnify */
+.ico16.ico_magnify
+{
+  background:url('../img/16/magnify.png');
+}
+
+/* ICON ico_ok */
+.ico16.ico_ok
+{
+  background:url('../img/16/ok.png');
+}
+
+/* ICON ico_up */
+.ico16.ico_up
+{
+  background:url('../img/16/blueUp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_down */
+.ico16.ico_down
+{
+  background:url('../img/16/blueDown.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_down */
+.ico16.ico_up_down
+{
+  background:url('../img/16/blueUpDown.png');
+}
+
+/* ICON ico_pleasewait */
+.ico16.ico_pleasewait
+{
+  background:url('../img/16/pleasewait.gif');
+}
+
+/* ICON ico_warning */
+.ico16.ico_warning
+{
+  background:url('../img/16/warning.png');
+}
+
+/* ICON ico_fail */
+.ico16.ico_fail
+{
+  background:url('../img/16/fail.png');
+}
+
+/* ICON ico_success */
+.ico16.ico_success
+{
+  background:url('../img/16/success.png');
+}
+
+
+/* ICON ico_graphic */
+.ico16.ico_graphic
+{
+  background:url('../img/16/graphic.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* ICON ico_youvegotmail */
+.ico16.ico_youvegotmail
+{
+  background:url('../img/16/youvegotmail.png');
+}

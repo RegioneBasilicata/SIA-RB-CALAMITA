@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2018-08-22T15:06:35 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuadroVoltura" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ad4c9613-7c65-40d3-8aac-6d54f52eeeed">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="praticaCompletaDA"/>
+	<queryString language="xPath">
+		<![CDATA[/Domanda/QuadroVoltura]]>
+	</queryString>
+	<field name="DenAzienda" class="java.lang.String">
+		<fieldDescription><![CDATA[DenAzienda]]></fieldDescription>
+	</field>
+	<field name="SedeLegale" class="java.lang.String">
+		<fieldDescription><![CDATA[SedeLegale]]></fieldDescription>
+	</field>
+	<field name="LegaleRappr" class="java.lang.String">
+		<fieldDescription><![CDATA[LegaleRappr]]></fieldDescription>
+	</field>
+	<field name="Motivazione" class="java.lang.String">
+		<fieldDescription><![CDATA[Motivazione]]></fieldDescription>
+	</field>
+	<field name="Visibility" class="java.lang.String">
+		<fieldDescription><![CDATA[Visibility]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="202" splitType="Stretch">
+			<rectangle radius="16">
+				<reportElement x="0" y="10" width="555" height="40" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="f595fd5f-1974-4b74-bc4e-61d14ededfbb"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="20" width="350" height="20" uuid="9534a1df-7e78-41d6-a347-28c64b4170ee"/>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quadro - Voltura]]></text>
+			</staticText>
+			<rectangle radius="0">
+				<reportElement x="10" y="55" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="09d10208-30fb-4b34-9135-cbbeb09b1b1f"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="59" width="350" height="19" uuid="8cbeb1ef-b839-4ad2-a76a-34e1618b3fa2"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dati voltura]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="78" width="535" height="61" uuid="88e35a8b-4eee-4cf3-86e7-88ce00c22167">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="14" y="80" width="96" height="17" uuid="ced29867-286f-4195-bf38-0ec8f4e7b1e6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominazione:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="98" width="116" height="17" uuid="eec2e71b-e46e-469f-a8ff-734037bc4aef">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Legale Rappresentante:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="116" width="106" height="17" uuid="912f1359-b010-4cef-8f40-bac6a8709c20">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Indirizzo sede legale:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="110" y="80" width="420" height="18" uuid="72eecc0f-5114-458b-a108-cb90037a0d5e"/>
+				<textFieldExpression><![CDATA[$F{DenAzienda}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="121" y="116" width="410" height="18" uuid="41536fbf-0255-40c5-a103-91a8d6980a7d"/>
+				<textFieldExpression><![CDATA[$F{SedeLegale}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="131" y="99" width="398" height="16" uuid="5414bf07-ac9f-4390-bbb6-acb29b617d77"/>
+				<textFieldExpression><![CDATA[$F{LegaleRappr}]]></textFieldExpression>
+			</textField>
+			<rectangle radius="0">
+				<reportElement x="10" y="139" width="535" height="23" forecolor="#FFFFFF" backcolor="#99CCFF" uuid="dd5f910e-0197-4097-bd6a-2a1b163a691f"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="143" width="350" height="19" uuid="81d5e405-2f49-4762-bcbe-6f3c12a201b5"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Motivazione]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="11" y="163" width="534" height="26" uuid="8322ccb7-f7a4-40a5-bb4e-0328399d0f9a"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{Motivazione}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

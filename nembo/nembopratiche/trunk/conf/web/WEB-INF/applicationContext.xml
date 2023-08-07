@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans default-autowire="autodetect">
+
+  <bean id="rendicontazioneEAccertamentoSpese" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/RendicontazioneEAccertamentoSpese" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IRendicontazioneEAccertamentoSpeseEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+
+  <bean id="listeLiquidazione" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/ListeLiquidazione" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IListeLiquidazioneEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+
+	<bean id="nuovoProcedimento" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/NuovoProcedimento" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.INuovoProcedimentoEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+	<bean id="quadro" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Quadro" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IQuadroEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  	<bean id="quadroNembo" lazy-init="true" class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/QuadroNembo" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IQuadroNemboEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  <bean id="interventi" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Interventi" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IInterventiEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  <bean id="quadroDinamico" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/QuadroDinamico" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IQuadroDinamicoEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  <bean id="async" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Async" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IAsyncEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+
+  <bean id="ricerca" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Ricerca" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IRicercaEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean> 
+  <bean id="reportistica" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Reportistica" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IReportisticaEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+  <bean id="estrazioni" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/Estrazioni" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IEstrazioniEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+  <bean id="gestioneeventi" lazy-init="true"
+        class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean">
+    <property name="jndiName" value="java:app/GestioneEventi" />
+    <property name="businessInterface" value="it.csi.nembo.nembopratiche.business.IGestioneEventiEJB" />
+    <property name="cacheHome" value="true"/>
+    <property name="lookupHomeOnStartup" value="false"/>
+    <property name="resourceRef" value="false" />
+  </bean>
+  
+  <bean id="NemboSecurityManager" lazy-init="true"
+        class="it.csi.nembo.nembopratiche.presentation.interceptor.security.NemboSecurityManager">
+  </bean>
+</beans>
