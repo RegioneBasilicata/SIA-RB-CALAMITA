@@ -1,0 +1,203 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - office
+  - data-collection
+  - data-visualization
+description:
+  it:
+    features:
+      - Invio domanda di sostegno
+      - Richiesta e invio di documentazione integrativa
+      - Gestione istruttoria
+      - Segnalazione danni
+      - Gestione eventi calamitosi
+      - Gestione bandi
+      - Gestione segnalazioni
+    genericName: SIA-RB Calamità Naturali
+    longDescription: |
+      ## Sistema Informativo Agricolo della Regione Basilicata (SIA-RB)
+
+
+
+      ## Modulo Assegnazione indennizzi per danni da calamità naturali 
+
+
+
+      Tramite l'applicativo è possibile inviare per via telematica, entro 45
+
+      giorni dalla data di pubblicazione del DM di riconoscimento dello stato di
+
+      calamità naturale da parte del MiPAAF, le domande di assegnazione degli
+
+      indennizzi per danni da calamità naturali a sostegno delle imprese
+
+      agricole che hanno subito danni da alluvioni, terremoti, valanghe o da
+
+      avversità atmosferiche (gelo, grandine, ghiaccio, siccità, piogge…). Le
+
+      domande sono immediatamente disponibili ai funzionari che le prendono in
+
+      carico e avviano il procedimento. Attraverso il servizio è possibile
+
+      seguire l'iter della pratica e compilare e inviare via web tutte le
+
+      successive comunicazioni.
+
+
+
+      Possono richiedere gli indennizzi le imprese agricole e cooperative di
+
+      raccolta, lavorazione, trasformazione e commercializzazione di prodotti
+
+      agricoli che risiedono nelle zone individuate da uno specifico decreto
+
+      ministeriale.
+
+
+
+      Nel rispetto del D.Lgs. 29 marzo 2004, n. 102i gli indennizzi sono
+
+      previsti per interventi compensativi, esclusivamente nel caso di danni a
+
+      produzioni, strutture e impianti produttivi non inseriti nel Piano
+
+      assicurativo agricolo annuale, finalizzati alla ripresa economica e
+
+      produttiva delle imprese agricole che hanno subito danni dagli eventi per
+
+      un valore non inferiore al 30% della produzione lorda vendibile;
+
+      interventi di ripristino delle infrastrutture connesse all'attività
+
+      agricola, tra cui quelle irrigue e di bonifica, compatibilmente con le
+
+      esigenze primarie delle imprese agricole.
+
+
+
+      La sezione “Calamità Naturali” del SIA-RB è composta da due moduli
+
+      applicativi:
+
+
+
+      • Calamità Naturali (Pratiche) – Nel modulo è possibile compilare online
+
+      le domande di assegnazione degli indennizzi. Le istanze vengono
+
+      protocollate e inoltrate agli uffici competenti incaricati di avviare il
+
+      procedimento amministrativo. Gli utenti possono seguire l’iter della
+
+      pratica, compilare e inviare, nei tempi predefiniti la documentazione
+
+      prevista.
+
+
+
+      • Calamità Naturali (Configurazione) – Modulo dedicato ai funzionari della
+
+      Pubblica Amministrazione per la configurazione dei bandi per assegnazione
+
+      degli indennizzi da calamità naturali che saranno pubblicati e gestiti sul
+
+      servizio Calamità Naturali (Pratiche)
+
+
+
+      ​
+
+
+
+      **Gli utenti del servizio**
+
+
+
+      - i consorzi irrigui che possono presentare domande di erogazione di
+
+      contributi pubblici per gli interventi di ripristino delle infrastrutture
+
+      irrigue
+
+
+      - i titolari/rappresentanti legali delle aziende agricole, che possono
+
+      presentare le domande di contributo e verificare lo stato di avanzamento
+
+      delle pratiche
+
+
+      - i CAA che possono presentare le domande di aiuto per le aziende che
+
+      hanno conferito loro il mandato di assistenza
+
+
+      - la Pubblica Amministrazione competente per l’ammissione al finanziamento
+
+
+
+      ​
+    shortDescription: |-
+      Sistema integrato per l'assegnazione degli indennizzi per danni da
+
+      calamità naturali a sostegno delle imprese agricole
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - agriculture
+    - government
+    - emergency-services
+    - welfare
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: r_basili
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Basilicata
+  repoOwner: Regione Basilicata
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+logo: |-
+  https://raw.githubusercontent.com/RegioneBasilicata/SIA-RB-CALAMITA/master/SIA-RB_logo.png
+maintenance:
+  contacts:
+    - email: luca.ottone@aizoongroup.com
+      name: Luca Ottone
+      phone: ' '
+  contractors:
+    - name: AizoOn
+      until: '2023-11-30'
+  type: contract
+name: |-
+  Sistema Informativo Agricolo della Regione Basilicata (SIA-RB) - Modulo
+  Assegnazione indennizzi per danni da calamità naturali
+platforms:
+  - web
+  - windows
+  - mac
+  - linux
+releaseDate: '2023-08-07'
+softwareType: standalone/web
+softwareVersion: '1.0'
+url: 'https://github.com/RegioneBasilicata/SIA-RB-CALAMITA'
+usedBy:
+  - Regione Basilicata
